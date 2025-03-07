@@ -1,0 +1,50 @@
+- name: AddMandatoryProductOffering
+  signature: product.AddMandatoryProductOffering()
+  doc: AddMandatoryProductOffering will take the product offerings generated from
+    the target expressions, and add all of those to the shopping cart
+    qualification.
+  example: product.AddMandatoryProductOffering()
+- name: AddOptionalProductOffering
+  signature: product.AddOptionalProductOffering()
+  doc: AddOptionalProductOffering will take the product offerings generated from
+    the target expressions, and add all of those to the shopping cart
+    qualification.
+  example: product.AddOptionalProductOffering()
+- name: AddProductOffering
+  signature: product.AddProductOffering(productIDs ...string)
+  parameters:
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: AddProductOffering takes a set of product offerings as parameter and adds
+    them to the cart qualification. The target product IDs from the target
+    expressions, are the sources (references), whereas the parameter in this
+    function is the provided that will be added.
+  example: product.AddProductOffering("Iphone")
+- name: AddStandaloneProductOffering
+  signature: product.AddStandaloneProductOffering()
+  doc: "AddStandaloneProductOffering will take the product offerings generated
+    from the target expressions, and add all of those to the shopping cart
+    qualification. Deprecated: AddStandaloneProductOffering has been replaced
+    with AddMandatoryProductOffering, and will be deleted in the next release."
+  example: product.AddStandaloneProductOffering()
+- name: RemoveProductOffering
+  signature: product.RemoveProductOffering()
+  doc: RemoveProductOffering will take the product offerings generated from the
+    target expression, and add them as a removed state to the shopping cart
+    qualification.
+  example: product.RemoveProductOffering()
+- name: ReplaceByProductOffering
+  signature: product.ReplaceByProductOffering(productIDs ...string)
+  parameters:
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: ReplaceByProductOffering will take the products generated from the target
+    expressions, and replace them with the products specified in the argument of
+    this expressions.
+  example: product.ReplaceByProductOffering("Iphone")

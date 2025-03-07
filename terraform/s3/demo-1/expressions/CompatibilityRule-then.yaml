@@ -1,0 +1,151 @@
+- name: AllowCombinations
+  signature: category.AllowCombinations()
+  doc: AllowCombinations takes all target categories and allows the combination of
+    products from one category into the other. This means products from category
+    A are allowed only with category B, and there is no allowing within the same
+    category. Two products from category A would thus not be compatible.
+  example: category.AllowCombinations()
+- name: AllowEqual
+  signature: category.AllowEqual(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowEqual allows the target product(s) with a equal quantity from this
+    category.
+  example: category.AllowEqual(10)
+- name: AllowMaximum
+  signature: category.AllowMaximum(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowMaximum allows the target product(s) with a maximum quantity from this
+    category.
+  example: category.AllowMaximum(10)
+- name: AllowMaximumInventory
+  signature: category.AllowMaximumInventory(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowMaximumInventory will count installbase products and cart products of
+    the target evaluate against the specified count.
+  example: category.AllowMaximumInventory(10)
+- name: AllowMinimum
+  signature: category.AllowMinimum(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowMinimum allows the target product(s) with a minimum quantity from this
+    category.
+  example: category.AllowMinimum(10)
+- name: AllowMinimumInventory
+  signature: category.AllowMinimumInventory(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowMinimumInventory will count installbase products and cart products of
+    the target evaluate against the specified count.
+  example: category.AllowMinimumInventory(10)
+- name: AllowStandalone
+  signature: category.AllowStandalone()
+  doc: AllowStandalone takes all products from the target categories and
+    standalone allows them.
+  example: category.AllowStandalone()
+- name: DisallowCombinations
+  signature: category.DisallowCombinations()
+  doc: DisallowCombinations takes all target categories and disallows the
+    combination of products from one category into the other. This means
+    products from category A are disallowed only with category B, and there is
+    no disallowing within the same category. Two products from category A would
+    thus not be disallowed.
+  example: category.DisallowCombinations()
+- name: DisallowStandalone
+  signature: category.DisallowStandalone()
+  doc: DisallowStandalone takes all products from the target categories and
+    standalone disallows them.
+  example: category.DisallowStandalone()
+- name: AllowCombinations
+  signature: product.AllowCombinations()
+  doc: AllowCombinations function denotes the permitted combination of catalog data.
+  example: product.AllowCombinations()
+- name: AllowEqual
+  signature: product.AllowEqual(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowEqual allows the target product(s) with a equal quantity.
+  example: product.AllowEqual(10)
+- name: AllowMaximum
+  signature: product.AllowMaximum(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowMaximum allows the target product(s) with a maximum quantity.
+  example: product.AllowMaximum(10)
+- name: AllowMaximumInventory
+  signature: product.AllowMaximumInventory(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowMaximumInventory will make the product mandatory across the cart and
+    product inventory combined. The total count of the provided, so cart and
+    product inventory, may not exceed the specified maximum.
+  example: product.AllowMaximumInventory(10)
+- name: AllowMinimum
+  signature: product.AllowMinimum(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowMinimum allows the target product(s) with a minimum quantity.
+  example: product.AllowMinimum(10)
+- name: AllowMinimumInventory
+  signature: product.AllowMinimumInventory(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowMinimumInventory will make the product mandatory across the cart and
+    product inventory combined. Having the product either in the cart or in the
+    product inventory will make it valid.
+  example: product.AllowMinimumInventory(10)
+- name: AllowStandalone
+  signature: product.AllowStandalone()
+  doc: AllowStandalone allows each target product individually, without the link
+    towards another product.
+  example: product.AllowStandalone()
+- name: DisallowCombinations
+  signature: product.DisallowCombinations()
+  doc: DisallowCombinations function denotes the not permitted combination of
+    catalog data.
+  example: product.DisallowCombinations()
+- name: DisallowStandalone
+  signature: product.DisallowStandalone()
+  doc: DisallowStandalone allows each target product individually, without the
+    link towards another product.
+  example: product.DisallowStandalone()
+- name: RemovalAllowed
+  signature: product.RemovalAllowed()
+  doc: RemovalAllowed allows Product can be removed from cart items.
+  example: product.RemovalAllowed()
+- name: RemovalNotAllowed
+  signature: product.RemovalNotAllowed()
+  doc: RemovalNotAllowed allows Product can not be removed from cart items.
+  example: product.RemovalNotAllowed()

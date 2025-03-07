@@ -1,0 +1,7770 @@
+{
+  "processContext": [
+    {
+      "id": "LOV 0820",
+      "name": "LOV 0820"
+    },
+    {
+      "id": "ModifyOffer",
+      "name": "ModifyOffer"
+    },
+    {
+      "id": "NewOwner",
+      "name": "NewOwner"
+    },
+    {
+      "id": "ManageVAS",
+      "name": "ManageVAS"
+    },
+    {
+      "id": "ILS",
+      "name": "ILS"
+    },
+    {
+      "id": "ILSNOBLU",
+      "name": "ILSNOBLU"
+    },
+    {
+      "id": "RETTER",
+      "name": "RETTER"
+    },
+    {
+      "id": "ILSBLU",
+      "name": "ILSBLU"
+    },
+    {
+      "id": "MOVE",
+      "name": "MOVE"
+    },
+    {
+      "id": "ACQ",
+      "name": "ACQ"
+    },
+    {
+      "id": "Regrade",
+      "name": "Regrade"
+    },
+    {
+      "id": "Retention",
+      "name": "Retention"
+    },
+    {
+      "id": "ILS",
+      "name": "ILS"
+    },
+    {
+      "id": "ILSBLU",
+      "name": "ILSBLU"
+    },
+    {
+      "id": "MobileMigrate",
+      "name": "MobileMigrate"
+    },
+    {
+      "id": "NewOffer",
+      "name": "NewOffer"
+    },
+    {
+      "id": "SelfServiceChangePaymentMethod",
+      "name": "SelfServiceChangePaymentMethod"
+    },
+    {
+      "id": "Modify",
+      "name": "Modify"
+    },
+    {
+      "id": "TERMINATION",
+      "name": "TERMINATION"
+    },
+    {
+      "id": "AddVAS",
+      "name": "AddVAS"
+    },
+    {
+      "id": "ILSNOBLU",
+      "name": "ILSNOBLU"
+    },
+    {
+      "id": "SelfServiceChangeOffer",
+      "name": "SelfServiceChangeOffer"
+    },
+    {
+      "id": "ChangeOffer",
+      "name": "ChangeOffer"
+    },
+    {
+      "id": "ChangeOwner",
+      "name": "ChangeOwner"
+    }
+  ],
+  "priceType": [
+    {
+      "id": "Allowance",
+      "name": "Allowance"
+    },
+    {
+      "id": "Deposit",
+      "name": "Deposit"
+    },
+    {
+      "id": "IRU",
+      "name": "IRU"
+    },
+    {
+      "id": "Onetime",
+      "name": "Onetime"
+    },
+    {
+      "id": "OnetimeDiscount",
+      "name": "OnetimeDiscount"
+    },
+    {
+      "id": "OnetimeUpfront",
+      "name": "OnetimeUpfront"
+    },
+    {
+      "id": "Penalty",
+      "name": "Penalty"
+    },
+    {
+      "id": "Recurring",
+      "name": "Recurring"
+    },
+    {
+      "id": "RecurringDiscount",
+      "name": "RecurringDiscount"
+    },
+    {
+      "id": "RecurringUpfront",
+      "name": "RecurringUpfront"
+    },
+    {
+      "id": "Usage Charge",
+      "name": "Usage Charge"
+    },
+    {
+      "id": "Usage volume",
+      "name": "Usage volume"
+    }
+  ],
+  "ruleTypes": [
+    {
+      "id": "CompatibilityRule",
+      "name": "CompatibilityRule"
+    },
+    {
+      "id": "PromotionRule",
+      "name": "PromotionRule"
+    },
+    {
+      "id": "OfferContainerRule",
+      "name": "OfferContainerRule"
+    },
+    {
+      "id": "ShoppingCartRule",
+      "name": "ShoppingCartRule"
+    },
+    {
+      "id": "RecommendationRule",
+      "name": "RecommendationRule"
+    }
+  ],
+  "channel": [
+    {
+      "id": "bo_lov_saleschannel_online",
+      "name": "Online"
+    },
+    {
+      "id": "bo_lov_saleschannel_webshop",
+      "name": "Webshop"
+    },
+    {
+      "id": "bo_lov_saleschannel_retail",
+      "name": "Retail"
+    },
+    {
+      "id": "webshop-lc_28twn",
+      "name": "WebShop"
+    },
+    {
+      "id": "bo_lov_saleschannel_telesales",
+      "name": "Telesales"
+    },
+    {
+      "id": "bo_lov_saleschannel_mobileapp",
+      "name": "MobileApp"
+    },
+    {
+      "id": "bo_lov_saleschannel_online_self_service",
+      "name": "Online Self Service"
+    },
+    {
+      "id": "bo_lov_saleschannel_enterprise_cpq_portal",
+      "name": "EnterpriseCPQPortal"
+    },
+    {
+      "id": "bo_lov_saleschannel_webshop2",
+      "name": "Webshop2"
+    },
+    {
+      "id": "bo_lov_esn",
+      "name": "ESN"
+    },
+    {
+      "id": "bo_lov_saleschannel_enterprise_portal",
+      "name": "EnterprisePortal"
+    },
+    {
+      "id": "bo_lov_saleschannel_slice_portal",
+      "name": "SlicePortal"
+    },
+    {
+      "id": "bo_lov_saleschannel_direct",
+      "name": "Direct"
+    },
+    {
+      "id": "bo_lov_saleschannel_chat",
+      "name": "Chat"
+    },
+    {
+      "id": "bo_lov_saleschannel_enterprise_crm_portal",
+      "name": "EnterpriseCRMPortal"
+    },
+    {
+      "id": "bo_lov_saleschannel_b2b_portal",
+      "name": "B2BPortal"
+    },
+    {
+      "id": "bo_lov_sales_channel_call_center",
+      "name": "Call Center"
+    },
+    {
+      "id": "lc_customer_care",
+      "name": "Customer Care"
+    },
+    {
+      "id": "bo_lov_saleschannel_eshop",
+      "name": "Eshop"
+    },
+    {
+      "id": "bo_lov_saleschannel_crm",
+      "name": "CRM"
+    }
+  ],
+  "cartPromotions": [
+    {
+      "id": "cart-level-promotion-for-subscription-device-combo-e2e",
+      "name": "Cart Combo Promotion E2E"
+    },
+    {
+      "id": "cart-level-discount-promotion_e2e_28",
+      "name": "cart-level-discount-promotion_E2E_28"
+    },
+    {
+      "id": "cart-total-higher-than-270-onetime-promotion-e2e",
+      "name": "cart total promotion E2E on handset"
+    },
+    {
+      "id": "flat-discount-promotion-on-expensive-cart",
+      "name": "Flat Discount Promotion On Expensive Cart E2E"
+    },
+    {
+      "id": "discount-promotion-on-redmi-handset",
+      "name": "Redmi Handset Promotion E2E"
+    },
+    {
+      "id": "q3-promo-broadband-tv-discount-otc-2-e2e",
+      "name": "q3-promo-broadband-tv-discount-otc-2-e2e"
+    },
+    {
+      "id": "q2-promo-broadband-tv-discount-otc-2-e2e",
+      "name": "Q2-promo-broadband-tv-discount-otc-2-e2e"
+    },
+    {
+      "id": "q3-promo-broadband-tv-discount-otc-e2e",
+      "name": "Q3-Promo-Broadband-TV-discount-OTC-e2e"
+    },
+    {
+      "id": "bm--optional-1--percent-discount",
+      "name": "bm--optional-1--percent-discount"
+    },
+    {
+      "id": "truepromoautoremoval-pm_2mwzc0b",
+      "name": "truepromoautoremoval"
+    },
+    {
+      "id": "exclusivecartlevelaward",
+      "name": "exclusivecartlevelaward"
+    },
+    {
+      "id": "ssid1v90ipxlw9ybzl8petg2dkr1u65zoc49fkrd3fjg6569d0p1mwrgh094zjzz9lacrr0tt9kftocs691lpqe7vlmijuai9z8c1bjwbsnu35l34si77jntvt5eefysjg900w2fmw16zi93kkfahb6b22gnatw1b3w2tkn7vb44v7mipygp9t6h3e4ws-pm_yup3fgx",
+      "name": "ssid1v90ipxlw9ybzl8petg2dkr1u65zoc49fkrd3fjg6569d0p1mwrgh094zjzz9lacrr0tt9kftocs691lpqe7vlmijuai9z8c1bjwbsnu35l34si77jntvt5eefysjg900w2fmw16zi93kkfahb6b22gnatw1b3w2tkn7vb44v7mipygp9t6h3e4ws-ss_qsdv8pa"
+    },
+    {
+      "id": "promoautoremoval",
+      "name": " promoAutoRemoval"
+    },
+    {
+      "id": "autoremoval",
+      "name": " promo Auto Removal"
+    },
+    {
+      "id": "give_free_bluetooth_headphone",
+      "name": "give_free_bluetooth_headphone"
+    },
+    {
+      "id": "cart-level-promotion",
+      "name": "cart level promotion"
+    },
+    {
+      "id": "stackable-pm_ik6hklx",
+      "name": "stackable"
+    },
+    {
+      "id": "sc-recuring-cartlevel-promotion-pm_zz6jvrd",
+      "name": "sc-recuring-cartlevel-promotion"
+    },
+    {
+      "id": "promotion_16janij1didgbkqdbhwdggwdhbkbdhsddggwdyyjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdnudbuufhdsifbsdkbndcbdfsdfsdsdsdsd",
+      "name": "Promotion_UPDATEj1didgbkqdbhwdggwdhbkbdhsdhdggwdyyjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdnudbuufhdsifbsdkbndcbdfsdfsdsdsda"
+    },
+    {
+      "id": "promoforagebetween18to24",
+      "name": "PromoForAgeBetween18to24"
+    },
+    {
+      "id": "exclusivefd",
+      "name": "exclusivefd"
+    },
+    {
+      "id": "phonepay-coupon",
+      "name": "phonepay-coupon"
+    },
+    {
+      "id": "q1-paytm-coupon-code",
+      "name": "q1-paytm-coupon-code"
+    },
+    {
+      "id": "coupon_31jan_promo-pm_l7q07dl",
+      "name": "Coupon_31jan_promo"
+    },
+    {
+      "id": "promo_designer",
+      "name": "Promo_designer_update"
+    },
+    {
+      "id": "coupon_designer_promo",
+      "name": "Coupon_designer_promo"
+    },
+    {
+      "id": "freeshipping",
+      "name": "FreeShipping"
+    },
+    {
+      "id": "marketsegmentpromotion",
+      "name": "marketsegmentpromotion"
+    },
+    {
+      "id": "flatprice-cart-onetime-promotion",
+      "name": "flatprice-cart-onetime-promotion"
+    },
+    {
+      "id": "cart-level-discount-promotion-pm_sm2vl",
+      "name": "cart-level-discount-promotion"
+    },
+    {
+      "id": "subscription-promotion-e2e",
+      "name": "subscription-promotion-e2e"
+    },
+    {
+      "id": "two_per_disc_actionlevelorder_stepleveloffercontainer",
+      "name": "two_per_disc_actionlevelorder_stepleveloffercontainer"
+    },
+    {
+      "id": "awardbundlepos",
+      "name": "awardbundlepos"
+    },
+    {
+      "id": "business-plan-with-apple-handset-spark-award-promotion-cart",
+      "name": "business plan with Apple handset/ Mutually exclusive category Spark Award Promotion"
+    },
+    {
+      "id": "award-cart-level-giftadded",
+      "name": "Award-cart-level-Gift-bm-50-SMS"
+    },
+    {
+      "id": "cart-level-data-addon-award-promotion",
+      "name": "cart-level-data-addon-award-promotion"
+    },
+    {
+      "id": "promocoupon14feb",
+      "name": "PromoCoupon14feb"
+    },
+    {
+      "id": "business-plan-along-with-handset-spark-award-promotion",
+      "name": "business plan with Apple handset Spark Award Promotion"
+    },
+    {
+      "id": "promotionagrrement",
+      "name": "promotionagrrement"
+    },
+    {
+      "id": "promotion30percent-discount-cart-level",
+      "name": "promotion30percent-discount-cart-level"
+    },
+    {
+      "id": "sc-recuring-cartlevel-stackable-fd-promotion",
+      "name": "sc-recuring-cartlevel-stackable-fd-promotion"
+    },
+    {
+      "id": "promo_mutuallyexclusive_2500_4000_10percent_discount",
+      "name": "promo_mutuallyexclusive_2500_4000_10percent_discount"
+    },
+    {
+      "id": "promo_mutuallyexclusive_higherthan4000_15percent_discount",
+      "name": "promo_mutuallyexclusive_higherthan4000_15percent_discount"
+    },
+    {
+      "id": "discountpromotion",
+      "name": "Discount%promotion"
+    },
+    {
+      "id": "q3-promo-bb-router-award-e2e",
+      "name": "Q3-Promo-BB-Router-Award-E2E"
+    },
+    {
+      "id": "promotion_meta_12feb",
+      "name": "Promotion_Meta_13feb_Update"
+    },
+    {
+      "id": "coupon_13feb",
+      "name": "Coupon_13feb"
+    },
+    {
+      "id": "promotocoupon13feb",
+      "name": "PromoToCoupon13feb"
+    },
+    {
+      "id": "promotion_meta_12febclone-pm_tlzx1vi",
+      "name": "Promotion_Meta_12febCLONE"
+    },
+    {
+      "id": "promouniquecoupon_14feb",
+      "name": "PromoUniqueCoupon_14feb"
+    },
+    {
+      "id": "uniquecoupon_promo",
+      "name": "UniqueCoupon_Promo"
+    },
+    {
+      "id": "uniquepromo_14feb",
+      "name": "UniquePromo_14feb"
+    },
+    {
+      "id": "promo_21feb",
+      "name": "Promo_21feb"
+    },
+    {
+      "id": "promotion_4april",
+      "name": "Promotion_4april"
+    },
+    {
+      "id": "promo_test_01-pm_kixkr9n",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "automation_promotion-pm_txhc56a",
+      "name": "Automation_Promotion"
+    },
+    {
+      "id": "promoaction_8april",
+      "name": "Promoaction_8AprilEDIT"
+    },
+    {
+      "id": "promo_test_01-pm_fc9g5vg",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_rkeays3",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_xrvjrbw",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_gvuqmvz",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_qwpxhml",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_p76qxy9",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "cartpromo001",
+      "name": "Cart promotion test"
+    },
+    {
+      "id": "cartpromo003",
+      "name": "Cart level promo 2"
+    },
+    {
+      "id": "promo_test_01-pm_y2h7zl7",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_6cr68vx",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "50-euro-flat-disocunt",
+      "name": "Promotion on certain packages"
+    },
+    {
+      "id": "promo_test_01-pm_ywfq8db",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "2z3kwtw",
+      "name": "UIAutomationDiscount"
+    },
+    {
+      "id": "test-pm_l3xrwfi",
+      "name": "TEST"
+    },
+    {
+      "id": "promotion_22april-pm_j1gerxw",
+      "name": "Promotion_22april"
+    },
+    {
+      "id": "promo_test_01-pm_mv8exff",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "test_coupon_22april-pm_hy1vitf",
+      "name": "Test_Coupon_22april"
+    },
+    {
+      "id": "test_coupon_22april-pm_01bnw8m",
+      "name": "Test_Coupon_22april"
+    },
+    {
+      "id": "test_coupon_22april_clone-pm_hoatnpl",
+      "name": "Test_Coupon_22april_clone"
+    },
+    {
+      "id": "test_005_22april-pm_ww6to23",
+      "name": "test_005_22april"
+    },
+    {
+      "id": "promo_test_01-pm_l9x9pvs",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "reduction_on_selecting_trynew_coupon",
+      "name": "reduction_on_selecting_trynew_coupon"
+    },
+    {
+      "id": "coupon_promo_26april",
+      "name": "Coupon_promo_26april"
+    },
+    {
+      "id": "hy6hzvj",
+      "name": "UIAutomationDiscount"
+    },
+    {
+      "id": "promo_test_01-pm_6geh1lm",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "award-cart-level-giftadded-bm-50-sms-e2e",
+      "name": "award-cart-level-giftadded-bm-50-sms-e2e"
+    },
+    {
+      "id": "promo_test_01-pm_i2gcwt0",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ls8hp7z",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_13iu75y",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_k52psux",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_lu2ojez",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ct6a9ms",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_zo7evf0",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_iefqn5u",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_coupon_10may",
+      "name": "Promo_coupon_10may"
+    },
+    {
+      "id": "promo_test_01-pm_e2hhv7a",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_coupon_test1",
+      "name": "Promo_Coupon_test1"
+    },
+    {
+      "id": "promo_10_5_1-pm_bua3lyg",
+      "name": "Promo_10_5_1"
+    },
+    {
+      "id": "promo_10_5_1-pm_ehx6fa1",
+      "name": "Promo_10_5_1"
+    },
+    {
+      "id": "promo_10maycoupon",
+      "name": "Promo_10mayCoupon"
+    },
+    {
+      "id": "promotion_10_05_new",
+      "name": "promotion_10_05_new"
+    },
+    {
+      "id": "promo_test_01-pm_sp4v7w2",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_unique14may-pm_gi72a7i",
+      "name": "Promo_unique14may"
+    },
+    {
+      "id": "promo_unique12",
+      "name": "Promo_unique"
+    },
+    {
+      "id": "promo14may_copupon",
+      "name": "Promo14may_copupon"
+    },
+    {
+      "id": "promo_test_01-pm_ufkac9i",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_4tut7dn",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_n4tmvdz",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_br40rwq",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_fispuu2",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_bq9pvte",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_81ygisp",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_bwgwb6e",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_z3v1n4n",
+      "name": "promo_test_01"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "bm-add-galaxy-recommendation",
+      "name": "bm-add-galaxy-recommendation"
+    },
+    {
+      "id": "bm-galaxy-noplaceinporecommendation",
+      "name": "bm-galaxy-noplaceinporecommendation"
+    },
+    {
+      "id": "bm_account_level_vas_add_e2e",
+      "name": "bm_Account_level_VAS_Add_E2E"
+    },
+    {
+      "id": "bm_add_spotify_half_price-e2e",
+      "name": "bm_add_spotify_half_price-e2e"
+    },
+    {
+      "id": "bm_add_spotify_free-e2e",
+      "name": "bm_add_spotify_free-e2e"
+    },
+    {
+      "id": "bm_account_level_vas_add",
+      "name": "bm_Account_level_VAS_Add"
+    },
+    {
+      "id": "bm_add_iphone",
+      "name": "bm_add_iphone"
+    },
+    {
+      "id": "bm_add_spotify_half_price",
+      "name": "bm_add_spotify_half_price"
+    },
+    {
+      "id": "bm_add_spotify_free",
+      "name": "bm_add_spotify_free"
+    },
+    {
+      "id": "importadd_reco2_22nov",
+      "name": "ImportAdd_Reco2_22nov"
+    },
+    {
+      "id": "add_recommendation_insurance",
+      "name": "Add_Recommendation_insurance"
+    },
+    {
+      "id": "importadd_reco1_22nov",
+      "name": "ImportAdd_Reco1_22nov"
+    },
+    {
+      "id": "add_recommendation_insurance1",
+      "name": "Add_Recommendation_insurance1"
+    },
+    {
+      "id": "allcapital",
+      "name": "ALLCAPITAL_updated"
+    },
+    {
+      "id": "add_bm-10gb-4gb_e2e",
+      "name": "Add bm-10GB-4GB E2E"
+    },
+    {
+      "id": "extendedscadd",
+      "name": "ExtendedSCAdd"
+    },
+    {
+      "id": "newadd_reco1_22nov",
+      "name": "NEWAdd_Reco1_22nov"
+    },
+    {
+      "id": "newadd_reco2_22nov",
+      "name": "NEWAdd_Reco2_22nov"
+    },
+    {
+      "id": "import_add_recommendation1",
+      "name": "Import_Add_Recommendation1"
+    },
+    {
+      "id": "add_bm-add-spotify-free_e2e",
+      "name": "Add bm-add-spotify-free E2E"
+    },
+    {
+      "id": "add_bm-100gb-5g_e2e",
+      "name": "Add bm-100GB-5G E2E"
+    },
+    {
+      "id": "add_iphone_charger-e2e",
+      "name": "Add_iphone_Charger-E2E"
+    },
+    {
+      "id": "add_bm10gb_4gb_e2e",
+      "name": "Add bm-10GB-4GB E2E Checkout"
+    },
+    {
+      "id": "add_headset-e2e",
+      "name": "Add_Headset-E2E"
+    },
+    {
+      "id": "bm_account_level_vas_remove_e2e",
+      "name": "bm_account_level_vas_remove_e2e"
+    },
+    {
+      "id": "add_recommendation_bm-10gb-4gb_e2e",
+      "name": "Add_Recommendation_bm-10GB-4GB E2E"
+    },
+    {
+      "id": "bm_remove_spotify_free_price",
+      "name": "bm_remove_spotify_free_price"
+    },
+    {
+      "id": "bm_account_level_vas_remove_23may2023",
+      "name": "bm_account_level_vas_remove 23may2023"
+    },
+    {
+      "id": "bm_account_level_vas_remove",
+      "name": "bm_account_level_vas_remove"
+    },
+    {
+      "id": "bm_account_level_vas_remove_23may2023_1",
+      "name": "bm_account_level_vas_remove 23may2023"
+    },
+    {
+      "id": "remove_bm-10gb-4gb_e2e",
+      "name": "Remove bm-10GB-4GB E2E"
+    },
+    {
+      "id": "bm_remove_spotify_half_price",
+      "name": "bm_remove_spotify_half_price"
+    },
+    {
+      "id": "bm_replace_spotify_halfprice_with_free",
+      "name": "bm_replace_spotify_halfprice_with_free"
+    },
+    {
+      "id": "bm_replace_spotify_halfprice_with_free_dummy1",
+      "name": "bm_replace_spotify_halfprice_with_free_dummy1"
+    },
+    {
+      "id": "bm_replace_spotify_halfprice_with_free_dummy",
+      "name": "bm_replace_spotify_halfprice_with_free"
+    },
+    {
+      "id": "bm_replace_spotifyfree_with_halfprice",
+      "name": "bm_replace_spotifyfree_with_halfprice"
+    },
+    {
+      "id": "replace_bm-10gb-4gb_e2e_with_bm-100gb-5g_e2e",
+      "name": "Replace bm-10GB-4GB E2E with bm-100GB-5G E2E"
+    },
+    {
+      "id": "import_replacereco1",
+      "name": "Import_Replacereco1"
+    },
+    {
+      "id": "testtext",
+      "name": "TestText"
+    },
+    {
+      "id": "2c71b2c6-7358-4d08-bd3d-4134de269102",
+      "name": "BM_Recommendation_txt"
+    },
+    {
+      "id": "0ef5fd71-a334-46ca-bac2-295baf099a32",
+      "name": "BM_Recommendation_txt"
+    },
+    {
+      "id": "text_10jan",
+      "name": "TEXT_10jan"
+    },
+    {
+      "id": "birthdaywish",
+      "name": "Birthday Wish"
+    },
+    {
+      "id": "text_reco_17jan",
+      "name": "Text_Reco_17jan_EDIT"
+    },
+    {
+      "id": "importtext",
+      "name": "Import TEXT"
+    },
+    {
+      "id": "text_recommendation_for_iphone-xr",
+      "name": "Text_Recommendation_for_IPHONE-XR"
+    },
+    {
+      "id": "birthday_wish_for_iphone",
+      "name": "Birthday Wish For Iphone"
+    },
+    {
+      "id": "text_recommendation_for_redmi-11-pro",
+      "name": "Text_Recommendation_for_redmi-11-pro"
+    },
+    {
+      "id": "50fd340c-2200-42d7-b54d-014674c8b361",
+      "name": "TEXT_Reco"
+    },
+    {
+      "id": "text_recommendation_for_extended_sc_for_iphone",
+      "name": "Text_Recommendation_for_Extended_SC_For_Iphone"
+    },
+    {
+      "id": "import_text_reco_13feb",
+      "name": "import_text_reco_13feb"
+    },
+    {
+      "id": "2import_text_reco_13feb",
+      "name": "import_text_reco_13feb"
+    },
+    {
+      "id": "1import_text_reco_13feb",
+      "name": "import_text_reco_13feb"
+    },
+    {
+      "id": "5ae81b1e-73af-49f0-8b4f-e0e4eacbcdf3",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "4bfad263-2992-4a9d-80be-fdc2727526d8",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "3c5a42fb-9db7-4905-9e82-1cc5f90eacb1",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "43515469-9577-402e-9bca-85fd1d9e206c",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "21b28d19-c0e3-4583-a03e-c05302d916c7",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "3b79321c-42c2-4360-af0b-0b4265be54ef",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "b46c85b2-e17c-4d24-a25f-ef46d205fd81",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "7a5db29a-3209-49f4-b0de-1216c85f2320",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "22aug_q2_import_add_recommendation4",
+      "name": "22aug_Q2_Import_Add_Recommendation4"
+    },
+    {
+      "id": "22aug_q2_import_add_recommendation1",
+      "name": "22aug_Q2_Import_Add_Recommendation1"
+    },
+    {
+      "id": "22aug_q2_import_add_recommendation3",
+      "name": "22aug_Q2_Import_Add_Recommendation3"
+    },
+    {
+      "id": "22aug_q2_import_add_recommendation2",
+      "name": "22aug_Q2_Import_Add_Recommendation2"
+    },
+    {
+      "id": "import_remove1",
+      "name": "Import_Remove1"
+    },
+    {
+      "id": "import_remove2",
+      "name": "Import_Remove2"
+    },
+    {
+      "id": "add7may",
+      "name": "Add 7may"
+    },
+    {
+      "id": "7ce91f12-19f7-4010-b998-0bff20326fa3",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "f0d4b990-72d3-4920-80fd-e8892b16a8c0",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "c08f0aac-c905-4e26-b671-e507f029f3d4",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "cf239727-ace3-4f68-b6b6-d2d216cc22f4",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "7f9a2850-ad11-47be-bda7-a803d5ea4afc",
+      "name": "TEST"
+    },
+    {
+      "id": "0855c3e5-3936-4114-8de5-3bb7b4e5803f",
+      "name": "TEST1"
+    },
+    {
+      "id": "f3c6ee54-07ce-454d-807a-2bf58e12d2ab",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "8084677e-67ee-4d0a-8eb2-2f4246eb0666",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "63e0871a-c21d-47b3-aa7c-e515fe149d44",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "ukkl7vk",
+      "name": "UIAutomationReco1"
+    },
+    {
+      "id": "340650e1-7f03-4b19-ae1d-ac8f87467b23",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "584b6e29-6264-4eb0-9b07-4f65ebb2c634",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "b312a868-b26d-4eb1-98b9-39e3a9ab4799",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "3474a1ef-24fc-4db5-99b5-aa3d9d98e1fb",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "d6190e64-a6ed-411d-b390-ca2ad43ed478",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "bm_add_blue-spotify_free-e2e",
+      "name": "bm_add_Blue-spotify_free-e2e"
+    },
+    {
+      "id": "bm_add_blue-spotify_halfprice_e2e",
+      "name": "bm_add_Blue-spotify_halfprice_e2e"
+    },
+    {
+      "id": "9f057084-2cbb-4f0d-962c-5ae38f17aa12",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "ab44705f-2bfd-4b7b-99ac-a880519c2fcc",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "611efeff-599d-4857-94c9-795bea9a065b",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "675a4c31-3a8e-4a56-831a-2b2b966a2fe1",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "6c224c4b-97d3-4dc8-9ed2-8d386b6360e2",
+      "name": "BM_Recommendation12"
+    },
+    {
+      "id": "1002fb4d-a003-4cbf-8502-f2e84e8c2647",
+      "name": "BM_Recommendation_add"
+    },
+    {
+      "id": "5571a819-bc76-4d8e-bf4d-1ae4a21f439e",
+      "name": "BM_Recommendation_add"
+    }
+  ],
+  "offerContainerPromotions": [
+    {
+      "id": "promo-e2e-flat-price-reduction",
+      "name": "Promo-E2E-flat-price-reduction"
+    },
+    {
+      "id": "handset-combo-award-e2e-promotion",
+      "name": "Handset Combo Charger Gift Promotion"
+    },
+    {
+      "id": "flat-50-domestic_e2e_28",
+      "name": "FLAT-50-Domestic_E2E_28"
+    },
+    {
+      "id": "promo-e2e-oc-4percent-discount-pm_ufakssc",
+      "name": "Promo-E2E-OC-4percent-Discount"
+    },
+    {
+      "id": "promo-e2e-oc-5percent-discount",
+      "name": "Promo-E2E-OC-5percent-Discount"
+    },
+    {
+      "id": "subscription-promotion-accessary-add",
+      "name": "subscription-promotion-accessary-add"
+    },
+    {
+      "id": "award_oclevel_bundle",
+      "name": "award_oclevel_bundle"
+    },
+    {
+      "id": "awardmutually",
+      "name": "awardmutually"
+    },
+    {
+      "id": "offercontainer-level-promotion",
+      "name": "offercontainer level promotion"
+    },
+    {
+      "id": "offerlevel-mxce-promo-25-discopunt",
+      "name": "offerlevel-mxce-promo-25-discopunt"
+    },
+    {
+      "id": "exclusiveflatprice",
+      "name": "exclusiveflatprice"
+    },
+    {
+      "id": "mutuallyexclusiveflatprice-pm_itwv0a8",
+      "name": "mutuallyexclusiveflatprice"
+    },
+    {
+      "id": "exclusivefdoc",
+      "name": "exclusivefdoc"
+    },
+    {
+      "id": "exclusiveflatpriceoc",
+      "name": "exclusiveflatpriceoc"
+    },
+    {
+      "id": "defaultpromooncheapestproducttaxincludedaltered",
+      "name": "DefaultPromoOnCheapestProductTaxIncludedAltered"
+    },
+    {
+      "id": "mutuallyexclusivescpromo",
+      "name": "mutuallyexclusivescpromo"
+    },
+    {
+      "id": "awardpromoss",
+      "name": "awardpromoss"
+    },
+    {
+      "id": "buy_one_get_one",
+      "name": "buy_one_get_one"
+    },
+    {
+      "id": "mutuallyexclusiveflatpriceoc",
+      "name": "mutuallyexclusiveflatpriceoc"
+    },
+    {
+      "id": "promo-10-percent-for-redmi",
+      "name": "promo-10-percent-for-redmi"
+    },
+    {
+      "id": "promo_mutuallyexclusive_5percent_discount",
+      "name": "promo_mutuallyexclusive_5percent_discount"
+    },
+    {
+      "id": "flat-discount-promotion-oc",
+      "name": "flat discount optional promotion "
+    },
+    {
+      "id": "award-cart-exclusive-gift-bm-100-sms",
+      "name": "Award-cart-exclusive-gift-BM-100-SMS"
+    },
+    {
+      "id": "flatpriceoclevelexclusivepromotion",
+      "name": "flat price oc level exclusive promotion"
+    },
+    {
+      "id": "promo-20-percent-for-redmi",
+      "name": "promo-20-percent-for-redmi"
+    },
+    {
+      "id": "promocartoffercontainerhaspricehigherthan",
+      "name": "promocartOfferContainerHasPriceHigherThan"
+    },
+    {
+      "id": "mefirstpoaward",
+      "name": "mefirstpoaward"
+    },
+    {
+      "id": "award_zee5_when_sonytv_kolkatta",
+      "name": "award_zee5_when_sonytv_kolkatta"
+    },
+    {
+      "id": "award-promotion-e2e",
+      "name": "Award Promotion E2E"
+    },
+    {
+      "id": "promo_test_01-pm_909kjvv",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_mob73mg",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_8m94npc",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_daztf2t",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_lexm3ue",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_9p5dld7",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_s3ikkap",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_xu79hba",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_wa9intf",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_9imhq4q",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_uxlejma",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_f93wpj6",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_oclevel_on_checkout_product",
+      "name": "promo_oclevel_on_checkout_product"
+    },
+    {
+      "id": "promo_test_01-pm_5u2r58c",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "exclusivepromos-pm_mlk9q8i",
+      "name": "exclusivepromos"
+    },
+    {
+      "id": "apple-award-oc-promo",
+      "name": " Apple Award OC promotion"
+    },
+    {
+      "id": "10-percent-cashback-promotion",
+      "name": "10% Cashback Offer"
+    },
+    {
+      "id": "promo_test_01-pm_g7mu5io",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_4jxpmqn",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_tcp0uh7",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "uiautomationawarduiautomationeditpromo-pm_gi965i6",
+      "name": "UIAutomationAwardUIAutomationEditPromo"
+    },
+    {
+      "id": "promo_test_01-pm_m5gy3eo",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "uiautomationeditpromo-pm_3fk41nl",
+      "name": "UIAutomationEditPromo"
+    },
+    {
+      "id": "promo_test_01-pm_mjjx1t5",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_xf4s7op",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_qdfu7b3",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_jg1tjut",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_7h4f7sr",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_26xbaao",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_3jreytq",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "apply_10perdisc_govt_emp",
+      "name": "apply_10perdisc_govt_emp"
+    },
+    {
+      "id": "promo_test_01-pm_c646lja",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_44rcb14",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "e2ediscountpromotiontrue",
+      "name": "e2ediscountpromotiontrue"
+    },
+    {
+      "id": "promo_test_01-pm_pnig0jz",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_h7amjck",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_dd5l28v",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_p59vnra",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_2lqqare",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ml698m0",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ktcssey",
+      "name": "promo_test_01"
+    }
+  ],
+  "operator": [
+    {
+      "id": "=",
+      "name": "="
+    },
+    {
+      "id": "<",
+      "name": "<"
+    },
+    {
+      "id": ">",
+      "name": ">"
+    },
+    {
+      "id": "<=",
+      "name": "<="
+    },
+    {
+      "id": ">=",
+      "name": ">="
+    }
+  ],
+  "marketSegments": [
+    {
+      "id": "bo_lov_marketsegment_business",
+      "name": "Business"
+    },
+    {
+      "id": "bo_lov_marketsegment_test",
+      "name": "Test"
+    },
+    {
+      "id": "bo_lov_marketsegment_enterprise",
+      "name": "Enterprise"
+    },
+    {
+      "id": "bo_lov_marketsegment_consumer",
+      "name": "Consumer"
+    },
+    {
+      "id": "bo_lov_marketsegment_employee",
+      "name": "Employee"
+    },
+    {
+      "id": "bo_lov_marketsegment_private",
+      "name": "Private"
+    },
+    {
+      "id": "bo_lov_marketsegment_private2",
+      "name": "bo_lov_marketsegment_private2"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "cart-level-promotion-for-subscription-device-combo-e2e",
+      "name": "Cart Combo Promotion E2E"
+    },
+    {
+      "id": "cart-level-discount-promotion_e2e_28",
+      "name": "cart-level-discount-promotion_E2E_28"
+    },
+    {
+      "id": "promo-e2e-flat-price-reduction",
+      "name": "Promo-E2E-flat-price-reduction"
+    },
+    {
+      "id": "bm-mobile-prepaid-with-handset-discount-e2e",
+      "name": "bm-mobile-prepaid-with-handset-discount-e2e"
+    },
+    {
+      "id": "handset-combo-award-e2e-promotion",
+      "name": "Handset Combo Charger Gift Promotion"
+    },
+    {
+      "id": "cart-total-higher-than-270-onetime-promotion-e2e",
+      "name": "cart total promotion E2E on handset"
+    },
+    {
+      "id": "flat-discount-promotion-on-expensive-cart",
+      "name": "Flat Discount Promotion On Expensive Cart E2E"
+    },
+    {
+      "id": "discount-promotion-on-redmi-handset",
+      "name": "Redmi Handset Promotion E2E"
+    },
+    {
+      "id": "flat-discount-promotion-e2e",
+      "name": "Flat Discount Promotion E2E"
+    },
+    {
+      "id": "flat-50-domestic_e2e_28",
+      "name": "FLAT-50-Domestic_E2E_28"
+    },
+    {
+      "id": "promo-e2e-oc-4percent-discount-pm_ufakssc",
+      "name": "Promo-E2E-OC-4percent-Discount"
+    },
+    {
+      "id": "promo-e2e-oc-5percent-discount",
+      "name": "Promo-E2E-OC-5percent-Discount"
+    },
+    {
+      "id": "q1-cartitem-discount-promo-stakable-e2e",
+      "name": "Q1-cartitem-discount-promo-stakable-e2e"
+    },
+    {
+      "id": "q3-promo-broadband-tv-discount-otc-2-e2e",
+      "name": "q3-promo-broadband-tv-discount-otc-2-e2e"
+    },
+    {
+      "id": "q2-promo-broadband-tv-discount-otc-2-e2e",
+      "name": "Q2-promo-broadband-tv-discount-otc-2-e2e"
+    },
+    {
+      "id": "q3-promo-broadband-tv-discount-otc-e2e",
+      "name": "Q3-Promo-Broadband-TV-discount-OTC-e2e"
+    },
+    {
+      "id": "reduction_on_tv_plan_e2e",
+      "name": "reduction_on_tv_plan_e2e"
+    },
+    {
+      "id": "q3-promo-discount-cartitem-stakable-e2e",
+      "name": "Q3-Promo-Discount-cartitem-stakable-e2e"
+    },
+    {
+      "id": "subscription-promotion-accessary-add",
+      "name": "subscription-promotion-accessary-add"
+    },
+    {
+      "id": "bm--optional-1--percent-discount",
+      "name": "bm--optional-1--percent-discount"
+    },
+    {
+      "id": "promo_award_optional_addheadset",
+      "name": "promo_award_optional_addheadset"
+    },
+    {
+      "id": "truepromoautoremoval-pm_2mwzc0b",
+      "name": "truepromoautoremoval"
+    },
+    {
+      "id": "award_oclevel_bundle",
+      "name": "award_oclevel_bundle"
+    },
+    {
+      "id": "awardmutually",
+      "name": "awardmutually"
+    },
+    {
+      "id": "exclusivecartlevelaward",
+      "name": "exclusivecartlevelaward"
+    },
+    {
+      "id": "ssid1v90ipxlw9ybzl8petg2dkr1u65zoc49fkrd3fjg6569d0p1mwrgh094zjzz9lacrr0tt9kftocs691lpqe7vlmijuai9z8c1bjwbsnu35l34si77jntvt5eefysjg900w2fmw16zi93kkfahb6b22gnatw1b3w2tkn7vb44v7mipygp9t6h3e4ws-pm_yup3fgx",
+      "name": "ssid1v90ipxlw9ybzl8petg2dkr1u65zoc49fkrd3fjg6569d0p1mwrgh094zjzz9lacrr0tt9kftocs691lpqe7vlmijuai9z8c1bjwbsnu35l34si77jntvt5eefysjg900w2fmw16zi93kkfahb6b22gnatw1b3w2tkn7vb44v7mipygp9t6h3e4ws-ss_qsdv8pa"
+    },
+    {
+      "id": "promoautoremoval",
+      "name": " promoAutoRemoval"
+    },
+    {
+      "id": "autoremoval",
+      "name": " promo Auto Removal"
+    },
+    {
+      "id": "give_free_bluetooth_headphone",
+      "name": "give_free_bluetooth_headphone"
+    },
+    {
+      "id": "offercontainer-level-promotion",
+      "name": "offercontainer level promotion"
+    },
+    {
+      "id": "cart-level-promotion",
+      "name": "cart level promotion"
+    },
+    {
+      "id": "offerlevel-mxce-promo-25-discopunt",
+      "name": "offerlevel-mxce-promo-25-discopunt"
+    },
+    {
+      "id": "stackable-pm_ik6hklx",
+      "name": "stackable"
+    },
+    {
+      "id": "exclusiveflatprice",
+      "name": "exclusiveflatprice"
+    },
+    {
+      "id": "promotion_newj1didgbkqdbhwdggwdhbkbdhsdhdggwdyyjdbhsddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdnudbuufhdsifbsdkbndcbdfsdf-pm_hr683lz",
+      "name": "Promotion_Newj1didgbkqdbhwdggwdhbkbdhsdhdggwdyyjdbhsddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdnudbuufhdsifbsdkbndcbdfsdfsdsdsdshsbs"
+    },
+    {
+      "id": "gnkjbrbrgkjfiuwehnfourhfuhfikfjhiughriughiughiughuighiughiughiugbhuihbiughughrjgnuignriugnfjjnvgrkjngnkjbrbrgkjfiuwehnfourhfuhfikfjhiughriughiughiughuighiughiughiugbhuihbiughughrjgnuignriugnfjjnvgrkjn",
+      "name": "id1ij37gqf4fl4m3xd9sja82ocjthy6rk51j0nq1he70zfhe9j5lo8fufmh53xnsslyga8mk1mmbnbqbgjggw7gxxnkkrsz72b75m2hdu57o2ivtjoutd6vko37l9kbq6rnxxjptv546vg0bf8dq5i5j3xp6plgbphgkitjvagd5cd8o35fgj7o97cyrugy32nhvj9h6"
+    },
+    {
+      "id": "sc-recuring-cartlevel-promotion-pm_zz6jvrd",
+      "name": "sc-recuring-cartlevel-promotion"
+    },
+    {
+      "id": "promotion_16janij1didgbkqdbhwdggwdhbkbdhsddggwdyyjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdnudbuufhdsifbsdkbndcbdfsdfsdsdsdsd",
+      "name": "Promotion_UPDATEj1didgbkqdbhwdggwdhbkbdhsdhdggwdyyjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdnudbuufhdsifbsdkbndcbdfsdfsdsdsda"
+    },
+    {
+      "id": "cart-level-promotion-bm-50-sms-discount-percent",
+      "name": "cart-level-promotion-bm-50-sms-discount-percent"
+    },
+    {
+      "id": "cart-item-level-promotion",
+      "name": "cart item level promotion"
+    },
+    {
+      "id": "mutuallyexclusiveflatprice-pm_itwv0a8",
+      "name": "mutuallyexclusiveflatprice"
+    },
+    {
+      "id": "exclusiveone",
+      "name": "exclusiveone"
+    },
+    {
+      "id": "promoforagebetween18to24",
+      "name": "PromoForAgeBetween18to24"
+    },
+    {
+      "id": "exclusivetwo",
+      "name": "exclusivetwo"
+    },
+    {
+      "id": "exclusivefd",
+      "name": "exclusivefd"
+    },
+    {
+      "id": "promo-blue400-me",
+      "name": "promo-blue400-me"
+    },
+    {
+      "id": "flat-price-subscription-promotion",
+      "name": "flat-price-subscription-promotion"
+    },
+    {
+      "id": "multiplestakable-pm_94mj2nz",
+      "name": "multiplestakable"
+    },
+    {
+      "id": "flat-50-3-6-cardinality",
+      "name": "Flat 50 Discount on Offer Container "
+    },
+    {
+      "id": "multipleme-pm_4pinn4o",
+      "name": "multipleme"
+    },
+    {
+      "id": "phonepay-coupon",
+      "name": "phonepay-coupon"
+    },
+    {
+      "id": "q1-paytm-coupon-code",
+      "name": "q1-paytm-coupon-code"
+    },
+    {
+      "id": "coupon_31jan_promo-pm_l7q07dl",
+      "name": "Coupon_31jan_promo"
+    },
+    {
+      "id": "exclusivefdoc",
+      "name": "exclusivefdoc"
+    },
+    {
+      "id": "discountpercentmesc",
+      "name": "discountpercentmesc"
+    },
+    {
+      "id": "promo_designer",
+      "name": "Promo_designer_update"
+    },
+    {
+      "id": "coupon_designer_promo",
+      "name": "Coupon_designer_promo"
+    },
+    {
+      "id": "freeshipping",
+      "name": "FreeShipping"
+    },
+    {
+      "id": "exclusiveflatpriceoc",
+      "name": "exclusiveflatpriceoc"
+    },
+    {
+      "id": "defaultpromooncheapestproducttaxincludedaltered",
+      "name": "DefaultPromoOnCheapestProductTaxIncludedAltered"
+    },
+    {
+      "id": "marketsegmentpromotion",
+      "name": "marketsegmentpromotion"
+    },
+    {
+      "id": "mutuallyexclusivescpromo",
+      "name": "mutuallyexclusivescpromo"
+    },
+    {
+      "id": "flatprice-ac-notdefined-promotion-pm_rkdzeuj",
+      "name": "flatprice-ac-notdefined-promotion"
+    },
+    {
+      "id": "flatprice-cart-onetime-promotion",
+      "name": "flatprice-cart-onetime-promotion"
+    },
+    {
+      "id": "defaultpromooncheapestproducttaxincluded",
+      "name": "DefaultPromoOnCheapestProductTaxIncluded"
+    },
+    {
+      "id": "cart-level-discount-promotion-pm_sm2vl",
+      "name": "cart-level-discount-promotion"
+    },
+    {
+      "id": "awardpromoss",
+      "name": "awardpromoss"
+    },
+    {
+      "id": "buy_one_get_one",
+      "name": "buy_one_get_one"
+    },
+    {
+      "id": "mutuallyexclusiveflatpriceoc",
+      "name": "mutuallyexclusiveflatpriceoc"
+    },
+    {
+      "id": "promo-10-percent-for-redmi",
+      "name": "promo-10-percent-for-redmi"
+    },
+    {
+      "id": "optionalpromooncheapestproductdutyfreealteredamount",
+      "name": "OptionalPromoOnCheapestProductDutyFreeAlteredAmount"
+    },
+    {
+      "id": "promo-blue400-stackable",
+      "name": "promo-blue400-stackable"
+    },
+    {
+      "id": "subscription-promotion-e2e",
+      "name": "subscription-promotion-e2e"
+    },
+    {
+      "id": "promo_mutuallyexclusive_5percent_discount",
+      "name": "promo_mutuallyexclusive_5percent_discount"
+    },
+    {
+      "id": "flat-discount-promotion-oc",
+      "name": "flat discount optional promotion "
+    },
+    {
+      "id": "two_per_disc_actionlevelorder_stepleveloffercontainer",
+      "name": "two_per_disc_actionlevelorder_stepleveloffercontainer"
+    },
+    {
+      "id": "award-cart-exclusive-gift-bm-100-sms",
+      "name": "Award-cart-exclusive-gift-BM-100-SMS"
+    },
+    {
+      "id": "bm-promotionforapple",
+      "name": "bm-promotionforapple"
+    },
+    {
+      "id": "awardbundlepos",
+      "name": "awardbundlepos"
+    },
+    {
+      "id": "business-plan-with-apple-handset-spark-award-promotion-cart",
+      "name": "business plan with Apple handset/ Mutually exclusive category Spark Award Promotion"
+    },
+    {
+      "id": "award-cart-level-giftadded",
+      "name": "Award-cart-level-Gift-bm-50-SMS"
+    },
+    {
+      "id": "cart-level-data-addon-award-promotion",
+      "name": "cart-level-data-addon-award-promotion"
+    },
+    {
+      "id": "discount-cart-level-promotion-10-percent",
+      "name": "Discount-cart-level-promotion-10-percent"
+    },
+    {
+      "id": "flatpriceoclevelexclusivepromotion",
+      "name": "flat price oc level exclusive promotion"
+    },
+    {
+      "id": "promocoupon14feb",
+      "name": "PromoCoupon14feb"
+    },
+    {
+      "id": "business-plan-along-with-handset-spark-award-promotion",
+      "name": "business plan with Apple handset Spark Award Promotion"
+    },
+    {
+      "id": "promo-20-percent-for-redmi",
+      "name": "promo-20-percent-for-redmi"
+    },
+    {
+      "id": "promo_for_iphone12",
+      "name": "promo_for_iphone12"
+    },
+    {
+      "id": "promotionagrrement",
+      "name": "promotionagrrement"
+    },
+    {
+      "id": "promocartoffercontainerhaspricehigherthan",
+      "name": "promocartOfferContainerHasPriceHigherThan"
+    },
+    {
+      "id": "promo_default_flatdisc_mutuallyexclusive",
+      "name": "promo_default_flatdisc_mutuallyexclusive"
+    },
+    {
+      "id": "promotion30percent-discount-cart-level",
+      "name": "promotion30percent-discount-cart-level"
+    },
+    {
+      "id": "samsung_charger_free_stackable_promo",
+      "name": "charger_free_stackable_promo"
+    },
+    {
+      "id": "q3discountpromotionofferlevel",
+      "name": "q3discountpromotionofferlevel"
+    },
+    {
+      "id": "mefirstpoaward",
+      "name": "mefirstpoaward"
+    },
+    {
+      "id": "sc-recuring-cartlevel-stackable-fd-promotion",
+      "name": "sc-recuring-cartlevel-stackable-fd-promotion"
+    },
+    {
+      "id": "redmi10_prime_promoflatprice",
+      "name": "promomoflatprice_redmi10_prime"
+    },
+    {
+      "id": "promo_mutuallyexclusive_2500_4000_10percent_discount",
+      "name": "promo_mutuallyexclusive_2500_4000_10percent_discount"
+    },
+    {
+      "id": "promo_mutuallyexclusive_higherthan4000_15percent_discount",
+      "name": "promo_mutuallyexclusive_higherthan4000_15percent_discount"
+    },
+    {
+      "id": "redmi10_prime_promoflatdiscount",
+      "name": "promomflatdiscount_redmi10_prime"
+    },
+    {
+      "id": "promo_mutuallyexclusive_10_discount",
+      "name": "promo_mutuallyexclusive_10_discount"
+    },
+    {
+      "id": "award_zee5_when_sonytv_kolkatta",
+      "name": "award_zee5_when_sonytv_kolkatta"
+    },
+    {
+      "id": "redmi10_prime_promotionflatprice",
+      "name": "promomflatprice_redmi10_prime"
+    },
+    {
+      "id": "discountpromotion",
+      "name": "Discount%promotion"
+    },
+    {
+      "id": "flat-200-price-on-me-category-po",
+      "name": "Flat 200 price on MutuallyExclusive Category"
+    },
+    {
+      "id": "promo_on_next_day_shipping_speed",
+      "name": "promo_on_next_day_shipping_speed"
+    },
+    {
+      "id": "promotion_meta-pm_4l8hz7y",
+      "name": "Promotion_Meta"
+    },
+    {
+      "id": "promotion_meta-pm_su1dd04",
+      "name": "Promotion_Meta"
+    },
+    {
+      "id": "apply_prime_membership_to_amazon_tv",
+      "name": "apply_prime_membership_to_amazon_tv"
+    },
+    {
+      "id": "q3-promo-bb-router-award-e2e",
+      "name": "Q3-Promo-BB-Router-Award-E2E"
+    },
+    {
+      "id": "promotion_meta_12feb",
+      "name": "Promotion_Meta_13feb_Update"
+    },
+    {
+      "id": "coupon_13feb",
+      "name": "Coupon_13feb"
+    },
+    {
+      "id": "promotocoupon13feb",
+      "name": "PromoToCoupon13feb"
+    },
+    {
+      "id": "award-promotion-e2e",
+      "name": "Award Promotion E2E"
+    },
+    {
+      "id": "promotion_meta_12febclone-pm_tlzx1vi",
+      "name": "Promotion_Meta_12febCLONE"
+    },
+    {
+      "id": "promouniquecoupon_14feb",
+      "name": "PromoUniqueCoupon_14feb"
+    },
+    {
+      "id": "uniquecoupon_promo",
+      "name": "UniqueCoupon_Promo"
+    },
+    {
+      "id": "uniquepromo_14feb",
+      "name": "UniquePromo_14feb"
+    },
+    {
+      "id": "promo_21feb",
+      "name": "Promo_21feb"
+    },
+    {
+      "id": "r8okkkd",
+      "name": "Clone Name Active"
+    },
+    {
+      "id": "4lq3742",
+      "name": "Clone Name Retired"
+    },
+    {
+      "id": "en7msx7",
+      "name": "Clone Name Launched"
+    },
+    {
+      "id": "kxelkpx",
+      "name": "Clone Name Design"
+    },
+    {
+      "id": "test-pm_asev1gl",
+      "name": "TEST"
+    },
+    {
+      "id": "jqvah3d",
+      "name": "Clone Name Obsolete"
+    },
+    {
+      "id": "promotion_4april",
+      "name": "Promotion_4april"
+    },
+    {
+      "id": "testsmoketest-pm_xpazfzp",
+      "name": "testsmoketest"
+    },
+    {
+      "id": "promo_test_01-pm_7c0qtld",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_kixkr9n",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_909kjvv",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "automation_promotion-pm_txhc56a",
+      "name": "Automation_Promotion"
+    },
+    {
+      "id": "promo_test_01-pm_v37dl44",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promoaction_8april",
+      "name": "Promoaction_8AprilEDIT"
+    },
+    {
+      "id": "promo_test_01-pm_z9z6x78",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_fc9g5vg",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_mob73mg",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_qnc46tf",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_rkeays3",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_8m94npc",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ae2c73j",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_xrvjrbw",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_daztf2t",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_3k59hma",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_gvuqmvz",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_lexm3ue",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_lluiq3b",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_qwpxhml",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_9p5dld7",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_i3rz7r6",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_p76qxy9",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_s3ikkap",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "cartpromo001",
+      "name": "Cart promotion test"
+    },
+    {
+      "id": "cartpromo003",
+      "name": "Cart level promo 2"
+    },
+    {
+      "id": "promo_test_01-pm_s2y6rco",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_y2h7zl7",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_xu79hba",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_al7wyqi",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_6cr68vx",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_wa9intf",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "50-euro-flat-disocunt",
+      "name": "Promotion on certain packages"
+    },
+    {
+      "id": "promo_test_01-pm_wrz1884",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_9imhq4q",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo123_new",
+      "name": "promo123_new"
+    },
+    {
+      "id": "promo_test_01-pm_ge26qdo",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_uxlejma",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_kcxmljf",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ywfq8db",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_f93wpj6",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "2z3kwtw",
+      "name": "UIAutomationDiscount"
+    },
+    {
+      "id": "test-pm_l3xrwfi",
+      "name": "TEST"
+    },
+    {
+      "id": "promotion_22april-pm_j1gerxw",
+      "name": "Promotion_22april"
+    },
+    {
+      "id": "promo_oclevel_on_checkout_product",
+      "name": "promo_oclevel_on_checkout_product"
+    },
+    {
+      "id": "promo_test_01-pm_bdxnyfi",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_mv8exff",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_5u2r58c",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "test_coupon_22april-pm_hy1vitf",
+      "name": "Test_Coupon_22april"
+    },
+    {
+      "id": "test_coupon_22april-pm_01bnw8m",
+      "name": "Test_Coupon_22april"
+    },
+    {
+      "id": "test_coupon_22april_clone-pm_hoatnpl",
+      "name": "Test_Coupon_22april_clone"
+    },
+    {
+      "id": "test_005_22april-pm_ww6to23",
+      "name": "test_005_22april"
+    },
+    {
+      "id": "exclusivepromos-pm_mlk9q8i",
+      "name": "exclusivepromos"
+    },
+    {
+      "id": "apple-award-oc-promo",
+      "name": " Apple Award OC promotion"
+    },
+    {
+      "id": "10-percent-cashback-promotion",
+      "name": "10% Cashback Offer"
+    },
+    {
+      "id": "promo_test_01-pm_ocdbzvl",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_l9x9pvs",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_g7mu5io",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "reduction_on_selecting_trynew_coupon",
+      "name": "reduction_on_selecting_trynew_coupon"
+    },
+    {
+      "id": "apply_flat_price_on_tv_antenna",
+      "name": "apply_flat_price_on_tv_antenna"
+    },
+    {
+      "id": "coupon_promo_26april",
+      "name": "Coupon_promo_26april"
+    },
+    {
+      "id": "xjzgb3x",
+      "name": "UIAutomationPromoBlank"
+    },
+    {
+      "id": "hy6hzvj",
+      "name": "UIAutomationDiscount"
+    },
+    {
+      "id": "promo_test_01-pm_sp8pbn1",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_6geh1lm",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_4jxpmqn",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "award-cart-level-giftadded-bm-50-sms-e2e",
+      "name": "award-cart-level-giftadded-bm-50-sms-e2e"
+    },
+    {
+      "id": "award-cartitem-exclusive-gift-bm-100-sms",
+      "name": "award-cartitem-exclusive-gift-bm-100-sms"
+    },
+    {
+      "id": "promo_test_01-pm_rsc0rlc",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_i2gcwt0",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_tcp0uh7",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "awardammendment",
+      "name": "awardammendment"
+    },
+    {
+      "id": "v7ywqve",
+      "name": "UIAutomationPromoBlank"
+    },
+    {
+      "id": "uiautomationawarduiautomationeditpromo-pm_gi965i6",
+      "name": "UIAutomationAwardUIAutomationEditPromo"
+    },
+    {
+      "id": "promo_test_01-pm_x48yyk2",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ls8hp7z",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_m5gy3eo",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "uiautomationeditpromo-pm_3fk41nl",
+      "name": "UIAutomationEditPromo"
+    },
+    {
+      "id": "promo_test_01-pm_uldy2n5",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_13iu75y",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_mjjx1t5",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ee1p6k3",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_k52psux",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_xf4s7op",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_pv72zxo",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_lu2ojez",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_qdfu7b3",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_sxo9d8r",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ct6a9ms",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_jg1tjut",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_fys5n3k",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_zo7evf0",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_7h4f7sr",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_iefqn5u",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_coupon_10may",
+      "name": "Promo_coupon_10may"
+    },
+    {
+      "id": "promo_test_01-pm_vuho217",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_e2hhv7a",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_26xbaao",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_coupon_test1",
+      "name": "Promo_Coupon_test1"
+    },
+    {
+      "id": "promo_10_5_1-pm_bua3lyg",
+      "name": "Promo_10_5_1"
+    },
+    {
+      "id": "promo_10_5_1-pm_ehx6fa1",
+      "name": "Promo_10_5_1"
+    },
+    {
+      "id": "promo_10maycoupon",
+      "name": "Promo_10mayCoupon"
+    },
+    {
+      "id": "promotion_10_05_new",
+      "name": "promotion_10_05_new"
+    },
+    {
+      "id": "promo_test_01-pm_jec0zyg",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_sp4v7w2",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_3jreytq",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_unique14may-pm_gi72a7i",
+      "name": "Promo_unique14may"
+    },
+    {
+      "id": "promo_unique12",
+      "name": "Promo_unique"
+    },
+    {
+      "id": "apply_10perdisc_govt_emp",
+      "name": "apply_10perdisc_govt_emp"
+    },
+    {
+      "id": "promo14may_copupon",
+      "name": "Promo14may_copupon"
+    },
+    {
+      "id": "promo_test_01-pm_ntabz9k",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ufkac9i",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_c646lja",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_kjlqs4k",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_4tut7dn",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_44rcb14",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "e2ediscountpromotiontrue",
+      "name": "e2ediscountpromotiontrue"
+    },
+    {
+      "id": "promo_test_01-pm_v29mrbp",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_n4tmvdz",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_pnig0jz",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_tw1x344",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_br40rwq",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_h7amjck",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_r7u13f1",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_fispuu2",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_dd5l28v",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_sj3n3mp",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_bq9pvte",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_p59vnra",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_63jac6u",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_81ygisp",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_2lqqare",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_e4vmwfm",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_bwgwb6e",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ml698m0",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_x18dbpa",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_z3v1n4n",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ktcssey",
+      "name": "promo_test_01"
+    }
+  ],
+  "unit": [
+    {
+      "id": "DAY",
+      "name": "DAY"
+    },
+    {
+      "id": "MONTH",
+      "name": "MONTH"
+    },
+    {
+      "id": "YEAR",
+      "name": "YEAR"
+    }
+  ],
+  "places": [
+    {
+      "id": "bo_lov_places_india",
+      "name": "India"
+    },
+    {
+      "id": "bo_lov_places_country_netherlands",
+      "name": "Netherlands"
+    },
+    {
+      "id": "bo_lov_places_moscow",
+      "name": "Moscow"
+    },
+    {
+      "id": "bo_lov_places_chennai",
+      "name": "Chennai"
+    },
+    {
+      "id": "bo_lov_places_australia",
+      "name": "Australia"
+    },
+    {
+      "id": "bo_lov_places_newyork",
+      "name": "Newyork"
+    },
+    {
+      "id": "bo_lov_places_netherlands",
+      "name": "Netherlands"
+    },
+    {
+      "id": "bo_lov_places_groningen",
+      "name": "Groningen"
+    },
+    {
+      "id": "bo_lov_places_limburg",
+      "name": "Limburg"
+    },
+    {
+      "id": "bo_lov_places_zeeland",
+      "name": "Zeeland"
+    },
+    {
+      "id": "bo_lov_places_drenthe",
+      "name": "Drenthe"
+    },
+    {
+      "id": "bo_lov_places_zuid_holland",
+      "name": "Zuid Holland"
+    },
+    {
+      "id": "bo_lov_places_noord_holland",
+      "name": "Noord Holland"
+    },
+    {
+      "id": "bo_lov_places_friesland",
+      "name": "Friesland"
+    },
+    {
+      "id": "bo_lov_places_noord_brabant",
+      "name": "Noord Brabant"
+    },
+    {
+      "id": "bo_lov_places_flevoland",
+      "name": "Flevoland"
+    },
+    {
+      "id": "bo_lov_places_overijssel",
+      "name": "Overijssel"
+    },
+    {
+      "id": "bo_lov_places_delhi",
+      "name": "Delhi"
+    },
+    {
+      "id": "bo_lov_places_hyderabad",
+      "name": "Hyderabad"
+    },
+    {
+      "id": "bo_lov_places_country_australia",
+      "name": "Australia"
+    },
+    {
+      "id": "bo_lov_places_switzerland",
+      "name": "Switzerland"
+    },
+    {
+      "id": "bo_lov_places_neom",
+      "name": "Neom"
+    },
+    {
+      "id": "bo_lov_places_saudiarabia",
+      "name": "Saudi Arabia"
+    },
+    {
+      "id": "bo_lov_places_gujarat",
+      "name": "Gujarat"
+    },
+    {
+      "id": "bo_lov_places_utrecht",
+      "name": "Utrecht"
+    },
+    {
+      "id": "bo_lov_places_maastricht",
+      "name": "Maastricht"
+    },
+    {
+      "id": "bo_lov_places_gelderland",
+      "name": "Gelderland"
+    },
+    {
+      "id": "bo_lov_places_weert",
+      "name": "Weert"
+    },
+    {
+      "id": "bo_lov_places_amsterdam",
+      "name": "Amsterdam"
+    },
+    {
+      "id": "bo_lov_places_ahmedabad",
+      "name": "Ahmedabad"
+    },
+    {
+      "id": "bo_lov_places_gandhinagar",
+      "name": "Gandhinagar"
+    },
+    {
+      "id": "bo_lov_places_amstenrade",
+      "name": "Amstenrade"
+    },
+    {
+      "id": "bo_lov_places_pune",
+      "name": "Pune"
+    },
+    {
+      "id": "bo_lov_places_bangalore",
+      "name": "Bangalore"
+    },
+    {
+      "id": "bo_lov_places_mumbai",
+      "name": "Mumbai"
+    },
+    {
+      "id": "bo_lov_places_munich",
+      "name": "Múnich"
+    },
+    {
+      "id": "bo_lov_places_country_newzealand",
+      "name": "NewZealand"
+    },
+    {
+      "id": "bo_lov_places_baviera",
+      "name": "Baviera"
+    },
+    {
+      "id": "bo_lov_places_altabaviera",
+      "name": "Altabaviera"
+    },
+    {
+      "id": "bo_lov_places_rosenheim",
+      "name": "Rosenheim"
+    },
+    {
+      "id": "bo_lov_places_ingolstadt",
+      "name": "Ingolstadt"
+    },
+    {
+      "id": "bo_lov_places_southafrica",
+      "name": "SouthAfrica"
+    },
+    {
+      "id": "bo_lov_places_london",
+      "name": "London"
+    },
+    {
+      "id": "bo_lov_places_westbengal",
+      "name": "WestBengal"
+    },
+    {
+      "id": "bo_lov_places_maharashtra",
+      "name": "Maharashtra"
+    },
+    {
+      "id": "bo_lov_places_rajasthan",
+      "name": "Rajasthan"
+    },
+    {
+      "id": "bo_lov_places_karnataka",
+      "name": "Karnataka"
+    },
+    {
+      "id": "bo_lov_places_state_auckland",
+      "name": "Auckland"
+    },
+    {
+      "id": "bo_lov_places_state_queensland",
+      "name": "Queensland"
+    },
+    {
+      "id": "bo_lov_places_state_wellington",
+      "name": "Wellington"
+    },
+    {
+      "id": "bo_lov_places_city_liverpool",
+      "name": "Liverpool"
+    },
+    {
+      "id": "bo_lov_rule_then_product_allowstandalone",
+      "name": "AllowStandalone"
+    },
+    {
+      "id": "bo_lov_places_city_sydney",
+      "name": "Sydney"
+    },
+    {
+      "id": "bo_lov_places_state_tasmania",
+      "name": "Tasmania"
+    },
+    {
+      "id": "bo_lov_places_city_brisbane",
+      "name": "Brisbane"
+    },
+    {
+      "id": "bo_lov_places_utrecht_stad",
+      "name": "Utrecht Stad"
+    },
+    {
+      "id": "bo_lov_places_state_tabukprovince",
+      "name": "Tabuk Province"
+    },
+    {
+      "id": "khimki",
+      "name": "Khimki"
+    },
+    {
+      "id": "bo_lov_places_mangalore",
+      "name": "Mangalore"
+    },
+    {
+      "id": "bo_lov_places_jaipur",
+      "name": "Jaipur"
+    },
+    {
+      "id": "bo_lov_places_udaipur",
+      "name": "Udaipur"
+    },
+    {
+      "id": "bo_lov_places_kolhapur",
+      "name": "Kolhapur"
+    },
+    {
+      "id": "bo_lov_places_city_gladstone",
+      "name": "Gladstone"
+    },
+    {
+      "id": "bo_lov_places_ajmer",
+      "name": "Ajmer"
+    },
+    {
+      "id": "bo_lov_places_city_hobart",
+      "name": "Hobart"
+    },
+    {
+      "id": "bo_lov_places_mysore",
+      "name": "Mysore"
+    },
+    {
+      "id": "bo_lov_places_aurangabad",
+      "name": "Aurangabad"
+    },
+    {
+      "id": "bo_lov_places_udaypur",
+      "name": "Udaypur"
+    },
+    {
+      "id": "bo_lov_places_nashik",
+      "name": "Nashik"
+    },
+    {
+      "id": "bo_lov_places_jodhpur",
+      "name": "Jodhpur"
+    },
+    {
+      "id": "bo_lov_places_surat",
+      "name": "Surat"
+    },
+    {
+      "id": "bo_lov_places_city_townsville",
+      "name": "Townsville‎"
+    },
+    {
+      "id": "bo_lov_places_mysore_rural",
+      "name": "Mysore Rural"
+    },
+    {
+      "id": "bo_lov_places_jodhpur_rural",
+      "name": "Jodhpur Rural"
+    },
+    {
+      "id": "bo_lov_places_jodhpur_urban",
+      "name": "Jodhpur Urban"
+    },
+    {
+      "id": "bo_lov_places_mysore_urban",
+      "name": "Mysore Urban"
+    },
+    {
+      "id": "bo_lov_places_nagpur",
+      "name": "Nagpur"
+    }
+  ],
+  "cartItemPromotions": [
+    {
+      "id": "bm-mobile-prepaid-with-handset-discount-e2e",
+      "name": "bm-mobile-prepaid-with-handset-discount-e2e"
+    },
+    {
+      "id": "flat-discount-promotion-e2e",
+      "name": "Flat Discount Promotion E2E"
+    },
+    {
+      "id": "q1-cartitem-discount-promo-stakable-e2e",
+      "name": "Q1-cartitem-discount-promo-stakable-e2e"
+    },
+    {
+      "id": "reduction_on_tv_plan_e2e",
+      "name": "reduction_on_tv_plan_e2e"
+    },
+    {
+      "id": "q3-promo-discount-cartitem-stakable-e2e",
+      "name": "Q3-Promo-Discount-cartitem-stakable-e2e"
+    },
+    {
+      "id": "promo_award_optional_addheadset",
+      "name": "promo_award_optional_addheadset"
+    },
+    {
+      "id": "promotion_newj1didgbkqdbhwdggwdhbkbdhsdhdggwdyyjdbhsddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdnudbuufhdsifbsdkbndcbdfsdf-pm_hr683lz",
+      "name": "Promotion_Newj1didgbkqdbhwdggwdhbkbdhsdhdggwdyyjdbhsddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdnudbuufhdsifbsdkbndcbdfsdfsdsdsdshsbs"
+    },
+    {
+      "id": "gnkjbrbrgkjfiuwehnfourhfuhfikfjhiughriughiughiughuighiughiughiugbhuihbiughughrjgnuignriugnfjjnvgrkjngnkjbrbrgkjfiuwehnfourhfuhfikfjhiughriughiughiughuighiughiughiugbhuihbiughughrjgnuignriugnfjjnvgrkjn",
+      "name": "id1ij37gqf4fl4m3xd9sja82ocjthy6rk51j0nq1he70zfhe9j5lo8fufmh53xnsslyga8mk1mmbnbqbgjggw7gxxnkkrsz72b75m2hdu57o2ivtjoutd6vko37l9kbq6rnxxjptv546vg0bf8dq5i5j3xp6plgbphgkitjvagd5cd8o35fgj7o97cyrugy32nhvj9h6"
+    },
+    {
+      "id": "cart-level-promotion-bm-50-sms-discount-percent",
+      "name": "cart-level-promotion-bm-50-sms-discount-percent"
+    },
+    {
+      "id": "cart-item-level-promotion",
+      "name": "cart item level promotion"
+    },
+    {
+      "id": "exclusiveone",
+      "name": "exclusiveone"
+    },
+    {
+      "id": "exclusivetwo",
+      "name": "exclusivetwo"
+    },
+    {
+      "id": "promo-blue400-me",
+      "name": "promo-blue400-me"
+    },
+    {
+      "id": "flat-price-subscription-promotion",
+      "name": "flat-price-subscription-promotion"
+    },
+    {
+      "id": "multiplestakable-pm_94mj2nz",
+      "name": "multiplestakable"
+    },
+    {
+      "id": "flat-50-3-6-cardinality",
+      "name": "Flat 50 Discount on Offer Container "
+    },
+    {
+      "id": "multipleme-pm_4pinn4o",
+      "name": "multipleme"
+    },
+    {
+      "id": "discountpercentmesc",
+      "name": "discountpercentmesc"
+    },
+    {
+      "id": "flatprice-ac-notdefined-promotion-pm_rkdzeuj",
+      "name": "flatprice-ac-notdefined-promotion"
+    },
+    {
+      "id": "defaultpromooncheapestproducttaxincluded",
+      "name": "DefaultPromoOnCheapestProductTaxIncluded"
+    },
+    {
+      "id": "optionalpromooncheapestproductdutyfreealteredamount",
+      "name": "OptionalPromoOnCheapestProductDutyFreeAlteredAmount"
+    },
+    {
+      "id": "promo-blue400-stackable",
+      "name": "promo-blue400-stackable"
+    },
+    {
+      "id": "bm-promotionforapple",
+      "name": "bm-promotionforapple"
+    },
+    {
+      "id": "discount-cart-level-promotion-10-percent",
+      "name": "Discount-cart-level-promotion-10-percent"
+    },
+    {
+      "id": "promo_for_iphone12",
+      "name": "promo_for_iphone12"
+    },
+    {
+      "id": "promo_default_flatdisc_mutuallyexclusive",
+      "name": "promo_default_flatdisc_mutuallyexclusive"
+    },
+    {
+      "id": "samsung_charger_free_stackable_promo",
+      "name": "charger_free_stackable_promo"
+    },
+    {
+      "id": "q3discountpromotionofferlevel",
+      "name": "q3discountpromotionofferlevel"
+    },
+    {
+      "id": "redmi10_prime_promoflatprice",
+      "name": "promomoflatprice_redmi10_prime"
+    },
+    {
+      "id": "redmi10_prime_promoflatdiscount",
+      "name": "promomflatdiscount_redmi10_prime"
+    },
+    {
+      "id": "promo_mutuallyexclusive_10_discount",
+      "name": "promo_mutuallyexclusive_10_discount"
+    },
+    {
+      "id": "redmi10_prime_promotionflatprice",
+      "name": "promomflatprice_redmi10_prime"
+    },
+    {
+      "id": "flat-200-price-on-me-category-po",
+      "name": "Flat 200 price on MutuallyExclusive Category"
+    },
+    {
+      "id": "promo_on_next_day_shipping_speed",
+      "name": "promo_on_next_day_shipping_speed"
+    },
+    {
+      "id": "promotion_meta-pm_4l8hz7y",
+      "name": "Promotion_Meta"
+    },
+    {
+      "id": "promotion_meta-pm_su1dd04",
+      "name": "Promotion_Meta"
+    },
+    {
+      "id": "apply_prime_membership_to_amazon_tv",
+      "name": "apply_prime_membership_to_amazon_tv"
+    },
+    {
+      "id": "r8okkkd",
+      "name": "Clone Name Active"
+    },
+    {
+      "id": "4lq3742",
+      "name": "Clone Name Retired"
+    },
+    {
+      "id": "en7msx7",
+      "name": "Clone Name Launched"
+    },
+    {
+      "id": "kxelkpx",
+      "name": "Clone Name Design"
+    },
+    {
+      "id": "test-pm_asev1gl",
+      "name": "TEST"
+    },
+    {
+      "id": "jqvah3d",
+      "name": "Clone Name Obsolete"
+    },
+    {
+      "id": "testsmoketest-pm_xpazfzp",
+      "name": "testsmoketest"
+    },
+    {
+      "id": "promo_test_01-pm_7c0qtld",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_v37dl44",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_z9z6x78",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_qnc46tf",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ae2c73j",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_3k59hma",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_lluiq3b",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_i3rz7r6",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_s2y6rco",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_al7wyqi",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_wrz1884",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo123_new",
+      "name": "promo123_new"
+    },
+    {
+      "id": "promo_test_01-pm_ge26qdo",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_kcxmljf",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_bdxnyfi",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ocdbzvl",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "apply_flat_price_on_tv_antenna",
+      "name": "apply_flat_price_on_tv_antenna"
+    },
+    {
+      "id": "xjzgb3x",
+      "name": "UIAutomationPromoBlank"
+    },
+    {
+      "id": "promo_test_01-pm_sp8pbn1",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "award-cartitem-exclusive-gift-bm-100-sms",
+      "name": "award-cartitem-exclusive-gift-bm-100-sms"
+    },
+    {
+      "id": "promo_test_01-pm_rsc0rlc",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "awardammendment",
+      "name": "awardammendment"
+    },
+    {
+      "id": "v7ywqve",
+      "name": "UIAutomationPromoBlank"
+    },
+    {
+      "id": "promo_test_01-pm_x48yyk2",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_uldy2n5",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ee1p6k3",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_pv72zxo",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_sxo9d8r",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_fys5n3k",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_vuho217",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_jec0zyg",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_ntabz9k",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_kjlqs4k",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_v29mrbp",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_tw1x344",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_r7u13f1",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_sj3n3mp",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_63jac6u",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_e4vmwfm",
+      "name": "promo_test_01"
+    },
+    {
+      "id": "promo_test_01-pm_x18dbpa",
+      "name": "promo_test_01"
+    }
+  ],
+  "productOffers": [
+    {
+      "id": "pixel-8",
+      "name": "Pixel 8 "
+    },
+    {
+      "id": "bm-redmi-15-promax",
+      "name": "bm-redmi-15-promax"
+    },
+    {
+      "id": "bundleitemiermn",
+      "name": "bundleitemiermn"
+    },
+    {
+      "id": "mobile_phone_5g-of_ka3bj",
+      "name": "BM Mobile Phone 5G"
+    },
+    {
+      "id": "bm-ram",
+      "name": "Bm-Ram"
+    },
+    {
+      "id": "bm-display-one",
+      "name": "bm-display"
+    },
+    {
+      "id": "bm-iphone_ys",
+      "name": "bm-iphone_ys"
+    },
+    {
+      "id": "bm-mobile-insurance",
+      "name": "BM-Mobile-Insurance"
+    },
+    {
+      "id": "bm-unlimited-data",
+      "name": "bm-unlimited-data"
+    },
+    {
+      "id": "vpn_e2e",
+      "name": "VPN_E2E"
+    },
+    {
+      "id": "wavelength-iru_based_clone",
+      "name": "Wavelength - IRU Based_Clone"
+    },
+    {
+      "id": "bm-hard-drive-e2e",
+      "name": "BM Hard drive e2e"
+    },
+    {
+      "id": "bm-idea-bundle-of_hegip",
+      "name": "bm-idea-bundle"
+    },
+    {
+      "id": "bundlepo1didgbkqdbhwdggwdhbkbdhsdhdgaadyygjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbdhfdndsndnuaaffgf",
+      "name": "Bundlepo1UPDATEkqdbhwdggwdhbkSbdhsdhdggwdAAgjhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknAnnjbjbknDDFGDFGDVCXVCVVGDDGDDFFSFSDFDFDFDSFDFDfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbdhfdndsndnuaAFFGF"
+    },
+    {
+      "id": "bm-apple-14-pro-e2e",
+      "name": "Bm-Apple-14-pro-E2E"
+    },
+    {
+      "id": "bm-airtel-xstream-e2e",
+      "name": "Bm Xstream Airtel E2E"
+    },
+    {
+      "id": "bm-green-100-e2e",
+      "name": "bm-green-100 E2E"
+    },
+    {
+      "id": "bm-green-50-e2e",
+      "name": "bm-green-50 E2E"
+    },
+    {
+      "id": "bm-relience-prepaid-plan-e2e",
+      "name": "bm-relience-prepaid-plan-e2e"
+    },
+    {
+      "id": "rha-true-connect-headset-e2e",
+      "name": "BM RHA TrueConnect Headset E2E"
+    },
+    {
+      "id": "bm-prepaid-60-e2e",
+      "name": "bm-prepaid-60-E2E"
+    },
+    {
+      "id": "bm-jio-fiber-e2e",
+      "name": "BM JIO Fiber E2E  "
+    },
+    {
+      "id": "bm-all-in-one-plan",
+      "name": "bm-All-in-one-plan"
+    },
+    {
+      "id": "bm-all-in-one-e2e",
+      "name": "bm-All-in-one-e2e"
+    },
+    {
+      "id": "30-euros-12-months-device",
+      "name": "30 Euros 12 Months Device "
+    },
+    {
+      "id": "bm-hard-disk-addon",
+      "name": "BM Hard Disk "
+    },
+    {
+      "id": "30-euro-24-month-device",
+      "name": "30 Euros 24 Months Device "
+    },
+    {
+      "id": "bm-router-600",
+      "name": "bm-router-600"
+    },
+    {
+      "id": "bm-router-500",
+      "name": "bm-router-500"
+    },
+    {
+      "id": "bm-blue-200",
+      "name": "bm-blue-200"
+    },
+    {
+      "id": "bm-12w-dual-usb-smart-charger",
+      "name": "bm-12W-Dual-USB-smart-charger"
+    },
+    {
+      "id": "wavelength_mrc_neom",
+      "name": "Wavelength - MRC based"
+    },
+    {
+      "id": "l2vpn_neom",
+      "name": "Layer2 VPN Market Segment Business"
+    },
+    {
+      "id": "quarter_rack_colocation",
+      "name": "Quarter Rack Colocation"
+    },
+    {
+      "id": "id1rp5x2wfbjotiy5m6268buie3yx7s7oed6wecerxy9x7fai98tswod8la0idpbeuqkwdtixxmuzurqizucve7tdnqstl5fgs2pa1du730629rb0pdm4j5q849igmx7ukraau0ud0k9zrrqjetsxovpze48nkmi4aeeyknckvgk1exw00dnv8n0qhg9e-of_4q46ldt",
+      "name": "id1rp5x2wfbjotiy5m6268buie3yx7s7oed6wecerxy9x7fai98tswod8la0idpbeuqkwdtixxmuzurqizucve7tdnqstl5fgs2pa1du730629rb0pdm4j5q849igmx7ukraau0ud0k9zrrqjetsxovpze48nkmi4aeeyknckvgk1exw00dnv8n0qhg9eph6t62wuycw"
+    },
+    {
+      "id": "full_rack_colocation",
+      "name": "Full Rack Colocation"
+    },
+    {
+      "id": "poforpocost1",
+      "name": "pocostforpo"
+    },
+    {
+      "id": "layer2_vpn_ms_clone-of_8m3e2h2",
+      "name": "Layer2 VPN MS Clone"
+    },
+    {
+      "id": "wavelength_-_iru_based-of_fmzp7ah",
+      "name": "Wavelength - IRU Based"
+    },
+    {
+      "id": "shipping_charge_scenario1",
+      "name": "Shipping Charge"
+    },
+    {
+      "id": "id1v2yc7o8oy0z205zv4gcgqtwn847pj9ghez4azek8t3di6kl9irqf7r030urnjqh72a7dju2fda15s4lxdhhb89cimbbwaqu7ekzbsee20lc30wzpixzpw2wzblnxbhfkzmc4kh1dmxuqmckhbo3zpdkbyoa1y69d5c142hr9z3-of_kenjf4i",
+      "name": "id1v2yc7o8oy0z205zv4gcgqtwn847pj9ghez4azek8t3di6kl9irqf7r030urnjqh72a7dju2fda15s4lxdhhb89cimbbwaqu7ekzbsee20lc30wzpixzpw2wzblnxbhfkzmc4kh1dmxuqmckhbo3zpdkbyoa1y69d5c142hr9z3"
+    },
+    {
+      "id": "shipping_charge_scenario2",
+      "name": "Shipping Charge"
+    },
+    {
+      "id": "bundlepo1clone11kqdbhwdggwdhbksbdhsdhdggwdaagjhsddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbdhfdndsndnuaaffgf",
+      "name": "Bundlepo1CLONE11kqdbhwdggwdhbkSbdhsdhdggwdAAgjhasdvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknAnnjbjbknDDFGDFGDVCXVCVVGDDGDDFFSFSDFDFDFDSFDFDfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbdhfdndsndnuaAFFGF"
+    },
+    {
+      "id": "bm-call-project-e2e",
+      "name": "Bm Call Project E2E"
+    },
+    {
+      "id": "bm-airtel-399-e2e",
+      "name": "bm-airtel-399-e2e"
+    },
+    {
+      "id": "bm-nokia-headphone-e2e",
+      "name": "bm-Nokia-Headphone-E2E"
+    },
+    {
+      "id": "bm-airtel-prepaid-e2e",
+      "name": "bm-Airtel-prepaid-e2e"
+    },
+    {
+      "id": "bm-green-20-e2e",
+      "name": "bm-green-20 E2E"
+    },
+    {
+      "id": "bm-vodafone-idea-e2e",
+      "name": "bm-vodafone-idea-e2e"
+    },
+    {
+      "id": "bm-reliance-299-e2e",
+      "name": "m-reliance-299-e2e"
+    },
+    {
+      "id": "bm-idea-prepai-799-e2e",
+      "name": "bm-Idea-prepai-799-e2e"
+    },
+    {
+      "id": "bm-redmi-11-pro-sourceoffer",
+      "name": "Bm-Redmi-11-pro-E2E-sourceOffer"
+    },
+    {
+      "id": "bm_jio_599_e2e",
+      "name": "bm_jio_599_e2e"
+    },
+    {
+      "id": "bm-iphone-12-e2e",
+      "name": "bm-IPHONE-12-E2E"
+    },
+    {
+      "id": "bm-sport-mx-e2e",
+      "name": "bm-Sport-MX E2E"
+    },
+    {
+      "id": "bm-blue-350-e2e",
+      "name": "bm-Blue-350-E2E"
+    },
+    {
+      "id": "bm-shipping-charges-mobile-e2e",
+      "name": "shipping Charges E2E"
+    },
+    {
+      "id": "bm-300-20-mbps-e2e",
+      "name": "bm-300-20-MBPS-E2E"
+    },
+    {
+      "id": "bm-redmi-13-pro-e2e",
+      "name": "Bm-Redmi-13-pro-E2E"
+    },
+    {
+      "id": "bm-tplink-ac890-e2e",
+      "name": "bm-TPLINK-AC890 E2E"
+    },
+    {
+      "id": "bm-samsung-galaxy-s22",
+      "name": "BM-Samsung Galaxy S22 Ultra"
+    },
+    {
+      "id": "bm-nokia-c01-e2e",
+      "name": "bm-Nokia-C01 E2E"
+    },
+    {
+      "id": "bm-voice-100-minutes",
+      "name": "BM-VOICE-100-MINUTES"
+    },
+    {
+      "id": "bm_oppo_v1",
+      "name": "bm_oppo_v1"
+    },
+    {
+      "id": "bm-redmi-gift-card",
+      "name": "Bm-Redmi-gift-card"
+    },
+    {
+      "id": "bm-spotify-free_with_retail-business-mumbai",
+      "name": "bm-spotify-free_With_Retail-Business-Mumbai"
+    },
+    {
+      "id": "bm-apple-usb-c-adapter",
+      "name": "BM-Apple USB C power Adapter"
+    },
+    {
+      "id": "bm-free-apple-tv",
+      "name": "BM-Free Apple TV"
+    },
+    {
+      "id": "bm-po-business-with-place-mumbai",
+      "name": "bm-po-Business-with-place-Mumbai"
+    },
+    {
+      "id": "bm-50gb-5gb",
+      "name": "bm-50GB-5GB"
+    },
+    {
+      "id": "bm-all-in-one",
+      "name": "bm-All-in-one"
+    },
+    {
+      "id": "bm-nokia-105-single-sim",
+      "name": "bm-Nokia-105-Single-SIM"
+    },
+    {
+      "id": "bm-spotify-free",
+      "name": "bm-spotify-free"
+    },
+    {
+      "id": "bm-vas-netflix",
+      "name": "BM-VAS-NETFLIX "
+    },
+    {
+      "id": "bm-vas-spotify",
+      "name": "BM-VAS-SPOTIFY"
+    },
+    {
+      "id": "bm_child_redmi1s",
+      "name": "bm_child_redmi1s"
+    },
+    {
+      "id": "bm-voice-400-minutes",
+      "name": "BM-VOICE-400-minutes"
+    },
+    {
+      "id": "bm-router-300",
+      "name": "bm-router-300"
+    },
+    {
+      "id": "bm-prepaid-100",
+      "name": "BM Prepaid 100"
+    },
+    {
+      "id": "bm-idea-1299",
+      "name": "bm-idea-1299"
+    },
+    {
+      "id": "bm_iphone_ws",
+      "name": "bm-iphone_ws"
+    },
+    {
+      "id": "bm-infinix-note11",
+      "name": "bm-infinix-note11"
+    },
+    {
+      "id": "bm-jio",
+      "name": "bm-jio"
+    },
+    {
+      "id": "bm-hard-disk",
+      "name": "Bm-hard-disk"
+    },
+    {
+      "id": "child-retail-po",
+      "name": "child retail PO"
+    },
+    {
+      "id": "child-telesales-po",
+      "name": "child telesales PO"
+    },
+    {
+      "id": "twoplacepo",
+      "name": "twoplacepo"
+    },
+    {
+      "id": "bm-hard-disk-of_2ndhly5",
+      "name": "Bm-hard-disk"
+    },
+    {
+      "id": "iphone_14_max_pro-of_rh9t4",
+      "name": "BM Iphone 14 Max Pro"
+    },
+    {
+      "id": "imp_exp_po491",
+      "name": "IMP_EXP_PO491"
+    },
+    {
+      "id": "bm-classic-100-3a-charger",
+      "name": "bm-Classic-100-3A-Charger"
+    },
+    {
+      "id": "bm-wall-mount-usb-charger",
+      "name": "bm-wall-mount-USB-Charger"
+    },
+    {
+      "id": "bm-redmi-14-pro-e2e",
+      "name": "Bm-Redmi-14-pro-E2E"
+    },
+    {
+      "id": "bm-airtel-299-e2e",
+      "name": "bm-airtel-299-E2E"
+    },
+    {
+      "id": "bm-green-30-e2e",
+      "name": "bm-green-30 E2E"
+    },
+    {
+      "id": "bm-prepaid-40-e2e",
+      "name": "bm-prepaid-40-E2E"
+    },
+    {
+      "id": "bm-vodafone-e2e",
+      "name": "bm-Vodafone-E2E"
+    },
+    {
+      "id": "bm-redmi-11-pro-e2e",
+      "name": "Bm-Redmi-11-pro-E2E"
+    },
+    {
+      "id": "bm-nokia-charger-e2e",
+      "name": "bm-Nokia-Charger-E2E"
+    },
+    {
+      "id": "bm_redmi_11_pro_downpayment",
+      "name": "Bm-Redmi-11-pro-E2E-Downpayment"
+    },
+    {
+      "id": "bm-jio-e2e",
+      "name": "bm-jio-E2E"
+    },
+    {
+      "id": "bm-redmi-11-pro-downpayment0",
+      "name": "Bm-Redmi-11-pro-E2E-Downpayment0"
+    },
+    {
+      "id": "bm-iphone-charger-e2e",
+      "name": "BM Iphone Charger E2E"
+    },
+    {
+      "id": "bm-galaxy-s-22-e2e-of_elcfp79",
+      "name": "bm-galaxy-s-22-e2e"
+    },
+    {
+      "id": "bm-galaxy-s-22-e2e",
+      "name": "bm-Galaxy-S-22 E2E"
+    },
+    {
+      "id": "bm-100-10-mbps-unlimited-ms",
+      "name": "bm-100-10-MBPS-Unlimited with MarketSegment"
+    },
+    {
+      "id": "bm-100-10-mbps-unlimited-e2e",
+      "name": "BM 100 10 MBPS Unlimited E2E "
+    },
+    {
+      "id": "bm-blue-300-e2e",
+      "name": "bm-Blue-300-E2E"
+    },
+    {
+      "id": "bm-prepaid-50-e2e",
+      "name": "Bm-Prepaid-50 E2E"
+    },
+    {
+      "id": "me-po-simple-199-e2e",
+      "name": "BM Subscription 199 Plan E2E"
+    },
+    {
+      "id": "gray-800-e2e",
+      "name": "BM-Gray-800-E2E"
+    },
+    {
+      "id": "jio-fiber-2499-plan",
+      "name": "BM JIO Fiber 2499 Plan"
+    },
+    {
+      "id": "bm-vivo-v23-of_e8k81",
+      "name": "bm-vivo-v23"
+    },
+    {
+      "id": "bm-data-40-gb-5g",
+      "name": "BM-DATA-40GB-5GBb"
+    },
+    {
+      "id": "bm-samsung-galaxy-gift-card",
+      "name": "BM-Samsung Galaxy gift card"
+    },
+    {
+      "id": "bm-po-with-place-mumbai",
+      "name": "bm-po-with-place-Mumbai"
+    },
+    {
+      "id": "bm-galaxy-m-32-5g",
+      "name": "bm-Galaxy-M-32-5G"
+    },
+    {
+      "id": "bm-international-dial-plan-miea",
+      "name": "bm-International-Dial-plan-MIEA"
+    },
+    {
+      "id": "bm-100gb-5g",
+      "name": "bm-100GB-5G"
+    },
+    {
+      "id": "bm-po-business-with-place-mumbai-of_f49ik",
+      "name": "bm-po-Business-with-place-Mumbai"
+    },
+    {
+      "id": "bm-po-business-consumer-with-place-mumbai-pune",
+      "name": "bm-po-Business-Consumer-with-place-Mumbai-Pune"
+    },
+    {
+      "id": "bm-po-with-place-pune",
+      "name": "bm-po-with-place-Pune"
+    },
+    {
+      "id": "standard_line_access_001",
+      "name": "Standard Line Access"
+    },
+    {
+      "id": "bm-samsung-v-10",
+      "name": "bm-samsung-v-10"
+    },
+    {
+      "id": "bm-tplink-ac890",
+      "name": "bm-TPLINK-AC890"
+    },
+    {
+      "id": "bm-200-minutes",
+      "name": "bm-200-Minutes"
+    },
+    {
+      "id": "bm-movies-kannada",
+      "name": "bm-Movies-Kannada"
+    },
+    {
+      "id": "bm-airtel-299",
+      "name": "bm-airtel-299"
+    },
+    {
+      "id": "bm-apple-headphone",
+      "name": "bm-Apple-Headphone"
+    },
+    {
+      "id": "bm-data-pack-po",
+      "name": "BM-Data-Pack-Product"
+    },
+    {
+      "id": "bm-movies-urdu",
+      "name": "bm-Movies-Urdu"
+    },
+    {
+      "id": "bm_vivo_v23",
+      "name": "bm_vivo_v23"
+    },
+    {
+      "id": "bm-sport-mx",
+      "name": "bm-Sport-MX"
+    },
+    {
+      "id": "bm-discovery-plus",
+      "name": "bm-DISCOVERY-PLUS"
+    },
+    {
+      "id": "bm-samsung-headphone",
+      "name": "bm-Samsung-Headphone"
+    },
+    {
+      "id": "99_99_endless_mobile_plan",
+      "name": "BM 99.99 dollars Endless Mobile Plan"
+    },
+    {
+      "id": "bm-international-dial-plan-us",
+      "name": "bm-International-Dial-plan-US"
+    },
+    {
+      "id": "oppo_a94_5g_cosmo_blue",
+      "name": "OPPO A94 5G - Cosmo Blue"
+    },
+    {
+      "id": "credit_product",
+      "name": "BM CREDIT PRODUCT "
+    },
+    {
+      "id": "bm-iphone-xr",
+      "name": "bm-IPHONE-XR"
+    },
+    {
+      "id": "59_99_endless_mobile_plan",
+      "name": "BM 59.99 dollars Endless Mobile Plan"
+    },
+    {
+      "id": "bm-jio-disney",
+      "name": "BM Plan Jio Disney plus"
+    },
+    {
+      "id": "bm-50-sms",
+      "name": "bm-50-SMS"
+    },
+    {
+      "id": "bm-international-dial-plan-europe",
+      "name": "bm-International-Dial-plan-EUROPE"
+    },
+    {
+      "id": "bm-samsung-galaxy-z-flip-charger",
+      "name": "BM Samsung Galaxy Z Flip Charger"
+    },
+    {
+      "id": "bm-channel",
+      "name": "BM-WFH-DATA-PACK"
+    },
+    {
+      "id": "bm-neon-bm-tv-series",
+      "name": "bm-Neon-bm-TV-series"
+    },
+    {
+      "id": "bm-spotify-free_with_place",
+      "name": "bm-spotify-free_With_place"
+    },
+    {
+      "id": "bm-galaxy-m-12",
+      "name": "bm-Galaxy-M-12"
+    },
+    {
+      "id": "bm-free-apple-news",
+      "name": "BM-Free Apple News "
+    },
+    {
+      "id": "bm-iphone-15",
+      "name": "bm-iphone-15"
+    },
+    {
+      "id": "bm-one-year-antivirus-a",
+      "name": "BM 1 Year Antivirus A"
+    },
+    {
+      "id": "bm-spotify-free_with_retail-business-mumbai_po2",
+      "name": "bm-spotify-free_With_Retail-Business-Mumbai_PO2"
+    },
+    {
+      "id": "bm_po_iphone13",
+      "name": "bm_po_iphone13"
+    },
+    {
+      "id": "bm-freebie-music",
+      "name": "BM-FreeBie-Music"
+    },
+    {
+      "id": "bm-data-20gb-5gb",
+      "name": "BM-DATA-20GB-5GB"
+    },
+    {
+      "id": "bm-redmi-13-pro",
+      "name": "Bm-Redmi-13-pro"
+    },
+    {
+      "id": "bm-redmi-14-pro",
+      "name": "Bm-Redmi-14-pro"
+    },
+    {
+      "id": "bm-voiceonlyplan",
+      "name": "bm-VoiceOnlyPlan"
+    },
+    {
+      "id": "bm-samsung-ace",
+      "name": "bm-samsung-ace"
+    },
+    {
+      "id": "ifp_po",
+      "name": "BM IFP product"
+    },
+    {
+      "id": "oppo_a54_5g_cosmo_blue",
+      "name": "BM OPPO A54 5G - Cosmo Blue"
+    },
+    {
+      "id": "bm-400-minutes",
+      "name": "bm-400-Minutes"
+    },
+    {
+      "id": "bm-200-sms",
+      "name": "bm-200-SMS"
+    },
+    {
+      "id": "39_99_3gb_rollover",
+      "name": "BM 39.99 dollars 3GB Rollover"
+    },
+    {
+      "id": "bm-iphone-12",
+      "name": "bm-IPHONE-12"
+    },
+    {
+      "id": "oppo_reno4_pro_5g_galactic_blue",
+      "name": "BM OPPO Reno4 Pro 5g - Galactic Blue"
+    },
+    {
+      "id": "bm-gray-800",
+      "name": "BM-Gray-800"
+    },
+    {
+      "id": "bm-movies-kannada-kafka",
+      "name": "bm-Movies-Kannada-kafka"
+    },
+    {
+      "id": "bm-100-sms",
+      "name": "bm-100-SMS "
+    },
+    {
+      "id": "disney_plus_002",
+      "name": "Disney Plus Plus"
+    },
+    {
+      "id": "bm-prepaid-20",
+      "name": "bm-prepaid-20"
+    },
+    {
+      "id": "handsets_apple_iphone_13_pro_max",
+      "name": "BM Handset Apple Iphone 13 pro max"
+    },
+    {
+      "id": "bm-apple-14-pro",
+      "name": "Bm-Apple-14-pro"
+    },
+    {
+      "id": "bm-redmi-11-pro",
+      "name": "Bm-Redmi-11-pro"
+    },
+    {
+      "id": "oppo_a78_5g_e2e",
+      "name": "OPPO A78 5G"
+    },
+    {
+      "id": "device_payment_30_euro_12_months-of_ofl6a",
+      "name": "Google Pixel 7"
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix"
+    },
+    {
+      "id": "bm-roja-800-of_8y9f8",
+      "name": "bm-ROJA-800"
+    },
+    {
+      "id": "upfrontwalletgiftcard",
+      "name": "upfrontwalletgiftcard"
+    },
+    {
+      "id": "walletbalance",
+      "name": "walletbalance"
+    },
+    {
+      "id": "add-on_-_mobily-of_c2ygag7",
+      "name": "ADD-On - Mobily "
+    },
+    {
+      "id": "bm-redmi-12-pro-kafka",
+      "name": "Bm-Redmi-12-pro-kafka"
+    },
+    {
+      "id": "bm_child_redmi_headphone",
+      "name": "bm_child_redmi_headphone"
+    },
+    {
+      "id": "priceoveridegiftcardwallet",
+      "name": "priceoveridegiftcardwallet"
+    },
+    {
+      "id": "oppo_find_n3_flip_e2e",
+      "name": "OPPO Find N3 Flip"
+    },
+    {
+      "id": "bm-apple-11-of_25ark2q",
+      "name": "bm-apple-11"
+    },
+    {
+      "id": "bm-blue-699",
+      "name": "BM-BLUE-699"
+    },
+    {
+      "id": "bm-red-800-c",
+      "name": "BM-RED-800"
+    },
+    {
+      "id": "iphone_15_plus_e2e",
+      "name": "iPhone 15 Plus"
+    },
+    {
+      "id": "bm-redmi-charger",
+      "name": "bm-Redmi-Charger"
+    },
+    {
+      "id": "bm-oppo-v1-charger",
+      "name": "BM OPPO V1 Charger"
+    },
+    {
+      "id": "bm-redmi-19-pro",
+      "name": "Bm-Redmi-19-pro"
+    },
+    {
+      "id": "bm-mobile-plan",
+      "name": "BM Mobile Plan"
+    },
+    {
+      "id": "iphone_se_e2e",
+      "name": "iPhone SE"
+    },
+    {
+      "id": "child2_voice",
+      "name": "Voice"
+    },
+    {
+      "id": "bm-airtel",
+      "name": "bm-airtel"
+    },
+    {
+      "id": "bm-redmi-13-pro-stocklabels",
+      "name": "Bm-Redmi-13-pro stock labels"
+    },
+    {
+      "id": "bm-redmi-11-pro-kafka",
+      "name": "Bm-Redmi-11-pro-Kafka"
+    },
+    {
+      "id": "bm-times-prime",
+      "name": "BM Times Prime"
+    },
+    {
+      "id": "bm-movies-english-kafka",
+      "name": "bm-Movies-English KAFKA"
+    },
+    {
+      "id": "bm-postpaid-basic-plan",
+      "name": "bm-postpaid-basic-plan"
+    },
+    {
+      "id": "amazon-tv",
+      "name": "amazon-tv"
+    },
+    {
+      "id": "bm-airtel-1299",
+      "name": "bm-airtel-1299"
+    },
+    {
+      "id": "oppo_f23_5g_e2e",
+      "name": "OPPO F23 5G"
+    },
+    {
+      "id": "iphone_15_pro_e2e",
+      "name": "iPhone 15 Pro"
+    },
+    {
+      "id": "bm-green-30",
+      "name": "bm-green-30"
+    },
+    {
+      "id": "bm-child-for-pune",
+      "name": "BM Child One Pune PO"
+    },
+    {
+      "id": "oppo_reno_10_pro_plus_e2e",
+      "name": "OPPO Reno10 Pro Plus"
+    },
+    {
+      "id": "bmbundlplansoho1",
+      "name": "Bm-Bundle-PlanSOHO1"
+    },
+    {
+      "id": "iphone_15_plus_2_e2e",
+      "name": "iPhone 15 Plus"
+    },
+    {
+      "id": "oppo_3_w_bluetooth_speaker",
+      "name": "BM OPPO 3 W Bluetooth Speaker"
+    },
+    {
+      "id": "bm-10-5-mbps-prepaid-kafka",
+      "name": "bm-10-5-MBPS-Prepaid-kafka"
+    },
+    {
+      "id": "samsung_galaxy_buds_live_promo_mystic_bronze",
+      "name": "BM Samsung Galaxy Buds Live Promo - Mystic Bronze"
+    },
+    {
+      "id": "bm-green-50-kafka",
+      "name": "bm-green-50 KAFKA"
+    },
+    {
+      "id": "bm-100gb-5g-kafka",
+      "name": "bm-100GB-5G KAFKA"
+    },
+    {
+      "id": "bm-sport-all",
+      "name": "bm-Sport-all"
+    },
+    {
+      "id": "bm-me-399-po",
+      "name": "BM 399 Plan"
+    },
+    {
+      "id": "bm-blue-90-membership-plan",
+      "name": "BM-Blue-90-Membership"
+    },
+    {
+      "id": "bm-green-20",
+      "name": "bm-green-20"
+    },
+    {
+      "id": "bm-redmi-10-pro",
+      "name": "Bm-Redmi-10-pro"
+    },
+    {
+      "id": "me-po-simple-199",
+      "name": "BM Subscription 199 Plan"
+    },
+    {
+      "id": "bm-red-500",
+      "name": "bm-RED-500"
+    },
+    {
+      "id": "bm-red-800",
+      "name": "bm-RED-800"
+    },
+    {
+      "id": "29_99_endless_companion_plan",
+      "name": "BM 29.99 dollars Endless Companion Plan"
+    },
+    {
+      "id": "bm-netflix",
+      "name": "bm-NETFLIX "
+    },
+    {
+      "id": "bm-green-50",
+      "name": "bm-green-50"
+    },
+    {
+      "id": "rha-true-connnect-headset",
+      "name": "BM RHA TrueConnect Headset"
+    },
+    {
+      "id": "bm-aircel-200",
+      "name": "bm-aircel-200"
+    },
+    {
+      "id": "bm-samsung-charger",
+      "name": "bm-Samsung-Charger"
+    },
+    {
+      "id": "bm-fixed-1000-of_xmdya",
+      "name": "bm-Fixed-1000"
+    },
+    {
+      "id": "bm-3-128-kbps",
+      "name": "bm-3-128-KBPS"
+    },
+    {
+      "id": "bm-sport-cricket",
+      "name": "bm-Sport-Cricket"
+    },
+    {
+      "id": "bm-movies-english",
+      "name": "bm-Movies-English"
+    },
+    {
+      "id": "bm-50-40-mbps",
+      "name": "bm-50-40-MBPS Auto"
+    },
+    {
+      "id": "bm_jio_cinema",
+      "name": "bm_jio_cinema"
+    },
+    {
+      "id": "bm-visual-voice",
+      "name": "bm-Visual-Voice"
+    },
+    {
+      "id": "bm-50-10-mbps-unlimited",
+      "name": "bm-50-10-MBPS-Unlimited"
+    },
+    {
+      "id": "bm-nokia-charger",
+      "name": "bm-Nokia-Charger"
+    },
+    {
+      "id": "bm-movies-spanish",
+      "name": "bm-Movies-Spanish"
+    },
+    {
+      "id": "bm_oppo_v3_charger",
+      "name": "bm_oppo_v3_charger"
+    },
+    {
+      "id": "bm-spotify",
+      "name": "bm-Spotify"
+    },
+    {
+      "id": "bm-75-20-mbps",
+      "name": "bm-200-20-MBPS"
+    },
+    {
+      "id": "zee5",
+      "name": "zee5"
+    },
+    {
+      "id": "bm_jio_sms",
+      "name": "bm_jio_sms"
+    },
+    {
+      "id": "bm-dell-ace",
+      "name": "bm-dell-ace"
+    },
+    {
+      "id": "vi_max_401-of_fd2ia4r",
+      "name": "Vi Max 401"
+    },
+    {
+      "id": "bm-redmi-12-pro-e2e",
+      "name": "Bm-Redmi-12-pro-E2E"
+    },
+    {
+      "id": "bm-plan-199",
+      "name": "BM 199 Plan"
+    },
+    {
+      "id": "bm-blue-300",
+      "name": "bm-Blue-300"
+    },
+    {
+      "id": "bm-po-with-place-pune-mumbai",
+      "name": "bm-po-with-place-Pune-Mumbai"
+    },
+    {
+      "id": "bm_zoho_subscription",
+      "name": "bm-child-soho-2"
+    },
+    {
+      "id": "bm-airtel-499",
+      "name": "bm-airtel-499"
+    },
+    {
+      "id": "bm-iphone-15-charger-kafka",
+      "name": "bm-Iphone-15-Charger-Kafka"
+    },
+    {
+      "id": "bm-blue-400",
+      "name": "bm-Blue-400"
+    },
+    {
+      "id": "bm-redmi-charger-kafka",
+      "name": "bm-Redmi-Charger-Kafka"
+    },
+    {
+      "id": "bm-redmi-18-pro",
+      "name": "Bm-Redmi-18-pro"
+    },
+    {
+      "id": "bm-iphone-13-stocklabel_5",
+      "name": "bm-iphone-13-stocklabel_5"
+    },
+    {
+      "id": "bm-sun-nxt",
+      "name": "bm-SUN-NXT"
+    },
+    {
+      "id": "bm-iphone-13-stocklabel_3",
+      "name": "bm-iphone-13-stocklabel_3"
+    },
+    {
+      "id": "bm-apple-headphone-kafka",
+      "name": "bm-Apple-Headphone-Kafka"
+    },
+    {
+      "id": "bm-dlink-m200-kafka",
+      "name": "bm-DLINK-M200-Kafka"
+    },
+    {
+      "id": "bm-red-100-for-cross",
+      "name": "BM-RED-100-Cross-Opt0"
+    },
+    {
+      "id": "child_offer_1_mobile",
+      "name": "child_offer_1_mobile"
+    },
+    {
+      "id": "bm-sport-cricket-kafka",
+      "name": "bm-Sport-Cricket KAFKA"
+    },
+    {
+      "id": "bm-vodaphone-po",
+      "name": "BM Vodafone PO"
+    },
+    {
+      "id": "high_speed_internet_5010_mbps_new-of_huybl",
+      "name": "BM High Speed Internet 50/10 Mbps new"
+    },
+    {
+      "id": "harman_kardon_citation_500_grey",
+      "name": "BM Harman Kardon Citation 500 - Grey"
+    },
+    {
+      "id": "bm-neon-bm-tv-series-kafka",
+      "name": "bm-Neon-bm-TV-series KAFKA"
+    },
+    {
+      "id": "oppo_watch_46mm_black",
+      "name": "BM OPPO Watch 46mm Black"
+    },
+    {
+      "id": "samsung_galaxy_s21_ultra_5g_phantom_black",
+      "name": "BM Samsung Galaxy S21 Ultra 5G - Phantom Black"
+    },
+    {
+      "id": "jio_maha_cashback",
+      "name": "jio_maha_cashback"
+    },
+    {
+      "id": "device_payment_30_euro_24_months-of_djsyu",
+      "name": "Google Pixel 7 Pro"
+    },
+    {
+      "id": "bm-prepaid-20-kafka",
+      "name": "bm-prepaid-20 KAFKA"
+    },
+    {
+      "id": "me-secondary-299-plan",
+      "name": "BM subscription 399 plan"
+    },
+    {
+      "id": "handsets_apple_iphone_13_mini",
+      "name": "BM Handset Apple Iphone 13 mini"
+    },
+    {
+      "id": "business_team_endless_plan_24_months",
+      "name": "BM Business Team Endless Plan 24 Months"
+    },
+    {
+      "id": "bm-iphone-13",
+      "name": "bm-IPHONE-13"
+    },
+    {
+      "id": "bm-iphone-charger",
+      "name": "bm-Iphone-Charger"
+    },
+    {
+      "id": "bm-neon-actions",
+      "name": "bm-Neon-actions"
+    },
+    {
+      "id": "bm_vivov23mobile",
+      "name": "bm-vivo-v23"
+    },
+    {
+      "id": "bm-100-10-mbps-unlimited",
+      "name": "bm-100-10-MBPS-Unlimited"
+    },
+    {
+      "id": "bm-xiomi-note",
+      "name": "bm-xiomi-note"
+    },
+    {
+      "id": "bm_jio_499_plan",
+      "name": "bm_jio_499_plan"
+    },
+    {
+      "id": "bm_jio_news",
+      "name": "bm_jio_news"
+    },
+    {
+      "id": "bm-500-minutes",
+      "name": "bm-500-Minutes"
+    },
+    {
+      "id": "bm-movies-hindi",
+      "name": "bm-movies-Hindi"
+    },
+    {
+      "id": "bm-blue-199",
+      "name": "bm-Blue-199"
+    },
+    {
+      "id": "bm_neon_charger",
+      "name": "bm-neon-charger"
+    },
+    {
+      "id": "bm-movies-marathi",
+      "name": "bm-Movies-Marathi"
+    },
+    {
+      "id": "bm-10gb-4gb-kafka",
+      "name": "bm-10GB-4GB KAFKA"
+    },
+    {
+      "id": "bm-galaxy-no-place-in-po",
+      "name": "bm-galaxy-no-place-in-po"
+    },
+    {
+      "id": "bm-live-product",
+      "name": "BM Live Product "
+    },
+    {
+      "id": "bm-prepaid-50-of_ivanb",
+      "name": "bm-prepaid-50"
+    },
+    {
+      "id": "bm-7-4-mbps",
+      "name": "bm-7-4-MBPS"
+    },
+    {
+      "id": "bm-linksys-of_nonnk",
+      "name": "bm-LINKSYS"
+    },
+    {
+      "id": "bm-fixed-300-of_l856w",
+      "name": "bm-Fixed-300"
+    },
+    {
+      "id": "bm_redmi_headphone-kafka",
+      "name": "bm_redmi_headphone-kafka"
+    },
+    {
+      "id": "walletcardonetime",
+      "name": "walletcardonetime"
+    },
+    {
+      "id": "bm-redmi-note-11t",
+      "name": "Bm-Redmi-note-11T"
+    },
+    {
+      "id": "iphone_14_plus_e2e",
+      "name": "iPhone 14 Plus"
+    },
+    {
+      "id": "bm-aircel-249-e2e",
+      "name": "bm-Aircel-249-E2E"
+    },
+    {
+      "id": "bm-mumbai-po",
+      "name": "BM Child One Mumbai PO"
+    },
+    {
+      "id": "bm-red-450",
+      "name": "BM RED 450 "
+    },
+    {
+      "id": "iphone_15_pro_max_e2e",
+      "name": "iPhone 15 Pro Max"
+    },
+    {
+      "id": "oppo_find_n3_flip_2_e2e",
+      "name": "OPPO Find N3 Flip"
+    },
+    {
+      "id": "subscription_offer-of_29i0nkl",
+      "name": "Subscription Offer"
+    },
+    {
+      "id": "bm-oppo-global-charger",
+      "name": "BM OPPO Global Charger"
+    },
+    {
+      "id": "bm_jio_data_booster",
+      "name": "bm-child-soho-1"
+    },
+    {
+      "id": "bm-galaxy-s-22",
+      "name": "bm-Galaxy-S-22"
+    },
+    {
+      "id": "bm-galaxy-21-4g",
+      "name": "bm-Galaxy-21-4G"
+    },
+    {
+      "id": "bm-20-5-mbps-limited-usage",
+      "name": "bm-20-5-MBPS-Limited-usage"
+    },
+    {
+      "id": "bm_oppo_v1_kafka",
+      "name": "bm_oppo_v1_Kafka"
+    },
+    {
+      "id": "bm-iphone-charger-kafka",
+      "name": "bm-Iphone-Charger-Kafka"
+    },
+    {
+      "id": "bm-oppo-v1",
+      "name": "BM OPPO V1"
+    },
+    {
+      "id": "bm-iphone-13-stocklabel_1",
+      "name": "bm-iphone-13-stocklabel_1"
+    },
+    {
+      "id": "bm-iphone-13-stocklabel_4",
+      "name": "bm-iphone-13-stocklabel_4"
+    },
+    {
+      "id": "bm-oppo-3-w-bluetooth-speaker-kafka",
+      "name": "BM OPPO 3 W Bluetooth Speaker Kafka"
+    },
+    {
+      "id": "bm_oppo_v2_charger-kafka",
+      "name": "bm_oppo_v2_charger-kafka"
+    },
+    {
+      "id": "bm-iphone-12-kafka",
+      "name": "bm-IPHONE-12-Kafka"
+    },
+    {
+      "id": "bm-iphone-13-stocklabel_2",
+      "name": "bm-iphone-13-stocklabel_2"
+    },
+    {
+      "id": "bm_jio_e2eq3-of_k8at7nu",
+      "name": "bm_jio_e2eQ3"
+    },
+    {
+      "id": "tata_play_fiber-of_58na5xr",
+      "name": "Pure Play Fiber"
+    },
+    {
+      "id": "bm-anti-subscription",
+      "name": "K7 Antivirus Subscription"
+    },
+    {
+      "id": "bm-add-spotify-free-kafka",
+      "name": "bm-add-spotify-free KAFKA"
+    },
+    {
+      "id": "bm_oppo_v2_kafka",
+      "name": "bm_oppo_v2_Kafka"
+    },
+    {
+      "id": "bm-spotify-half-kafka",
+      "name": "bm-spotify-half KAFKA"
+    },
+    {
+      "id": "bm_prepaid_1000-of_263m31w",
+      "name": "BM Prepaid 1000"
+    },
+    {
+      "id": "bm-postpaid-basic-plan-kafka",
+      "name": "bm-postpaid-basic-plan KAFKA"
+    },
+    {
+      "id": "bm-call-project-kafka",
+      "name": "Bm Call Project KAFKA"
+    },
+    {
+      "id": "bm-60-20-mbps",
+      "name": "bm-300-20-MBPS"
+    },
+    {
+      "id": "airtel-299",
+      "name": "Airtel-299"
+    },
+    {
+      "id": "bm-green-100-kafka",
+      "name": "bm-green-100 KAFKA"
+    },
+    {
+      "id": "bm-prepaid-30",
+      "name": "bm-prepaid-30"
+    },
+    {
+      "id": "bm-10gb-4gb",
+      "name": "bm-10GB-4GB"
+    },
+    {
+      "id": "bm-blue-365-membership-plan",
+      "name": "BM-Blue-365-Membership"
+    },
+    {
+      "id": "20-gb-data",
+      "name": "BM 20GB data "
+    },
+    {
+      "id": "39_99_endless_mobile_plan",
+      "name": "BM 39.99 dollars Endless Mobile Plan"
+    },
+    {
+      "id": "bm-prepaid-40",
+      "name": "bm-prepaid-40"
+    },
+    {
+      "id": "business_team_endless_plan",
+      "name": "BM Business Team Endless Plan 12 Month"
+    },
+    {
+      "id": "bm-450-20-mbps",
+      "name": "bm-450-20-MBPS"
+    },
+    {
+      "id": "bm-redmi-12-pro",
+      "name": "Bm-Redmi-12-pro"
+    },
+    {
+      "id": "79_99_endless_mobile_plan",
+      "name": "BM 79.99 dollars Endless Mobile Plan"
+    },
+    {
+      "id": "bm_oppo_v1_chrrger",
+      "name": "bm_oppo_v1_charger"
+    },
+    {
+      "id": "bm-nokia-headphone",
+      "name": "bm-Nokia-Headphone"
+    },
+    {
+      "id": "bm-5mbps-128-kbps-limited-usage",
+      "name": "bm-75MBPS-20-limited-usage"
+    },
+    {
+      "id": "bm_oppo_v2_charger",
+      "name": "bm_oppo_v2_charger"
+    },
+    {
+      "id": "bm-nokia-5320-dual-sim",
+      "name": "bm-Nokia-5320-Dual-SIM "
+    },
+    {
+      "id": "bm-400-20-mbps",
+      "name": "bm-400-20-MBPS"
+    },
+    {
+      "id": "bm-green-100",
+      "name": "bm-green-100"
+    },
+    {
+      "id": "bm-neon-movies",
+      "name": "<img src=x onMouseOver=alert(\"Hello\")>"
+    },
+    {
+      "id": "bm-chroma",
+      "name": "bm-chroma"
+    },
+    {
+      "id": "handsets_apple_iphone_13",
+      "name": "BM Handset Apple Iphone 13"
+    },
+    {
+      "id": "samsung_galaxy_buds_live_promo_mystic_black",
+      "name": "BM Samsung Galaxy Buds Live Promo - Mystic Black"
+    },
+    {
+      "id": "bm-broadband-addon-product",
+      "name": "bm-broadband-addon-product"
+    },
+    {
+      "id": "bm-tp-universal-wirelessrange-extender",
+      "name": "bm-TP-Universal-wirelessRange-Extender"
+    },
+    {
+      "id": "harman_kardon_onyx_6_bt_speaker_promo_black",
+      "name": "BM harman kardon Onyx BT speaker promo black"
+    },
+    {
+      "id": "bm-tenda-200",
+      "name": "bm-TENDA-200"
+    },
+    {
+      "id": "bm-fixed-200-of_7o4s4",
+      "name": "bm-Fixed-200"
+    },
+    {
+      "id": "bm-10-5-mbps",
+      "name": "bm-10-5-MBPS"
+    },
+    {
+      "id": "bm-dlink-m200",
+      "name": "bm-DLINK-M200"
+    },
+    {
+      "id": "oppo_enco_w51_true_wireless_headphones_white",
+      "name": "BM Oppo Enco W51 True Wireless Headphones White"
+    },
+    {
+      "id": "bm-bangalore-plan",
+      "name": "BM-Special-Plan-Bangalore"
+    },
+    {
+      "id": "bm-spotify-half",
+      "name": "bm-spotify-half"
+    },
+    {
+      "id": "bm-prepaid-plan-addon",
+      "name": "bm-prepaid-plan-addon"
+    },
+    {
+      "id": "cellphone_bm",
+      "name": "bm_cellphone"
+    },
+    {
+      "id": "bm-20gb-4gb",
+      "name": "bm-20GB-4GB"
+    },
+    {
+      "id": "bm-shipping-charges-mobile-kafka",
+      "name": "shipping Charges KAFKA"
+    },
+    {
+      "id": "bm-blue-500-kafka",
+      "name": "bm-Blue-500-kafka"
+    },
+    {
+      "id": "bm-amazon-prime",
+      "name": "bm-AMAZON-PRIME"
+    },
+    {
+      "id": "apple-adapter-usb",
+      "name": "BM-Apple Adapter USB"
+    },
+    {
+      "id": "bm-linksys",
+      "name": "bm-LINKSYS"
+    },
+    {
+      "id": "samsung_galaxy_buds_2_graphite",
+      "name": "BM Samsung galaxy buds 2 - Graphite"
+    },
+    {
+      "id": "bm-50-20-mbps",
+      "name": "bm-350-20-MBPS"
+    },
+    {
+      "id": "bm-50-10-mbps-ilimitado-of_t3v59",
+      "name": "bm-50-10-MBPS-Ilimitado"
+    },
+    {
+      "id": "gift_bluetooth_speakers-tax-verification",
+      "name": "gift_bluetooth_speakers-tax verification"
+    },
+    {
+      "id": "bm_jio_599",
+      "name": "bm_jio_599"
+    },
+    {
+      "id": "samsung_galaxy_s2_ultra_5g_phantom_silver",
+      "name": "BM Samsung Galaxy S21 Ultra 5G -  Phantom Silver"
+    },
+    {
+      "id": "bm-fixed-500-of_1mdq6",
+      "name": "bm-Fixed-500"
+    },
+    {
+      "id": "bm-spotify-free_without_channel-place_po2",
+      "name": "bm-spotify-free_Without_Channel-place_PO2"
+    },
+    {
+      "id": "redmi-12-pro",
+      "name": "BM Redmi Note12 pro plus"
+    },
+    {
+      "id": "bm-prepaid-10",
+      "name": "bm-prepaid-10"
+    },
+    {
+      "id": "bm-spotify-free_without_channel-place",
+      "name": "bm-spotify-free_Without_Channel-place"
+    },
+    {
+      "id": "bm-spotify-premium",
+      "name": "bm-spotify-premium"
+    },
+    {
+      "id": "bm-prepaid-plan",
+      "name": "bm-prepaid-plan"
+    },
+    {
+      "id": "bm_oppo_v2",
+      "name": "bm_oppo_v2"
+    },
+    {
+      "id": "bm-india-plan",
+      "name": "BM-India-Plan"
+    },
+    {
+      "id": "layer2_vpn-of_dpxa4s3",
+      "name": "Layer2 VPN Clone"
+    },
+    {
+      "id": "bm-fixed-100-of_hi8e1",
+      "name": "bm-Fixed-100"
+    },
+    {
+      "id": "xbox_series_s_white",
+      "name": "BM Xbox Series S - White"
+    },
+    {
+      "id": "bm-spotify-free_with_marketsegment_business",
+      "name": "bm-spotify-free_With_MarketSegment_Business"
+    },
+    {
+      "id": "bm-amazonprime",
+      "name": "bm-amazonprime"
+    },
+    {
+      "id": "bm-prepaid-70-24-months",
+      "name": "bm-prepaid-70-24-months"
+    },
+    {
+      "id": "bm_child_redmi_charger",
+      "name": "bm_child_redmi_charger"
+    },
+    {
+      "id": "bm-prepaid-70",
+      "name": "bm-prepaid-70-12-months"
+    },
+    {
+      "id": "darkfiber_15_years_neom",
+      "name": "Dark Fiber Simple PO"
+    },
+    {
+      "id": "digital-switch-pro",
+      "name": "Digital Switch Pro"
+    },
+    {
+      "id": "msdwan_premium",
+      "name": "Managed SDWAN Premium"
+    },
+    {
+      "id": "network-cpe-one",
+      "name": "Network CPE One"
+    },
+    {
+      "id": "me-199plan-primary",
+      "name": "BM Subscription 149 plan"
+    },
+    {
+      "id": "analog-switch-pro",
+      "name": "Analog Switch Pro"
+    },
+    {
+      "id": "gift_bluetooth_headphone",
+      "name": "gift_bluetooth_headphone"
+    },
+    {
+      "id": "bm-apple-airpods-kafka",
+      "name": "bm-Apple-AirPods-Kafka"
+    },
+    {
+      "id": "dark_fiber_neom",
+      "name": "Dark Fiber"
+    },
+    {
+      "id": "dark_fiber_standard",
+      "name": "Dark Fiber Standard"
+    },
+    {
+      "id": "bm-apple-airpods",
+      "name": "BM-Apple Airpods"
+    },
+    {
+      "id": "internet_port",
+      "name": "Internet Port"
+    },
+    {
+      "id": "internet_cpe",
+      "name": "Network CPE"
+    },
+    {
+      "id": "shipping_charge_price_override",
+      "name": "Shipping Charge"
+    },
+    {
+      "id": "bm-airtel-100",
+      "name": "BM airtel 100"
+    },
+    {
+      "id": "bm-500-20-mbps",
+      "name": "bm-500-20-MBPS"
+    },
+    {
+      "id": "bm_jio_data",
+      "name": "bm_jio_data"
+    },
+    {
+      "id": "bm-neon-bm-tv-series-e2e",
+      "name": "bm-Neon-bm-TV-series E2E"
+    },
+    {
+      "id": "bm-movies-kannada-e2e",
+      "name": "bm-Movies-Kannada-E2E"
+    },
+    {
+      "id": "bm-dlink-m200-e2e",
+      "name": "bm-DLINK-M200-E2E"
+    },
+    {
+      "id": "smart_city_slice_e2e",
+      "name": "Smart City Slice-e2e"
+    },
+    {
+      "id": "bm-spotify-half-e2e",
+      "name": "bm-spotify-half E2E"
+    },
+    {
+      "id": "settopbox1-productoffer-e2e",
+      "name": "BM Set Top box E2E"
+    },
+    {
+      "id": "bm-idea-prepaid-e2e",
+      "name": "bm-Idea-prepaid-e2e"
+    },
+    {
+      "id": "bm-movies-english-e2e",
+      "name": "bm-Movies-English E2E"
+    },
+    {
+      "id": "bm-100gb-5g-e2e",
+      "name": "bm-100GB-5G E2E"
+    },
+    {
+      "id": "bm-postpaid-basic-plan-e2e",
+      "name": "bm-postpaid-basic-plan E2E"
+    },
+    {
+      "id": "bm-relience-plan-e2e",
+      "name": "BM-RELIANCE-Device-E2E"
+    },
+    {
+      "id": "bm-subscription-159-plan",
+      "name": "BM Subscription 159 plan"
+    },
+    {
+      "id": "bm-10gb-4gb-e2e",
+      "name": "bm-10GB-4GB E2E"
+    },
+    {
+      "id": "bm-sport-cricket-e2e",
+      "name": "bm-Sport-Cricket E2E"
+    },
+    {
+      "id": "smart_city_slice_e2e_secondary",
+      "name": "smart_city_slice_e2e_secondary"
+    },
+    {
+      "id": "vodafone-red-399",
+      "name": "BM Vodafone RED 399 Auto E2E "
+    },
+    {
+      "id": "bm-blue-550-e2e",
+      "name": "BM Blue 550 E2E"
+    },
+    {
+      "id": "bm-80-20-mbps-unlimited-e2e",
+      "name": "bm-80-20-MBPS-Unlimited-E2E"
+    },
+    {
+      "id": "bm-350-20-mbps-e2e",
+      "name": "bm-350-20-MBPS-E2E"
+    },
+    {
+      "id": "bm-700-minutes-e2e",
+      "name": "Bm 700 Minutes E2E"
+    },
+    {
+      "id": "bm-nokia-5320-dual-sim-e2e",
+      "name": "bm-Nokia-5320-Dual-SIM -E2E"
+    },
+    {
+      "id": "bm-movies-allinoneplan-e2e",
+      "name": "bm-movies-allinOnePlan-E2E"
+    },
+    {
+      "id": "bm-red-800-e2e",
+      "name": "bm-RED-800-E2E"
+    },
+    {
+      "id": "bm-iphone-12-e2e-of_i5vyo4o",
+      "name": "bm-iphone-12-e2e"
+    },
+    {
+      "id": "bm-movies-hindi-e2e",
+      "name": "bm-movies-Hindi E2E"
+    },
+    {
+      "id": "bm-prepaid-20-e2e",
+      "name": "bm-prepaid-20 E2E"
+    },
+    {
+      "id": "bm-10-5-mbps-prepaid-e2e",
+      "name": "bm-10-5-MBPS-Prepaid-E2E"
+    },
+    {
+      "id": "bm-50-10-mbps-unlimited-e2e",
+      "name": "bm-50-10-MBPS-Unlimited-E2E"
+    },
+    {
+      "id": "oppo_a54_5g_fluid_black",
+      "name": "BM OPPO A54 5G - Fluid Black"
+    },
+    {
+      "id": "internet_last_mile",
+      "name": "Network Last Mile"
+    },
+    {
+      "id": "smart_folio_ipad_air_marine_blue",
+      "name": "BM Smart Folio for iPad Air (5th generation) - Marine Blue"
+    },
+    {
+      "id": "sony_tv",
+      "name": "BM SONY TV"
+    },
+    {
+      "id": "bm-blue-30-membership-plan",
+      "name": "BM-Blue-30-Membership"
+    },
+    {
+      "id": "bm-blue-270-membership-plan",
+      "name": "BM-Blue-270-Membership"
+    },
+    {
+      "id": "stock_po1_for_ov-52877",
+      "name": "Stock_PO1_for_OV-52877"
+    },
+    {
+      "id": "mpls_port_new1",
+      "name": "MPLS Port"
+    },
+    {
+      "id": "merule-299-plan",
+      "name": "BM Subscription 299 Plan"
+    },
+    {
+      "id": "bm_blue450_e2e_cloned",
+      "name": "bm-Blue-450-E2E_cloned"
+    },
+    {
+      "id": "bm-broadband-tv-router-option0-e2e",
+      "name": "bm-broadband-tv-router-option0-E2E"
+    },
+    {
+      "id": "bm-broadband-tv-cross-oc-option1",
+      "name": "bm-broadband-tv-cross-oc-option1"
+    },
+    {
+      "id": "bm-broadband-bundle-e2e",
+      "name": "bm-Broadband-Bundle-E2E"
+    },
+    {
+      "id": "bm-bundle-prepaid-subscription-e2e",
+      "name": "bm-Bundle-Prepaid-Subscription E2E"
+    },
+    {
+      "id": "bm-broadband-tv-cross-oc-option1-e2e",
+      "name": "bm-broadband-tv-cross-oc-option1-e2e"
+    },
+    {
+      "id": "bm-broadband-tv-cross-oc-e2e-check1",
+      "name": "bm-broadband-tv-cross-oc-E2E-check1"
+    },
+    {
+      "id": "bm-basic-plan-bundle-e2e",
+      "name": "BM-Basic-Plan-Bundle-e2e"
+    },
+    {
+      "id": "bm-broadband-bundle-inter-oc-e2e",
+      "name": "bm-Broadband-Bundle-inter-oc E2E"
+    },
+    {
+      "id": "bm-mobile-prepaid-device-option1",
+      "name": "bm-mobile-prepaid-device-option1"
+    },
+    {
+      "id": "jio_maha_cashback_bundle",
+      "name": "jio_maha_cashback_bundle"
+    },
+    {
+      "id": "defaultbundle",
+      "name": "defaultbundle"
+    },
+    {
+      "id": "bm-blue-450",
+      "name": "BM Allowance E2E"
+    },
+    {
+      "id": "bm_orderchannel_e2e",
+      "name": "bm_orderchannel_e2e"
+    },
+    {
+      "id": "bm-nokia-c01",
+      "name": "bm-Nokia-C01"
+    },
+    {
+      "id": "local_connectivity",
+      "name": "Local Connectivity"
+    },
+    {
+      "id": "cpe_device",
+      "name": "CPE Device"
+    },
+    {
+      "id": "new_internet_port",
+      "name": "Connectivity Port"
+    },
+    {
+      "id": "bm-airtel-international-plan",
+      "name": "bm-airtel-international-plan"
+    },
+    {
+      "id": "me-secondary-299-plan-e2e",
+      "name": "BM subscription 299 plan E2E"
+    },
+    {
+      "id": "shipping_charge_priceoverride_prodchar",
+      "name": "Shipping Charge"
+    },
+    {
+      "id": "bm-movies-telgu",
+      "name": "bm-Movies-Telgu"
+    },
+    {
+      "id": "bm-sport-all-e2e",
+      "name": "bm-Sport-all-E2E"
+    },
+    {
+      "id": "bm-gray-800-e2e",
+      "name": "BM-Gray-800-E2E"
+    },
+    {
+      "id": "settopbox-productoffer-e2e",
+      "name": "BM Set Top box E2E"
+    },
+    {
+      "id": "bm-blue-450-e2e",
+      "name": "bm-Blue-450-E2E"
+    },
+    {
+      "id": "bm-shippingcharges",
+      "name": "Shipping Charges"
+    },
+    {
+      "id": "bm-blue-500-e2e",
+      "name": "bm-Blue-500-E2E"
+    },
+    {
+      "id": "bm-blue-400-e2e",
+      "name": "bm-Blue-400-E2E"
+    },
+    {
+      "id": "bm-prepaid-30-e2e",
+      "name": "bm-prepaid-30 E2E"
+    },
+    {
+      "id": "bm-movies-allinoneplan",
+      "name": "bm-movies-allinOnePlan"
+    },
+    {
+      "id": "bm-reliance-plan",
+      "name": "BM-RELIANCE-PLAN"
+    },
+    {
+      "id": "bm-iphone-xr-e2e",
+      "name": "bm-IPHONE-XR-E2E"
+    },
+    {
+      "id": "bm-tenda-200-e2e",
+      "name": "bm-TENDA-200-E2E"
+    },
+    {
+      "id": "bm-jio-99-e2e",
+      "name": "BM Jio 99 E2E"
+    },
+    {
+      "id": "bm-iphone-13-e2e",
+      "name": "bm-IPHONE-13-E2E"
+    },
+    {
+      "id": "tv_antenna",
+      "name": "BM TV Antenna "
+    },
+    {
+      "id": "bm-tv-bundle-allin-one-option1-e2e",
+      "name": "bm-tv-bundle-allin-one-option1-e2e"
+    },
+    {
+      "id": "bm-mobile-prepaid-device-option1-e2e",
+      "name": "bm-mobile-prepaid-device-option1-e2e"
+    },
+    {
+      "id": "bm-broadband-tv-cross-oc-e2e",
+      "name": "bm-broadband-tv-cross-oc-E2E"
+    },
+    {
+      "id": "galaxy-z-flip-4-bundle-e2e",
+      "name": "BM Galaxy Z Flip4 Bundle E2E"
+    },
+    {
+      "id": "enterprise-bundle-plan-internet",
+      "name": "Enterprise Internet Bundle Plan"
+    },
+    {
+      "id": "bundle_with_red_800-e2e",
+      "name": "BM bundle with Red 800 E2E"
+    },
+    {
+      "id": "bm-neon-bundle",
+      "name": "bm-neon-bundle"
+    },
+    {
+      "id": "bm-apple-airpods-bundle",
+      "name": "BM Apple Airpods Bundle"
+    },
+    {
+      "id": "channel-based-cross-oc-po",
+      "name": "channel based cross oc PO"
+    },
+    {
+      "id": "bundleacrossoffercontaineroption1",
+      "name": "bundleacrossoffercontaineroption1"
+    },
+    {
+      "id": "defaultbundleoc",
+      "name": "defaultbundleoc"
+    },
+    {
+      "id": "bundleacrossoffercontainer",
+      "name": "bundleacrossoffercontainer"
+    },
+    {
+      "id": "bundle_inside-red_1100",
+      "name": "BM Bundle inside RED 1100 "
+    },
+    {
+      "id": "bundle-red-900",
+      "name": "BM Subscription bundle with device red 900"
+    },
+    {
+      "id": "bm-postpaid-bundle-offer-001",
+      "name": "BM-Postpaid-Bundle-Offers"
+    },
+    {
+      "id": "bundleitemtermrequest",
+      "name": "bundleitemtermrequest"
+    },
+    {
+      "id": "bm-bundle-plan-me",
+      "name": "BM Bundle Plan ME"
+    },
+    {
+      "id": "bundleminimum",
+      "name": "bundleminimum"
+    },
+    {
+      "id": "bm-tv-subscription-regional",
+      "name": "bm-tv-subscription-regional"
+    },
+    {
+      "id": "google-pixel-7-pro-bundle",
+      "name": "BM Google Pixel 7 Pro Bundle Device"
+    },
+    {
+      "id": "bm-international-plan-bundle-subscription",
+      "name": "BM-International-Plan Bundle Subscription"
+    },
+    {
+      "id": "bundlebasedoniteterm",
+      "name": "bundlebasedoniteTerm"
+    },
+    {
+      "id": "bundle_with_red_1100",
+      "name": "BM Bundle with RED 1100 "
+    },
+    {
+      "id": "bm-bundle-plan-pro",
+      "name": "BM Bundle Plan Pro"
+    },
+    {
+      "id": "bm-bundle-cross-opt1",
+      "name": "BM Bundle Cross Opt1"
+    },
+    {
+      "id": "bundlebasedpuneplace",
+      "name": "bundlebasedpuneplaceoptionone"
+    },
+    {
+      "id": "bundleitemterm",
+      "name": "bundleitemterm1"
+    },
+    {
+      "id": "bm-mobile-prepaid-device-option-one-cloned1",
+      "name": "bm-mobile-prepaid-device-option-one"
+    },
+    {
+      "id": "bm-spotify-bundle",
+      "name": "bm-spotify-bundle"
+    },
+    {
+      "id": "new_enterprise_internet_bundle_simple_level_price",
+      "name": "Dynamic VPN Solution Bundle"
+    },
+    {
+      "id": "bm-tv-bundle-allin-one",
+      "name": "bm-tv-bundle-allin-one"
+    },
+    {
+      "id": "static_enterprise_internet_bundle_bundle_price",
+      "name": "Static Enterprise Internet Bundle (Bundle Price)"
+    },
+    {
+      "id": "bundleitemtermdefined",
+      "name": "bundleitemtermdefined"
+    },
+    {
+      "id": "removebundle",
+      "name": "removebundle"
+    },
+    {
+      "id": "bundle-inside-bundle-option-1",
+      "name": "bundle inside bundle option 1"
+    },
+    {
+      "id": "stock_po_for_ov-52877",
+      "name": "Stock_PO_for_OV-52877"
+    },
+    {
+      "id": "bm-tv-bundle-allin-one-option0-e2e",
+      "name": "bm-tv-bundle-allin-one-option0-e2e"
+    },
+    {
+      "id": "bm-tv-bundle-movies-plan-option0-e2e",
+      "name": "bm-tv-bundle-movies-plan-option0-e2e"
+    },
+    {
+      "id": "bm-bundle-cross-option0",
+      "name": "BM Bundle Plan ME Cross for Option0"
+    },
+    {
+      "id": "broadband-bundle-plan-e2e",
+      "name": "Broadband Bundle Plan E2E "
+    },
+    {
+      "id": "enterprise_internet_bundle",
+      "name": "Enterprise Internet Bundle"
+    },
+    {
+      "id": "bm-subscription-bundle-e2e",
+      "name": "BM-Subscription-Bundle E2E"
+    },
+    {
+      "id": "bundle-for-place",
+      "name": "Bundle Based on Place"
+    },
+    {
+      "id": "bundle-plan-soho-option-0",
+      "name": "BM Bundle Plan SOHO option 0"
+    },
+    {
+      "id": "bundle-plan-soho",
+      "name": "Bm Bundle Plan SOHO"
+    },
+    {
+      "id": "bm-oppo-bundle",
+      "name": "BM OPPO BUNDLE"
+    },
+    {
+      "id": "bm-mobile-prepaid-bundle-zero",
+      "name": "bm-mobile-prepaid-bundle-zero"
+    },
+    {
+      "id": "bm-basic-plan-bundle",
+      "name": "BM Basic Plan Bundle "
+    },
+    {
+      "id": "deletebundleoffer",
+      "name": "deletebundleoffer"
+    },
+    {
+      "id": "bm-oppo-reno-bundle",
+      "name": "BM OPPO RENO BUNDLE"
+    },
+    {
+      "id": "bundle-plan-xiaomi",
+      "name": "BM Bundle Plan Xiaomi"
+    },
+    {
+      "id": "bm-mobile-prepaid-device-option-one",
+      "name": "bm-mobile-prepaid-device-option-one"
+    },
+    {
+      "id": "child1_plan_1099",
+      "name": "Plan 1099"
+    },
+    {
+      "id": "bm-premium-plan-subscription",
+      "name": "BM Premium Plan Subscription"
+    },
+    {
+      "id": "bm-mobile-prepaid-device-option-zero",
+      "name": "bm-mobile-prepaid-device-option-zero"
+    },
+    {
+      "id": "bundlepriceoptionzero",
+      "name": "bundlepriceoptionzero"
+    },
+    {
+      "id": "bm-bundle-inside-bundle-subscription-e2e",
+      "name": "BM-Bundle-Inside-Bundle-Subscription E2E"
+    },
+    {
+      "id": "bundledelete",
+      "name": "bundledelete"
+    },
+    {
+      "id": "bmbundleinsidered1100-clone",
+      "name": "BM Bundle inside RED 1100-clone"
+    },
+    {
+      "id": "bundleinsidebundles",
+      "name": "bundleinsidebundles"
+    },
+    {
+      "id": "inside_plan_bundle-of_bybf7pb",
+      "name": "inside plan bundle"
+    },
+    {
+      "id": "bundlepriceoption1",
+      "name": "bundlePriceOption1"
+    },
+    {
+      "id": "bundle_with_red_800",
+      "name": "BM Subscription bundle with device"
+    },
+    {
+      "id": "bm-bb-cross-option1-e2e",
+      "name": "BM Bundle Plan ME for cross option1 for e2e"
+    },
+    {
+      "id": "bn-bundle-inside-bundle-subscription",
+      "name": "bn-bundle-inside-bundle-subscription"
+    },
+    {
+      "id": "bundleproductremoveone",
+      "name": "bundleproductremoveone"
+    },
+    {
+      "id": "nodefaultbundle",
+      "name": "nodefaultbundle"
+    },
+    {
+      "id": "bm-bundle-inside-1101-red",
+      "name": "BM Bundle inside RED 1101"
+    },
+    {
+      "id": "onelowerbundleremove",
+      "name": "onelowerbundleremove"
+    },
+    {
+      "id": "onebundleremove",
+      "name": "onebundleremove"
+    },
+    {
+      "id": "bm-postpaid-offer",
+      "name": "BM Postpaid Offer"
+    },
+    {
+      "id": "smokebmmodify",
+      "name": "smokebmmodify"
+    },
+    {
+      "id": "po_automation_api-of_4e9umqc",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_q9hsslc",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_9m1tqgv",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_s5xuld4",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "internet-bill-costs-2000",
+      "name": "Internet Bill costs 2000"
+    },
+    {
+      "id": "apple-charger",
+      "name": "Apple Charger "
+    },
+    {
+      "id": "po_automation_api-of_w0jjil9",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_53ss7nt",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "bm-wynck",
+      "name": "bm-wynck"
+    },
+    {
+      "id": "po_automation_api-of_ea0vzk2",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_dg2onon",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_fhn5wvn",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_k5ayv7f",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "xfpmlt3",
+      "name": "Clone Name Launched"
+    },
+    {
+      "id": "4fzkem7",
+      "name": "UIAutomationBundlePO"
+    },
+    {
+      "id": "oepnxva",
+      "name": "UIAutomationBundlePO"
+    },
+    {
+      "id": "xs84ktc",
+      "name": "UIAutomationBundlePOEdit"
+    },
+    {
+      "id": "dgjwdfr",
+      "name": "UIAutomationBundlePOClone"
+    },
+    {
+      "id": "li4vrn9",
+      "name": "UIAutomationSimplePOBlank"
+    },
+    {
+      "id": "x5yfx43",
+      "name": "UIAutomationBundlePOEdit"
+    },
+    {
+      "id": "apple-iphone-5s",
+      "name": "Apple Iphone 5S"
+    },
+    {
+      "id": "6txlzxp",
+      "name": "UIAutomationBundlePOEdit"
+    },
+    {
+      "id": "ebwiicx",
+      "name": "UIAutomationBundlePOClone"
+    },
+    {
+      "id": "1abisvt",
+      "name": "Clone Name Test"
+    },
+    {
+      "id": "vtkfu93",
+      "name": "Clone Name Active"
+    },
+    {
+      "id": "20no2cd",
+      "name": "Clone Name Launched"
+    },
+    {
+      "id": "apple-iphone-7s-plus",
+      "name": "Apple Iphone 7S Plus"
+    },
+    {
+      "id": "apple-iphone-8s",
+      "name": "Apple Iphone 8S"
+    },
+    {
+      "id": "internet-bill-costs-3000",
+      "name": "Internet Bill costs 3000"
+    },
+    {
+      "id": "apple_iphone_7s-of_73o0gq9",
+      "name": "Apple Iphone 7S"
+    },
+    {
+      "id": "bundlepo_10april-of_rwr89cj",
+      "name": "BundlePO_10April"
+    },
+    {
+      "id": "apple_iphone_6s_plus-of_tb99ezg",
+      "name": "Apple Iphone 6S Plus"
+    },
+    {
+      "id": "reliance-bundle-plan-pro",
+      "name": "Reliance Bundle Plan Pro"
+    },
+    {
+      "id": "apple-usb",
+      "name": "Apple USB"
+    },
+    {
+      "id": "reliance-bundle-handset",
+      "name": "Reliance Bundle handset"
+    },
+    {
+      "id": "bm-google-pixel-7",
+      "name": "BM Google Pixel 7"
+    },
+    {
+      "id": "bm-google-pixel-8",
+      "name": "BM Google Pixel 8"
+    },
+    {
+      "id": "bm-google-pixel-7-pro",
+      "name": "BM Google Pixel 7 pro"
+    },
+    {
+      "id": "bm-google-pixel-6",
+      "name": "BM Google Pixel 6"
+    },
+    {
+      "id": "apple-ipad",
+      "name": "Apple Ipad"
+    },
+    {
+      "id": "po_automation_api-of_ebmpjfb",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "ttmmti2",
+      "name": "Clone Name Design"
+    },
+    {
+      "id": "po_automation_api-of_phfoteu",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_3xxqudk",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_ghbwv4k",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "test_1_10april",
+      "name": "TEST_1_10april"
+    },
+    {
+      "id": "bm-colors-kannada",
+      "name": "bm-colors-kannada"
+    },
+    {
+      "id": "bm-star-suvarna",
+      "name": "bm-star-suvarna"
+    },
+    {
+      "id": "bm-gaana",
+      "name": "bm-gaana"
+    },
+    {
+      "id": "po_automation_api-of_l5ystww",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "kannada_tv_shows",
+      "name": "kannada_tv_shows"
+    },
+    {
+      "id": "addonbundle",
+      "name": "addonbundle"
+    },
+    {
+      "id": "po_automation_api-of_3i36gr7",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_le369ex",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_5pcblt0",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "user_defined-idmrgoy",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_f4zlf9r",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_jgsogbg",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_bs7ft7g",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_uctp3rr",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_qzzmlka",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_vrhwxxl",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "tata-bundle",
+      "name": "TATA Bundle "
+    },
+    {
+      "id": "simplepo_10april-of_2l5287l",
+      "name": "SimplePO_10April"
+    },
+    {
+      "id": "reliance-cross-oc-bundle",
+      "name": "Reliance Cross OC Bundle "
+    },
+    {
+      "id": "po_automation_api-of_evm3t04",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_vu1tco6",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_0r09g9g",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_ay6fsos",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_ccl1voc",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_9nkxtqe",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_39cz07v",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_rbplfy2",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_6n9td5t",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "bm-400-40-mbps",
+      "name": "bm-400-40-MBPS"
+    },
+    {
+      "id": "graphql_po_level_attachment_0",
+      "name": "GraphQL_PO_Level_Attachment Consumpotion Test"
+    },
+    {
+      "id": "graphql_po_level_attachment_1",
+      "name": "GraphQL_PO_Level_Attachment Consumpotion Test"
+    },
+    {
+      "id": "bm-samsung-galaxy-s24",
+      "name": "bm-samsung-galaxy-s24"
+    },
+    {
+      "id": "po_automation_api-of_d6iq3rg",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "bundle_po16april-of_8g8ifev",
+      "name": "Bundle PO16april"
+    },
+    {
+      "id": "simplepo_16april-of_8hqt706",
+      "name": "SimplePO_16april"
+    },
+    {
+      "id": "bm-blue-450-e2e_cloned-1-of_0pzod09",
+      "name": "bm-Blue-450-E2E_cloned-1"
+    },
+    {
+      "id": "simple_17april-of_tr7vypw",
+      "name": "Simple_17april"
+    },
+    {
+      "id": "simplepo_17april-of_6ldy2j7",
+      "name": "SIMPLEPO_17april"
+    },
+    {
+      "id": "bundlepo_17april-of_4aj7yes",
+      "name": "BundlePO_17april_edit"
+    },
+    {
+      "id": "removebundles-of_ajagroq",
+      "name": "removebundles"
+    },
+    {
+      "id": "graphql_po_level_attachment_01",
+      "name": "GraphQL_PO_Level_Attachment Consumpotion Test"
+    },
+    {
+      "id": "test-of_5rbk6s3",
+      "name": "TEST"
+    },
+    {
+      "id": "test_clone-of_v64i4i1",
+      "name": "TEST_clone"
+    },
+    {
+      "id": "simple_po18april-of_j1cdrpk",
+      "name": "Simple_PO18april"
+    },
+    {
+      "id": "tedt12-of_5yvz4rz",
+      "name": "tedt12"
+    },
+    {
+      "id": "flagpop-of_fcks6u1",
+      "name": "flagpop"
+    },
+    {
+      "id": "bm_oppo_v1_v2_v3-of_53rmzst",
+      "name": "bm_oppo_v1_v2_v3"
+    },
+    {
+      "id": "id_oppo_v1_cloned",
+      "name": "bm_oppo_v1"
+    },
+    {
+      "id": "bundle-apple-product",
+      "name": "Apple Bundle Product"
+    },
+    {
+      "id": "bundlepo_23april-of_cvbf3hl",
+      "name": "BundlePO_23april_edit"
+    },
+    {
+      "id": "bm-samsung-galaxy-s24-e2e-of_j2zr8jw",
+      "name": "bm-samsung-galaxy-s24-e2e"
+    },
+    {
+      "id": "bm_sony_tv-of_k2d5cwk",
+      "name": "BM SONY TV"
+    },
+    {
+      "id": "test-of_cpikm8q",
+      "name": "TEST"
+    },
+    {
+      "id": "bundle_01-of_d839z4l",
+      "name": "Bundle_01"
+    },
+    {
+      "id": "bundle_01_clone-of_7spgzps",
+      "name": "Bundle_01_clone"
+    },
+    {
+      "id": "bunbdle_po_009-of_i6p3w4h",
+      "name": "Bunbdle PO _009"
+    },
+    {
+      "id": "bunbdle_po_009_clone-of_9goc8vo",
+      "name": "Bunbdle PO _009_clone"
+    },
+    {
+      "id": "simplepo_01-of_bkppks4",
+      "name": "SimplePO_01"
+    },
+    {
+      "id": "simplepo_01-of_rol47wc",
+      "name": "SimplePO_01_update"
+    },
+    {
+      "id": "bm-cancellation-charges",
+      "name": "bm-cancellation-charges"
+    },
+    {
+      "id": "bm-50-sms-e2e",
+      "name": "bm-50-SMS-e2e"
+    },
+    {
+      "id": "bm-international-dial-plan-us-e2e",
+      "name": "bm-International-Dial-plan-US-e2e"
+    },
+    {
+      "id": "bm-international-dial-plan-europe-e2e",
+      "name": "bm-International-Dial-plan-EUROPE-E2E"
+    },
+    {
+      "id": "bm-international-dial-plan-miea_e2e",
+      "name": "bm-International-Dial-plan-MIEA_E2E"
+    },
+    {
+      "id": "bm-100-sms-e2e",
+      "name": "bm-100-SMS-E2E"
+    },
+    {
+      "id": "p38tdfb",
+      "name": "UIAutomationSimplePOEdit"
+    },
+    {
+      "id": "simplepo_8may-of_mlp3ogq",
+      "name": "SimplePO_8may_update"
+    },
+    {
+      "id": "taxpo",
+      "name": "taxposgst"
+    },
+    {
+      "id": "bundle_01_clone-of_ym9h86y",
+      "name": "Bundle_01_clone"
+    },
+    {
+      "id": "simple_po_1-of_gotye9v",
+      "name": "Simple_PO_1"
+    },
+    {
+      "id": "simple_po_1-of_ghrkoxk",
+      "name": "Simple_PO_1"
+    },
+    {
+      "id": "simple_po_1clone-of_rs6qpof",
+      "name": "Simple_PO_1Clone"
+    },
+    {
+      "id": "simple_po_1clone-of_npz8gpi",
+      "name": "Simple_PO_1Clone"
+    },
+    {
+      "id": "simplepo_14may-of_6fzjn5e",
+      "name": "SimplePO_14may"
+    },
+    {
+      "id": "bundlepo_14may-of_j5ih06j",
+      "name": "BundlePO_14may"
+    },
+    {
+      "id": "bm-vi-199-e2e",
+      "name": "bm-VI-199-E2E"
+    },
+    {
+      "id": "simplepo_14may",
+      "name": "SimplePO_14may"
+    },
+    {
+      "id": "bundlepo_14may-of_xov9b5k",
+      "name": "BundlePO_14may"
+    },
+    {
+      "id": "2co1w29",
+      "name": "Clone Name Design"
+    },
+    {
+      "id": "voip_e2e",
+      "name": "Layer2 Voip"
+    },
+    {
+      "id": "bm-spotify-free-e2e",
+      "name": "bm-spotify-free-E2E"
+    },
+    {
+      "id": "bm-blue-30-e2e",
+      "name": "bm-Blue-30-E2E"
+    },
+    {
+      "id": "bm-blue-20-e2e",
+      "name": "bm-Blue-20-E2E"
+    },
+    {
+      "id": "bm-blue-50-e2e",
+      "name": "bm-Blue-50-E2E"
+    },
+    {
+      "id": "bm-blue-100-e2e",
+      "name": "bm-Blue-100-E2E"
+    },
+    {
+      "id": "bm-blue-half-price-spotify-e2e",
+      "name": "bm-Blue-half-price-spotify-e2e"
+    },
+    {
+      "id": "bm-blue-free-price-spotify-e2e",
+      "name": "bm-Blue-free-price-spotify-e2e"
+    },
+    {
+      "id": "bm-mobile-prepaid-bundle-option1-e2e",
+      "name": "bm-mobile-prepaid-bundle-option1-e2e"
+    },
+    {
+      "id": "bm-place-200-e2e",
+      "name": "bm-place-200-e2e"
+    },
+    {
+      "id": "weight_po-of_call3d5",
+      "name": "Weight_PO"
+    },
+    {
+      "id": "e36o6gd",
+      "name": "UIAutomationBundlePOEdit"
+    },
+    {
+      "id": "o9nyx9c",
+      "name": "UIAutomationBundlePOClone"
+    },
+    {
+      "id": "swhei0w",
+      "name": "UiAutomationSimplePOClone"
+    },
+    {
+      "id": "bundle_po_22may-of_6pdbefz",
+      "name": "Bundle PO 22may"
+    },
+    {
+      "id": "b1dff1e",
+      "name": "UiAutomationSimplePOClone"
+    },
+    {
+      "id": "puneretailpo",
+      "name": "puneretailpo"
+    },
+    {
+      "id": "po_automation_api-of_8rx685k",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_kan9wz0",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_h9ocfhh",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_0xk4mmz",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_llxidrz",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "ooipf",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "wkzmi",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "etf_-_product_-_e2e-of_z66oh9l",
+      "name": "ETF - Product - E2E"
+    },
+    {
+      "id": "etf_-_product_-_e2e-of_nswv4fv",
+      "name": "ETF - Product - E2E"
+    },
+    {
+      "id": "simplepo_27mayclone-of_9m0v1rp",
+      "name": "SimplePO_27maycloneUpdate"
+    },
+    {
+      "id": "dummy_simplepo_27maycloneupdate-of_gw3o2ge",
+      "name": "Dummy_SimplePO_27maycloneUpdate"
+    },
+    {
+      "id": "new_27maypo-of_9oaoeac",
+      "name": "New_27mayPO"
+    },
+    {
+      "id": "test_new_27maypo-of_pvbhdte",
+      "name": "Test_New_27mayPO"
+    },
+    {
+      "id": "po_automation_api-of_s7tmno8",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_1mo4eyi",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_g4jfr5q",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_edeeovb",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_t60ormj",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_ur9a2ct",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_6bj707a",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_2oej6q7",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_cexmj1a",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_1un601e",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_tdpze29",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_n03uxll",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_b3tpr21",
+      "name": "PO_automation_API"
+    },
+    {
+      "id": "po_automation_api-of_xsxetj6",
+      "name": "PO_automation_API"
+    }
+  ],
+  "action": [
+    {
+      "id": "ADD",
+      "name": "ADD"
+    },
+    {
+      "id": "DELETE",
+      "name": "DELETE"
+    },
+    {
+      "id": "MODIFY",
+      "name": "MODIFY"
+    },
+    {
+      "id": "KEEP",
+      "name": "KEEP"
+    }
+  ],
+  "categories": [
+    {
+      "id": "enterprise_business_services",
+      "name": "Enterprise Business Services"
+    },
+    {
+      "id": "bm-brand-e2e",
+      "name": "bm-Brand e2e"
+    },
+    {
+      "id": "bm-brand",
+      "name": "bm-Brand"
+    },
+    {
+      "id": "brand_w_001_demo",
+      "name": "Brand-W"
+    },
+    {
+      "id": "brand_a_demo",
+      "name": "BlueMarble Brand A"
+    },
+    {
+      "id": "bm-brand-kafka",
+      "name": "bm-Brand KAFKA"
+    },
+    {
+      "id": "bm-cardinality-check",
+      "name": "bm-cardinality-check"
+    },
+    {
+      "id": "automationtest-pc_k70h6lb",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "brand_a",
+      "name": "Brand A"
+    },
+    {
+      "id": "woan_services",
+      "name": "WOAN SERVICES"
+    },
+    {
+      "id": "new_poc_16janij1didgbkqdbhwdgwdhbkbdhsdhdggwdyyjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbd-pc_32f79ue",
+      "name": "New_poc_16janij1didgbkqdbhwdgwdhbkbdhsdhdggwdyyjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbdhfdndsndnua"
+    },
+    {
+      "id": "id1f6dt2h6zjzc2tnu8rd62nu2d345a5pynggcnsli5zzc52x1evkpmpmabhjvu1dzcdvzq2e4cdfbsn8q21esnwmr52qz1hla8zokq6zezngfnmp3h3k5txiy87mch8785gpy8z5egh1fkksebub6l5uylls7m6t6m60tmz97eol8fdmr81dp5rvey3g-pc_rq4cgm1",
+      "name": "id1f6dt2h6zjzc2tnu8rd62nu2d345a5pynggcnsli5zzc52x1evkpmpmabhjvu1dzcdvzq2e4cdfbsn8q21esnwmr52qz1hla8zokq6zezngfnmp3h3k5txiy87mch8785gpy8z5egh1fkksebub6l5uylls7m6t6m60tmz97eol8fdmr81dp5rvey3getsxsvnbtpq"
+    },
+    {
+      "id": "smoke_poc1",
+      "name": "smoke_poc1"
+    },
+    {
+      "id": "poc_hierarchy",
+      "name": "POC_Hierarchy_update"
+    },
+    {
+      "id": "poc_16janij1didgbkqdbhwdggwdhbkbdhsdhdggwdyyjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbdhfdndsndnuaasq",
+      "name": "poc_update_16janij1didgbkqdbhwdggwdhbkbdhsddggwdyyjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbdhfdndsna"
+    },
+    {
+      "id": "id1qmqadrgms6viryge0famhvs0bryjcud628fufbjwn987i7n4yqzrsdc6qao0vygaxtqhdbtvwb56w0bahhq13zidmds8y9dw50d1d6mfu8htdrzixggsp6zaw0dbhk6111hh6culuv6byhkh9ux3sa9edx0ejbjnzwm6ay7okw_dummy-pc_tlpmyoc",
+      "name": "id1qmqadrgms6viryge0famhvs0bryjcud628fufbjwn987i7n4yqzrsdc6qao0vygaxtqhdbtvwb56w0bahhq13zidmds8y9dw50d1d6mfu8htdrzixggsp6zaw0dbhk6111hh6culuv6byhkh9ux3sa9edx0ejbjnzwm6ay7okw_dummy"
+    },
+    {
+      "id": "bm-mobile",
+      "name": "bm-Mobile "
+    },
+    {
+      "id": "bm-mobile-e2e",
+      "name": "bm-Mobile E2E"
+    },
+    {
+      "id": "bm-me-child-category-one-e2e",
+      "name": "Mutually Exclusive category E2E"
+    },
+    {
+      "id": "bm-broadband",
+      "name": "bm-Broadband"
+    },
+    {
+      "id": "connectivity_services",
+      "name": "Connectivity Services"
+    },
+    {
+      "id": "me-child-category-one",
+      "name": "Mutually Exclusive category"
+    },
+    {
+      "id": "wholesale_001_demo",
+      "name": "Wholesale"
+    },
+    {
+      "id": "bm-spark",
+      "name": "BM-Spark"
+    },
+    {
+      "id": "fixed_services_main_demo",
+      "name": "Fixed Services"
+    },
+    {
+      "id": "bm-marketsegment",
+      "name": "bm-marketsegment"
+    },
+    {
+      "id": "bm-mobile-kafka",
+      "name": "bm-Mobile KAFKA"
+    },
+    {
+      "id": "bm-digital-tv-kafka",
+      "name": "bm-Digital-TV KAFKA"
+    },
+    {
+      "id": "bm-digital-tv-e2e",
+      "name": "bm-Digital-TV E2E"
+    },
+    {
+      "id": "digital-tv",
+      "name": "bm-Digital-TV"
+    },
+    {
+      "id": "bm-broadband-kafka",
+      "name": "bm-Broadband KAFKA"
+    },
+    {
+      "id": "category-cardinality-check",
+      "name": "category-cardinality-check"
+    },
+    {
+      "id": "bm-fixed-line",
+      "name": "bm-Fixed-Line"
+    },
+    {
+      "id": "mobile_main",
+      "name": "Mobile"
+    },
+    {
+      "id": "fixed_services_neom",
+      "name": "FIXED Services"
+    },
+    {
+      "id": "data_center_services",
+      "name": "Data Center Services"
+    },
+    {
+      "id": "mobile_main_demo",
+      "name": "Mobile"
+    },
+    {
+      "id": "bm-cart-level-award-promo-category-kafka",
+      "name": "Cart Level Award Promotion Category KAFKA"
+    },
+    {
+      "id": "bm-cart-level-award-promo-category-e2e",
+      "name": "Cart Level Award Promotion Category E2E"
+    },
+    {
+      "id": "cart-level-award-promo-category",
+      "name": "Cart Level Award Promotion Category "
+    },
+    {
+      "id": "new_1poc_16janij1didgbkqdbhwdggwdhbkbdhsdhdggwdyyjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdc-pc_e2ipurj",
+      "name": "New_1poc_16janij1didgbkqdbhwdggwdhbkbdhsdhdggwdyyjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbdhfdndsnda"
+    },
+    {
+      "id": "poc_update_16janij1didgbkqdbhwdggwdhbkbdhsdhdggwdyyjdbhasdvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbdhfdndsnd",
+      "name": "poc_update_16janij1didgbkqdbhwdggwdhbkbdhsdhdggwdyyjdbhasdvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbdhfdndsnd"
+    },
+    {
+      "id": "child_1_poc_hierarchy",
+      "name": "Child_1_POC_Hierarchy"
+    },
+    {
+      "id": "new_subcategory1",
+      "name": "New_Subcategory1"
+    },
+    {
+      "id": "bm-broadband-e2e",
+      "name": "bm-Broadband E2E"
+    },
+    {
+      "id": "id1qgi2iict_dummy-pc_481jho8",
+      "name": "id1qgi2iict_dummy"
+    },
+    {
+      "id": "bm-mobile-devices-e2e",
+      "name": "bm-mobile-devices E2E"
+    },
+    {
+      "id": "bm-sport-plans-e2e",
+      "name": "bm-sport-plans E2E"
+    },
+    {
+      "id": "bm-broadband-subscription",
+      "name": "bm-broadband-subscription "
+    },
+    {
+      "id": "bm-broadband-subscription-e2e",
+      "name": "bm-broadband-subscription E2E"
+    },
+    {
+      "id": "bm-me-device-e2e",
+      "name": "BM ME device E2E"
+    },
+    {
+      "id": "accessories",
+      "name": "bm-accessories"
+    },
+    {
+      "id": "bm-me-child-category-l4-one-e2e",
+      "name": "Mutually Exclusive category Subscription E2E"
+    },
+    {
+      "id": "bm-subscription-plans-e2e",
+      "name": "bm-subscription-plans E2E"
+    },
+    {
+      "id": "subscription-plans",
+      "name": "bm-subscription-plans"
+    },
+    {
+      "id": "bm-broadband-devices-e2e",
+      "name": "bm-broadband-devices E2E"
+    },
+    {
+      "id": "bm-digital-tv-shipping-charges-e2e",
+      "name": "Bm-Digital-Tv-Shipping-Charges-E2E"
+    },
+    {
+      "id": "broadband-shipping-chargers-e2e",
+      "name": "Broadband-Shipping-Chargers-E2E"
+    },
+    {
+      "id": "bm-movies-plans-e2e",
+      "name": "bm-movies-plans E2E"
+    },
+    {
+      "id": "bm-addon-e2e",
+      "name": "bm-addon E2E"
+    },
+    {
+      "id": "bm-broadband-devices",
+      "name": "bm-broadband-devices"
+    },
+    {
+      "id": "bm-addon",
+      "name": "bm-addon"
+    },
+    {
+      "id": "bm-digitaltv-settopbox-e2e",
+      "name": "DigitalTV-SettopBox E2E"
+    },
+    {
+      "id": "enterprise_ethernet_service",
+      "name": "Enterprise Ethernet Service"
+    },
+    {
+      "id": "movies-plans",
+      "name": "bm-movies-plans"
+    },
+    {
+      "id": "me-child-category-l4-one",
+      "name": "Mutually Exclusive category Subscription"
+    },
+    {
+      "id": "bm-bundles",
+      "name": "BM-bundles"
+    },
+    {
+      "id": "bm-spark-device",
+      "name": "BM-Spark-Device"
+    },
+    {
+      "id": "enterprise_internet_service",
+      "name": "Enterprise Internet Service"
+    },
+    {
+      "id": "shipping-charges-e2e",
+      "name": "shipping-charges E2E"
+    },
+    {
+      "id": "mobile-devices",
+      "name": "bm-mobile-devices "
+    },
+    {
+      "id": "sport-plans",
+      "name": "bm-sport-plans"
+    },
+    {
+      "id": "me-category-child-i5",
+      "name": "Addon "
+    },
+    {
+      "id": "bm-spark-subcription",
+      "name": "BM-Spark-Subcription"
+    },
+    {
+      "id": "bm-ott-e2e",
+      "name": "bm-OTT E2E"
+    },
+    {
+      "id": "ott",
+      "name": "bm-OTT"
+    },
+    {
+      "id": "bm-broadband-addon-e2e",
+      "name": "bm-broadband-addon E2E"
+    },
+    {
+      "id": "broadband_main_demo",
+      "name": "Broadband"
+    },
+    {
+      "id": "wholesale_line_access_demo",
+      "name": "Line Access"
+    },
+    {
+      "id": "mobile_postpaid_main_demo",
+      "name": "Mobile Postpaid"
+    },
+    {
+      "id": "bm-spark-accessories",
+      "name": "BM-Spark-Accessories"
+    },
+    {
+      "id": "bm-marketsegment-category",
+      "name": "bm-marketsegment-category"
+    },
+    {
+      "id": "bm-movies-plans-kafka",
+      "name": "bm-movies-plans KAFKA"
+    },
+    {
+      "id": "gift-category",
+      "name": "Gift-category"
+    },
+    {
+      "id": "bm-accessories-kafka",
+      "name": "bm-accessories KAFKA"
+    },
+    {
+      "id": "bm-mobile-devices-kafka",
+      "name": "bm-mobile-devices KAFKA"
+    },
+    {
+      "id": "bm-broadband-devices-kafka",
+      "name": "bm-broadband-devices KAFKA"
+    },
+    {
+      "id": "bm-accessories-e2e",
+      "name": "bm-accessories E2E"
+    },
+    {
+      "id": "bm-sport-plans-kafka",
+      "name": "bm-sport-plans KAFKA"
+    },
+    {
+      "id": "bm-broadband-subscription-kafka",
+      "name": "bm-broadband-subscription KAFKA"
+    },
+    {
+      "id": "shipping-charges-kafka",
+      "name": "shipping-charges KAFKA"
+    },
+    {
+      "id": "broadband-shipping-chargers-kafka",
+      "name": "Broadband-Shipping-Chargers-kafka"
+    },
+    {
+      "id": "ifp",
+      "name": "IFP"
+    },
+    {
+      "id": "bm-digital-tv-shipping-charges-kafka",
+      "name": "Bm-Digital-Tv-Shipping-Charges-kafka"
+    },
+    {
+      "id": "bm-subscription-plans-kafka",
+      "name": "bm-subscription-plans KAFKA"
+    },
+    {
+      "id": "bm-fixed-landline-pc_iygjg",
+      "name": "bm-Fixed-Landline"
+    },
+    {
+      "id": "bm-broadband-accessories",
+      "name": "bm-broadband-accessories"
+    },
+    {
+      "id": "child-cardinality-check",
+      "name": "child-cardinality-check"
+    },
+    {
+      "id": "mobile_postpaid_main",
+      "name": "Mobile Postpaid"
+    },
+    {
+      "id": "darkfiber_services_neom",
+      "name": "DarkFiber Services"
+    },
+    {
+      "id": "managed_sdwan_service_new",
+      "name": "Managed SDWAN Service"
+    },
+    {
+      "id": "wavelength_services_neom",
+      "name": "Wavelength Services"
+    },
+    {
+      "id": "hosting_services",
+      "name": "Hosting Services"
+    },
+    {
+      "id": "enterprise_private_line_services",
+      "name": "Enterprise Private Line Services"
+    },
+    {
+      "id": "digitaltv-settopbox",
+      "name": "DigitalTV-SettopBox"
+    },
+    {
+      "id": "bm-addon-kafka",
+      "name": "bm-addon KAFKA"
+    },
+    {
+      "id": "enterprise_mpls_service",
+      "name": "Enterprise MPLS Service"
+    },
+    {
+      "id": "bm-mobile-prepaid-e2e",
+      "name": "bm-mobile-prepaid E2E"
+    },
+    {
+      "id": "headsets",
+      "name": "bm-Headsets"
+    },
+    {
+      "id": "bm-redmi-e2e",
+      "name": "bm-redmi E2E"
+    },
+    {
+      "id": "bm-headsets-e2e",
+      "name": "bm-Headsets E2E"
+    },
+    {
+      "id": "bm-mobile-postpaid-e2e",
+      "name": "bm-Mobile-Postpaid E2E"
+    },
+    {
+      "id": "bm-oppo-e2e",
+      "name": "bm-oppo E2E"
+    },
+    {
+      "id": "bm-highspeed-internetplan",
+      "name": "bm-highspeed-internetplan"
+    },
+    {
+      "id": "bm-highspeed-internetplan-e2e",
+      "name": "bm-highspeed-internetplan E2E"
+    },
+    {
+      "id": "bm-nokia-e2e",
+      "name": "bm-nokia E2E"
+    },
+    {
+      "id": "bm-mobile-postpaid",
+      "name": "bm-Mobile-Postpaid "
+    },
+    {
+      "id": "bm-super-speed-plans-e2e",
+      "name": "bm-super-speed-plans E2E"
+    },
+    {
+      "id": "bm-data-addon-e2e",
+      "name": "bm-data-addon E2E"
+    },
+    {
+      "id": "bm-mobile-prepaid",
+      "name": "bm-mobile-prepaid"
+    },
+    {
+      "id": "bm-low-end-plans-e2e",
+      "name": "bm-low-end-plans E2E"
+    },
+    {
+      "id": "ethernet_e-line_service_p2p",
+      "name": "Ethernet E-Line Service (P2P)"
+    },
+    {
+      "id": "bm-charger-e2e",
+      "name": "bm-charger E2E"
+    },
+    {
+      "id": "bm-data-addon",
+      "name": "bm-data-addon"
+    },
+    {
+      "id": "bm-super-speed-plans",
+      "name": "bm-super-speed-plans"
+    },
+    {
+      "id": "bm-apple-e2e",
+      "name": "bm-apple E2E"
+    },
+    {
+      "id": "nokia",
+      "name": "bm-nokia"
+    },
+    {
+      "id": "bm-redmi",
+      "name": "bm-redmi"
+    },
+    {
+      "id": "charger",
+      "name": "bm-charger"
+    },
+    {
+      "id": "bm-voice-addon",
+      "name": "bm-voice-addon"
+    },
+    {
+      "id": "bm-samsung-e2e",
+      "name": "bm-samsung E2E"
+    },
+    {
+      "id": "bm-samsung",
+      "name": "bm-samsung"
+    },
+    {
+      "id": "broadband_addons_demo",
+      "name": "Broadband Addons"
+    },
+    {
+      "id": "mobile_postpaid_addons_demo",
+      "name": "Mobile Postpaid Addons"
+    },
+    {
+      "id": "bm-sms-addon",
+      "name": "bm-sms-addon"
+    },
+    {
+      "id": "apple",
+      "name": "bm-apple"
+    },
+    {
+      "id": "bm-redmi-kafka",
+      "name": "bm-redmi KAFKA"
+    },
+    {
+      "id": "bm-sms-addon-e2e",
+      "name": "bm-sms-addon E2E"
+    },
+    {
+      "id": "bm-charger-kafka",
+      "name": "bm-charger KAFKA"
+    },
+    {
+      "id": "bm-oppo-accesories",
+      "name": "bm-oppo-accesories"
+    },
+    {
+      "id": "bm-apple-kafka",
+      "name": "bm-apple KAFKA"
+    },
+    {
+      "id": "bm-oppo-accessories-kafka",
+      "name": "bm-oppo-accessories KAFKA"
+    },
+    {
+      "id": "oppo",
+      "name": "bm-oppo"
+    },
+    {
+      "id": "bm-mobile-postpaid-kafka",
+      "name": "bm-Mobile-Postpaid KAFKA"
+    },
+    {
+      "id": "bm-headsets-kafka",
+      "name": "bm-Headsets KAFKA"
+    },
+    {
+      "id": "bm-data-addon-kafka",
+      "name": "bm-data-addon KAFKA"
+    },
+    {
+      "id": "bm-low-end-plans-kafka",
+      "name": "bm-low-end-plans KAFKA"
+    },
+    {
+      "id": "bm-mobile-prepaid-kafka",
+      "name": "bm-mobile-prepaid KAFKA"
+    },
+    {
+      "id": "bm-account-level-addons",
+      "name": "bm-account-level-addons"
+    },
+    {
+      "id": "bm-low-end-plans",
+      "name": "bm-low-end-plans"
+    },
+    {
+      "id": "national_private_line_service",
+      "name": "National Private Line Service"
+    },
+    {
+      "id": "jio_postpaid_plan",
+      "name": "jio_postpaid_plan"
+    },
+    {
+      "id": "rack_space_colocation",
+      "name": "Rack Space Colocation"
+    },
+    {
+      "id": "bm-oppo-kafka",
+      "name": "bm-oppo KAFKA"
+    },
+    {
+      "id": "bm-line-level-addon",
+      "name": "bm-line-level-addon"
+    },
+    {
+      "id": "bm-postpaid-lowend-e2e",
+      "name": "bm-postpaid-lowend-E2E"
+    },
+    {
+      "id": "mobile_postpaid_ott_demo",
+      "name": "OTT"
+    },
+    {
+      "id": "national_dedicated_ethernet_service",
+      "name": "National Ethernet E-Line Service (P2P)"
+    },
+    {
+      "id": "bm-premium-plans",
+      "name": "bm-premium-plans"
+    },
+    {
+      "id": "bm-postpaid-lowend-kafka",
+      "name": "bm-postpaid-lowend-kafka"
+    },
+    {
+      "id": "broadband_ott_001_demo",
+      "name": "Broadband OTT"
+    },
+    {
+      "id": "bm-redmi-charger-kafka",
+      "name": "bm-Redmi-charger-kafka"
+    },
+    {
+      "id": "bm-postpaid-lowend",
+      "name": "bm-postpaid-lowend"
+    },
+    {
+      "id": "bm-postpaid-highend-kafka",
+      "name": "bm-postpaid-highend-kafka"
+    },
+    {
+      "id": "bm-neon",
+      "name": "bm-Neon"
+    },
+    {
+      "id": "bm-postpaid-highend",
+      "name": "bm-postpaid-highend"
+    },
+    {
+      "id": "jio_postpaid_plan_under1000",
+      "name": "jio_postpaid_plan_under1000"
+    },
+    {
+      "id": "bm-postpaid-highend-e2e",
+      "name": "bm-postpaid-highend-E2E"
+    },
+    {
+      "id": "0vq1g6t",
+      "name": "UIAutomation_Product_Category"
+    },
+    {
+      "id": "6a2miyk",
+      "name": "UIAutomation_1_sub"
+    },
+    {
+      "id": "2nfzb0w",
+      "name": "UIAutomationCategory 3"
+    },
+    {
+      "id": "automationtest-pc_o5bqtg4",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_o34yer4",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_apvlv0f",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_hcgp7il",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_scobs5r",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_no9fvpr",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_wplvl8a",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_budnpi7",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "bm-mobile-prepaid-highend-e2e",
+      "name": "bm-mobile-prepaid-highend-e2e"
+    },
+    {
+      "id": "bm-mobile-prepaid-lowend",
+      "name": "bm-mobile-prepaid-lowend"
+    },
+    {
+      "id": "entertainment",
+      "name": "entertainment"
+    },
+    {
+      "id": "music",
+      "name": "music"
+    },
+    {
+      "id": "dummy_check_mutuallyexclusive",
+      "name": "dummy_check_mutuallyexclusive"
+    },
+    {
+      "id": "mutu_poc-pc_q92caib",
+      "name": "Mutu_POC"
+    },
+    {
+      "id": "child_mutu_exclus-pc_ol7uqb0",
+      "name": "Child_mutu_exclus"
+    },
+    {
+      "id": "automationtest-pc_1gat8ap",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_5aw5icn",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_yrxkel4",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_4b75cid",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_lfjyzgk",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_ywj65k5",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_9qyy1gv",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_gca2oz5",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_0itx3ry",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_8p4ulk2",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_fabpudo",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_dyyxadt",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_qggptmr",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_6xw68kj",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_rma4bhm",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_gvmwjvp",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_b5vcgpv",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_wuuoekx",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "pocategorytestcatm-499",
+      "name": "POcategorytestCATM-499"
+    },
+    {
+      "id": "automationtest-pc_zo648yo",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_6xks275",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_vm3qkyu",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_2bempgl",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_7eqenj2",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_70b9o39",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_6mvz8kc",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "test-pc_8e9r877",
+      "name": "TEST"
+    },
+    {
+      "id": "test1-pc_4p3j2mz",
+      "name": "test1"
+    },
+    {
+      "id": "bm-gift-category-e2e",
+      "name": "bm-gift-category-e2e"
+    },
+    {
+      "id": "bm-samsung-mobile",
+      "name": "bm-samsung-mobile"
+    },
+    {
+      "id": "bm-samsung-galaxy-device",
+      "name": "bm-samsung-galaxy-device"
+    },
+    {
+      "id": "bm-samsung-accessories",
+      "name": "bm-samsung-accessories"
+    },
+    {
+      "id": "graphql_productoffercategroy_1",
+      "name": "GraphQL ProductOfferCategroy Attachment"
+    },
+    {
+      "id": "graphql_productoffercategroy_2",
+      "name": "GraphQL ProductOfferCategroy Attachment"
+    },
+    {
+      "id": "testbvpocategoryinvalid65295_1",
+      "name": "testbvpocategoryinvalid65295_1_update"
+    },
+    {
+      "id": "automationtest-pc_m9kczej",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_qon4ost",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_kshs77s",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_ob9a1ny",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "xss-pc_b3baf7y",
+      "name": "<p>Hello, this is my message!</p>"
+    },
+    {
+      "id": "automationtest-pc_hit5wyr",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_wxkv9kw",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_desoc5h",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_tbm39yr",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_4q3o6mo",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_jz1rqxs",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_6pmk305",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_j84zq0g",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_0m5jx26",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_324rpyh",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_lc54wb2",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_7v8ovkb",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_f3s62zb",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_dqjo1g3",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_kt34awt",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_x4p2cci",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_j46xile",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_emgija9",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_7ppebuq",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "testcategory_agreement",
+      "name": "TestCategory_Agreement"
+    },
+    {
+      "id": "test-pc_yti6mxz",
+      "name": "TEST"
+    },
+    {
+      "id": "automationtest-pc_9u6tc73",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_f9vfbsb",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_zjss6yg",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_4yzyraa",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_x90uava",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "bm-premium-plans-e2e",
+      "name": "bm-premium-plans-e2e"
+    },
+    {
+      "id": "automationtest-pc_rnl6m6d",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_89d217q",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_04mxihj",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_qu0gf6f",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_mpyafs3",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "general_ledger_category",
+      "name": "General Ledger Category"
+    },
+    {
+      "id": "automationtest-pc_7yor8du",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_soihtn3",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_gdd8qks",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_ne234zz",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_qo424a6",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_1b8s6y3",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "test_category_0305",
+      "name": "Test_Category_0305_update"
+    },
+    {
+      "id": "automationtest-pc_4ucbv29",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_ac1t9b5",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_2rlqcdb",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_fw6ter7",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_h449b2d",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_xw22fj6",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_723xp0x",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_8ptdf4x",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_i0dokmn",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_vrud4j3",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_1630h1b",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_q49r4we",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_edzw54b",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_zvxt5va",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_qz1abvv",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_fblfmxv",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_4bkwsx1",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_js0wzpp",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_gn1ea51",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_vbq4g1g",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_prmqjcf",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_w3med2y",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_6n674r5",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_tc02m8j",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_pvlyjip",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_d0py5qo",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_02l1iog",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_3jo3kxb",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "testattachmentpocategory",
+      "name": "testattachmentpocategory_importupdate"
+    },
+    {
+      "id": "automationtest-pc_y62h576",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_s5q5p3v",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_knx2v1c",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_5w20djm",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_ist0kxf",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_gnrpi6l",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_4dobc4m",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_u64lrk0",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_bto6nbf",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_nvi8p17",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_5suivhj",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_tp5lil7",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_58vhq0s",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_wvkmwes",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_l9cfltx",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_rqf2miu",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_44wu1r4",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_lmegslh",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_2bj04i6",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_x7mjshs",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "rpe966o",
+      "name": "UiAutomationReference_Product_Category"
+    },
+    {
+      "id": "d5znx5z",
+      "name": "UiAutomationReferenceChildCategory"
+    },
+    {
+      "id": "automationtest-pc_e8b95c5",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_y04s2ii",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_fwl1wy5",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_w6nagei",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_kuw2igi",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_hvvbya4",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_4vacv2o",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_m1wsz7g",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_ynetcig",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_5qwz2u0",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_ef7aw1m",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_kr72k5u",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_33si0ci",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_e8olkdl",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_6utdpk1",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_dq4cd6w",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_7759qii",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_06ej6h0",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_k5bdqvn",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_g86eusl",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_3j9hyo5",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_ie1ecv4",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_xq3t3zj",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_v46v9ye",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_d3rf9oc",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_nlqajyp",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_ouhuwsu",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_w9p1axy",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_1o0kxqh",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_ijwv1t0",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_p5w9ibg",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_l807ahl",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "etf-charges-e2e-pc_fhgf1eo",
+      "name": "ETF-Charges-E2E"
+    },
+    {
+      "id": "automationtest-pc_3lrmk8w",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_46k5zdo",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_42t3p8m",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_q5v1blb",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_yahepl1",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_h3o1gj7",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "automationtest-pc_v6vhq3s",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "08o6ve4",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "automationtest-pc_xop1sn4",
+      "name": "AutomationTest"
+    },
+    {
+      "id": "ebyzff7",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "v8umh5m",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "subcatetest-pc_86sxn6j",
+      "name": "subcatetest"
+    },
+    {
+      "id": "rpq2rrt",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "f2gbdth",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "egjtaq8",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "wv8xtit",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "3jbbj6m",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "fvy9wjf",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "80m8y25",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "fp9x8vg",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "m1vttgz",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "parent_22poc-pc_25jl340",
+      "name": "Parent_22poc"
+    },
+    {
+      "id": "gnbq5kh",
+      "name": "AutomationTestupdated"
+    }
+  ],
+  "offerContainerCategories": [
+    {
+      "id": "poc_hierarchy",
+      "name": "POC_Hierarchy_update"
+    },
+    {
+      "id": "poc_16janij1didgbkqdbhwdggwdhbkbdhsdhdggwdyyjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbdhfdndsndnuaasq",
+      "name": "poc_update_16janij1didgbkqdbhwdggwdhbkbdhsddggwdyyjdbhasddvjdbhsdvhdvhdbajsdbahdvakdbkaddjsndoadnakdnaknannjbjbknddfgdfgdvcxvcvvgddgddffsfsdfdfdfdsfdfdfghjfghfgdfgfdkdfhdsifbsdkbndcbjsdbjsdcbdhfdndsna"
+    },
+    {
+      "id": "bm-mobile",
+      "name": "bm-Mobile "
+    },
+    {
+      "id": "bm-mobile-e2e",
+      "name": "bm-Mobile E2E"
+    },
+    {
+      "id": "bm-me-child-category-one-e2e",
+      "name": "Mutually Exclusive category E2E"
+    },
+    {
+      "id": "bm-broadband",
+      "name": "bm-Broadband"
+    },
+    {
+      "id": "me-child-category-one",
+      "name": "Mutually Exclusive category"
+    },
+    {
+      "id": "wholesale_001_demo",
+      "name": "Wholesale"
+    },
+    {
+      "id": "bm-spark",
+      "name": "BM-Spark"
+    },
+    {
+      "id": "bm-marketsegment",
+      "name": "bm-marketsegment"
+    },
+    {
+      "id": "bm-mobile-kafka",
+      "name": "bm-Mobile KAFKA"
+    },
+    {
+      "id": "bm-digital-tv-kafka",
+      "name": "bm-Digital-TV KAFKA"
+    },
+    {
+      "id": "bm-digital-tv-e2e",
+      "name": "bm-Digital-TV E2E"
+    },
+    {
+      "id": "digital-tv",
+      "name": "bm-Digital-TV"
+    },
+    {
+      "id": "bm-broadband-kafka",
+      "name": "bm-Broadband KAFKA"
+    },
+    {
+      "id": "category-cardinality-check",
+      "name": "category-cardinality-check"
+    },
+    {
+      "id": "bm-fixed-line",
+      "name": "bm-Fixed-Line"
+    },
+    {
+      "id": "mobile_main",
+      "name": "Mobile"
+    },
+    {
+      "id": "fixed_services_neom",
+      "name": "FIXED Services"
+    },
+    {
+      "id": "data_center_services",
+      "name": "Data Center Services"
+    },
+    {
+      "id": "bm-cart-level-award-promo-category-kafka",
+      "name": "Cart Level Award Promotion Category KAFKA"
+    },
+    {
+      "id": "bm-cart-level-award-promo-category-e2e",
+      "name": "Cart Level Award Promotion Category E2E"
+    },
+    {
+      "id": "cart-level-award-promo-category",
+      "name": "Cart Level Award Promotion Category "
+    },
+    {
+      "id": "bm-broadband-e2e",
+      "name": "bm-Broadband E2E"
+    },
+    {
+      "id": "id1qgi2iict_dummy-pc_481jho8",
+      "name": "id1qgi2iict_dummy"
+    },
+    {
+      "id": "enterprise_internet_service",
+      "name": "Enterprise Internet Service"
+    },
+    {
+      "id": "broadband_main_demo",
+      "name": "Broadband"
+    },
+    {
+      "id": "mobile_postpaid_main_demo",
+      "name": "Mobile Postpaid"
+    },
+    {
+      "id": "managed_sdwan_service_new",
+      "name": "Managed SDWAN Service"
+    },
+    {
+      "id": "enterprise_mpls_service",
+      "name": "Enterprise MPLS Service"
+    },
+    {
+      "id": "national_private_line_service",
+      "name": "National Private Line Service"
+    },
+    {
+      "id": "national_dedicated_ethernet_service",
+      "name": "National Ethernet E-Line Service (P2P)"
+    },
+    {
+      "id": "0vq1g6t",
+      "name": "UIAutomation_Product_Category"
+    },
+    {
+      "id": "6a2miyk",
+      "name": "UIAutomation_1_sub"
+    },
+    {
+      "id": "2nfzb0w",
+      "name": "UIAutomationCategory 3"
+    },
+    {
+      "id": "rpe966o",
+      "name": "UiAutomationReference_Product_Category"
+    },
+    {
+      "id": "d5znx5z",
+      "name": "UiAutomationReferenceChildCategory"
+    },
+    {
+      "id": "08o6ve4",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "ebyzff7",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "v8umh5m",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "rpq2rrt",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "f2gbdth",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "egjtaq8",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "wv8xtit",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "3jbbj6m",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "fvy9wjf",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "80m8y25",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "fp9x8vg",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "m1vttgz",
+      "name": "AutomationTestupdated"
+    },
+    {
+      "id": "gnbq5kh",
+      "name": "AutomationTestupdated"
+    }
+  ],
+  "pricingType": [
+    {
+      "id": "dutyFreeAmount",
+      "name": "dutyFreeAmount"
+    },
+    {
+      "id": "taxIncluded",
+      "name": "taxIncluded"
+    },
+    {
+      "id": "dutyFreeAlteredAmount",
+      "name": "dutyFreeAlteredAmount"
+    },
+    {
+      "id": "taxIncludedAltered",
+      "name": "taxIncludedAltered"
+    }
+  ]
+}

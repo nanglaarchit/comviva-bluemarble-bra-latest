@@ -1,0 +1,45 @@
+- name: AllowEqual
+  signature: offercontainer.AllowEqual(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowEqual will make the related offercontainers compatible with an exact
+    quantity; nothing more & nothing less.
+  example: offercontainer.AllowEqual(10)
+- name: AllowMaximum
+  signature: offercontainer.AllowMaximum(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowMaximum will make the related offercontainers compatible with a
+    maximum quantity.
+  example: offercontainer.AllowMaximum(10)
+- name: AllowMinimum
+  signature: offercontainer.AllowMinimum(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: AllowMinimum will make the related offercontainers compatible with a
+    minimum quantity.
+  example: offercontainer.AllowMinimum(10)
+- name: Allowed
+  signature: offercontainer.Allowed()
+  doc: Allowed function is to  allow specified combination of portfolioId,
+    offerContainer & processContext's in target expression.
+  example: offercontainer.Allowed()
+- name: NotAllowed
+  signature: offercontainer.NotAllowed()
+  doc: NotAllowed function is to not allow specified combination of portfolioId,
+    offerContainer & processContext's in target expression.
+  example: offercontainer.NotAllowed()
+- name: NotSelectable
+  signature: offercontainer.NotSelectable()
+  doc: NotSelectable function is to not selectable specified combination of
+    portfolioId, offerContainer & processContext's in target expression.
+  example: offercontainer.NotSelectable()

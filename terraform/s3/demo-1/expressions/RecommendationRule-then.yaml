@@ -1,0 +1,42 @@
+- name: AddToCart
+  signature: recommendation.AddToCart()
+  doc: AddToCart function to add targets recommendation id's to recommendation
+    context.
+  example: recommendation.AddToCart()
+- name: AddToOfferContainer
+  signature: recommendation.AddToOfferContainer()
+  doc: AddToOfferContainer function to add targets recommendation id's to
+    recommendation context.
+  example: recommendation.AddToOfferContainer()
+- name: RemoveFromCart
+  signature: recommendation.RemoveFromCart()
+  doc: RemoveFromCart function to add targets recommendation id's to
+    recommendation remove context.
+  example: recommendation.RemoveFromCart()
+- name: RemoveFromOfferContainer
+  signature: recommendation.RemoveFromOfferContainer()
+  doc: RemoveFromOfferContainer function to add targets recommendation id's to
+    recommendation remove context.
+  example: recommendation.RemoveFromOfferContainer()
+- name: ReplaceOnCart
+  signature: recommendation.ReplaceOnCart(recommendationIDs ...string)
+  parameters:
+    - id: recommendationIDs
+      name: recommendationIDs
+      valueType: string
+      variadic: true
+      reference: recommendations
+  doc: ReplaceOnCart function to replace targets recommendation id's to
+    recommendation and add to replaceRecommendations.
+  example: recommendation.ReplaceOnCart("recommendationIDs")
+- name: ReplaceOnOfferContainer
+  signature: recommendation.ReplaceOnOfferContainer(recommendationIDs ...string)
+  parameters:
+    - id: recommendationIDs
+      name: recommendationIDs
+      valueType: string
+      variadic: true
+      reference: recommendations
+  doc: ReplaceOnOfferContainer function to replace targets recommendation id's to
+    recommendation and add to replaceRecommendations.
+  example: recommendation.ReplaceOnOfferContainer("recommendationIDs")

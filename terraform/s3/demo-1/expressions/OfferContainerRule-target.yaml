@@ -1,0 +1,17 @@
+- name: GetOfferContainer
+  signature: catalog.GetOfferContainer(categoryIDs string, processContext ...string)
+  parameters:
+    - id: containerID
+      name: containerID
+      valueType: string
+      variadic: false
+      reference: offerContainerCategories
+    - id: processContexts
+      name: processContexts
+      valueType: string
+      variadic: true
+      reference: processContext
+  doc: GetOfferContainer will accept a variadic parameter of process context and
+    resolve each passed category id to a list of products, which is then
+    aggregated and returned as an array or Product pointers.
+  example: catalog.GetOfferContainer("Mobile","ACQ")

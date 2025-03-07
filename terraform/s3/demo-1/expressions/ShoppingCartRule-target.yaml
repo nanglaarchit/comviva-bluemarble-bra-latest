@@ -1,0 +1,135 @@
+- name: GetProductOffering
+  signature: catalog.GetProductOffering(productIDs ...string)
+  parameters:
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+  doc: GetProductOffering will accept a variadic parameter of product IDs and
+    resolve each passed ID to a product, which is then returned as an array or
+    Product pointers.
+  example: catalog.GetProductOffering("Iphone")
+- name: GetProductOfferingInCategory
+  signature: catalog.GetProductOfferingInCategory(categoryIDs ...string)
+  parameters:
+    - id: categoryIDs
+      name: categoryIDs
+      valueType: string
+      variadic: true
+  doc: GetProductOfferingInCategory will accept a variadic parameter of category
+    IDs and resolve each passed category to a list of products, which is then
+    aggregated and returned as an array or Product pointers.
+  example: catalog.GetProductOfferingInCategory("Mobile")
+- name: GetCategory
+  signature: catalog.GetCategory(categoryIDs ...string)
+  parameters:
+    - id: categoryIDs
+      name: categoryIDs
+      valueType: string
+      variadic: true
+  doc: GetCategory will accept a variadic parameter of category IDs and resolve
+    each passed category to a list of products, which is then aggregated and
+    returned as an array or Product pointers.
+  example: catalog.GetCategory("Mobile")
+- name: GetProductOfferingsHavingCharacteristic
+  signature: catalog.GetProductOfferingsHavingCharacteristic(key string, values ...string)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: GetProductOfferingsHavingCharacteristic will accept product characteristic
+    id and their values.
+  example: catalog.GetProductOfferingsHavingCharacteristic("Color","red" )
+- name: GetProductOfferingInCategoryWithCharacteristicHigherThan
+  signature: catalog.GetProductOfferingInCategoryWithCharacteristicHigherThan(categoryID
+    string, key string, value int)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: value
+      name: value
+      valueType: int
+      variadic: false
+  doc: GetProductOfferingInCategoryWithCharacteristicHigherThan will accept
+    product category id characteristic id and their value in int.
+  example: catalog.GetProductOfferingInCategoryWithCharacteristicHigherThan("Mobile","Speed",2
+    )
+- name: GetProductOfferingInCategoryWithCharacteristicLowerThan
+  signature: catalog.GetProductOfferingInCategoryWithCharacteristicLowerThan(categoryID
+    string, key string, value int)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: value
+      name: value
+      valueType: int
+      variadic: false
+  doc: GetProductOfferingInCategoryWithCharacteristicLowerThan will accept product
+    category id characteristic id and their value in int.
+  example: catalog.GetProductOfferingInCategoryWithCharacteristicLowerThan("Mobile","Speed",2
+    )
+- name: GetProductOfferingInCategoryWithCharacteristicWithinRange
+  signature: catalog.GetProductOfferingInCategoryWithCharacteristicWithinRange(categoryID,
+    key string, startValue int, endValue int)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: startValue
+      name: startValue
+      valueType: int
+      variadic: false
+    - id: endValue
+      name: endValue
+      valueType: int
+      variadic: false
+  doc: GetProductOfferingInCategoryWithCharacteristicWithinRange will accept
+    product category id characteristic id and their value in int for range.
+  example: catalog.GetProductOfferingInCategoryWithCharacteristicWithinRange("Mobile","Speed",2
+    , 5)
+- name: GetProductOfferingInCategoryWithCharacteristic
+  signature: catalog.GetProductOfferingInCategoryWithCharacteristic(categoryID,
+    key string, values ...string)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: GetProductOfferingInCategoryWithCharacteristic will accept product category
+    id characteristic id and their value in string.
+  example: catalog.GetProductOfferingInCategoryWithCharacteristic("Mobile","color","Red"
+    , "Black")

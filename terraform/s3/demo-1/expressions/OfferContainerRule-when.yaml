@@ -1,0 +1,2048 @@
+- name: HasName
+  signature: catalog.HasName(id string, name string)
+  parameters:
+    - id: id
+      name: identifier
+      valueType: string
+      variadic: false
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+  doc: HasName expression
+  example: catalog.HasName(id string, name ...string)
+- name: HasProductOffering
+  signature: billingaccount.HasProductOffering(productIDs ...string)
+  parameters:
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasProductOffering is an expression which check products in inventory cart
+    has a productofferingID that matches any of the specified productID(s) in
+    the parameters. If so, it will return true.
+  example: billingaccount.HasProductOffering("Iphone")
+- name: HasProductOfferingInCategory
+  signature: billingaccount.HasProductOfferingInCategory(categoryIDs ...string)
+  parameters:
+    - id: categoryIDs
+      name: categoryIDs
+      valueType: string
+      variadic: true
+      reference: categories
+  doc: HasProductOfferingInCategory is an expression which check if the poq
+    request contain product in category
+  example: billingaccount.HasProductOfferingInCategory("Mobile")
+- name: HasName
+  signature: billingaccount.HasName(id string, name string)
+  parameters:
+    - id: id
+      name: identifier
+      valueType: string
+      variadic: false
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+  doc: HasName expression
+  example: billingaccount.HasName(id string, name ...string)
+- name: ContainsNumberOfOfferContainers
+  signature: cart.ContainsNumberOfOfferContainers(operator string, count int)
+  parameters:
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: ContainsNumberOfOfferContainers will check no of offer container is higher
+    than specified count
+  example: cart.ContainsNumberOfOfferContainers("operator", 10)
+- name: ContainsNumberOfOfferContainersHigherThan
+  signature: cart.ContainsNumberOfOfferContainersHigherThan(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: ContainsNumberOfOfferContainersHigherThan will check no of offer container
+    is higher than specified count
+  example: cart.ContainsNumberOfOfferContainersHigherThan(10)
+- name: ContainsNumberOfOfferContainersLowerThan
+  signature: cart.ContainsNumberOfOfferContainersLowerThan(count int)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: ContainsNumberOfOfferContainersLowerThan will check no of offer container
+    is lower than specified count
+  example: cart.ContainsNumberOfOfferContainersLowerThan(10)
+- name: ContainsOfferContainerOfCategory
+  signature: cart.ContainsOfferContainerOfCategory(offerContainerCategoryIDs ...string)
+  parameters:
+    - id: offerContainerCategoryIDs
+      name: offerContainerCategoryIDs
+      valueType: string
+      variadic: true
+      reference: offerContainerCategories
+  doc: ContainsOfferContainerOfCategory will check if there is at least one
+    offerContainer in the entire cart which is the same as one of the specified
+    offercontainerCategory(ies). If so, it returns true.
+  example: cart.ContainsOfferContainerOfCategory("Mobile")
+- name: ContainsProductOffering
+  signature: cart.ContainsProductOffering(productIDs ...string)
+  parameters:
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: ContainsProductOffering will check if in any of the offercontainers in the
+    cart has a productofferingID that matches any of the specified productID(s)
+    in the parameters. If so, it will return true.
+  example: cart.ContainsProductOffering("Iphone")
+- name: ContainsProductOfferingInCategory
+  signature: cart.ContainsProductOfferingInCategory(categoryIDs ...string)
+  parameters:
+    - id: categoryIDs
+      name: categoryIDs
+      valueType: string
+      variadic: true
+      reference: categories
+  doc: ContainsProductOfferingInCategory will check if in any of the
+    offercontainers in the cart has a productofferingID that belongs to any of
+    the categoryID(s) (or subcategories) that is specified in the parameters. If
+    so, it will return true.
+  example: cart.ContainsProductOfferingInCategory("Mobile")
+- name: ContainsProductOfferingInCategoryWithAction
+  signature: cart.ContainsProductOfferingInCategoryWithAction(action string,
+    categoryIDs ...string)
+  parameters:
+    - id: action
+      name: action
+      valueType: string
+      variadic: false
+      reference: action
+    - id: categoryIDs
+      name: categoryIDs
+      valueType: string
+      variadic: true
+      reference: categories
+  doc: ContainsProductOfferingInCategoryWithAction will check if the cart (at
+    least one container) has a product and action from the specified category.
+  example: cart.ContainsProductOfferingInCategoryWithAction("action", "Mobile")
+- name: ContainsProductOfferingInCategoryWithCharacteristic
+  signature: cart.ContainsProductOfferingInCategoryWithCharacteristic(categoryID
+    string, key string, values ...string)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: ContainsProductOfferingInCategoryWithCharacteristic will check if your
+    cart(All offercontainers) contains a productOffering that belongs to the
+    category (or subcategories) and if it is, whether it has the in the
+    parameter defined characteristicKeyID, for that characteristicKeyID it will
+    see if any of the values specified is matching, if so, it will return true.
+  example: cart.ContainsProductOfferingInCategoryWithCharacteristic("Mobile",
+    "key", "values")
+- name: ContainsProductOfferingInCategoryWithCharacteristicWithAction
+  signature: cart.ContainsProductOfferingInCategoryWithCharacteristicWithAction(categoryID
+    string, action string, key string, values ...string)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+    - id: action
+      name: action
+      valueType: string
+      variadic: false
+      reference: action
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: ContainsProductOfferingInCategoryWithCharacteristicWithAction will check if
+    your cart(All offercontainers) contains a productOffering that belongs to
+    the category (or subcategories) and if it is, whether it has the in the
+    parameter defined characteristicKeyID, for that characteristicKeyID it will
+    see if any of the values specified is matching, if so, it will return true,
+    it will also evaluate if the action matches the action specified in the
+    parameter. if all of these matches, it will return true.
+  example: cart.ContainsProductOfferingInCategoryWithCharacteristicWithAction("Mobile",
+    "action", "key", "values")
+- name: ContainsProductOfferingWithAction
+  signature: cart.ContainsProductOfferingWithAction(action string, productIDs ...string)
+  parameters:
+    - id: action
+      name: action
+      valueType: string
+      variadic: false
+      reference: action
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: ContainsProductOfferingWithAction will check if the cart (at least one
+    container) has the specified product ID along with specified action.
+  example: cart.ContainsProductOfferingWithAction("action", "Iphone")
+- name: ContainsProductOfferingWithCharacteristic
+  signature: cart.ContainsProductOfferingWithCharacteristic(productID string, key
+    string, values ...string)
+  parameters:
+    - id: productID
+      name: productID
+      valueType: string
+      variadic: false
+      reference: productOffers
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: ContainsProductOfferingWithCharacteristic will check if your cart (all
+    offercontainers) contains the productOffering specified in the parameters
+    and if it is, whether it has the in the parameter defined
+    characteristicKeyID, for that characteristicKeyID it will see if any of the
+    values specified is matching, if so, it will return true.
+  example: cart.ContainsProductOfferingWithCharacteristic("Iphone", "key", "values")
+- name: ContainsProductOfferingWithCharacteristicWithAction
+  signature: cart.ContainsProductOfferingWithCharacteristicWithAction(productID
+    string, action string, key string, values ...string)
+  parameters:
+    - id: productID
+      name: productID
+      valueType: string
+      variadic: false
+      reference: productOffers
+    - id: action
+      name: action
+      valueType: string
+      variadic: false
+      reference: action
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: ContainsProductOfferingWithCharacteristicWithAction will check if your cart
+    (all offercontainers) contains the productOffering specified in the
+    parameters and if it is, whether it has the in the parameter defined
+    characteristicKeyID, for that characteristicKeyID it will see if any of the
+    values specified is matching, if so, it will also evaluate if the action
+    matches the action specified in the parameter. if all of these matches, it
+    will return true.
+  example: cart.ContainsProductOfferingWithCharacteristicWithAction("Iphone",
+    "action", "key", "values")
+- name: ContainsProductOfferingWithVersion
+  signature: cart.ContainsProductOfferingWithVersion(productID string, versions ...string)
+  parameters:
+    - id: productID
+      name: productID
+      valueType: string
+      variadic: false
+      reference: productOffers
+    - id: versions
+      name: versions
+      valueType: string
+      variadic: true
+  doc: ContainsProductOfferingWithVersion will check if the cart (ALL
+    offercontainers) has a productOffering of the specified ID that matches any
+    of the version(s) defined in the parameter. If this is the case it will
+    return true.
+  example: cart.ContainsProductOfferingWithVersion("Iphone", "versions")
+- name: HasAppliedPromotion
+  signature: cart.HasAppliedPromotion(cartPromoIDs ...string)
+  parameters:
+    - id: cartPromoIDs
+      name: cartPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartPromotions
+  doc: HasAppliedPromotion will check cart promotions contains specified promotions
+  example: cart.HasAppliedPromotion("cartPromoIDs")
+- name: HasCapturedAge
+  signature: cart.HasCapturedAge(age int, operator string, key string)
+  parameters:
+    - id: age
+      name: age
+      valueType: int
+      variadic: false
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+  doc: HasCapturedAge this expression will check the checkout characteristics name
+    and value in the cart. combines it and checks the values according to
+    operator specific value.
+  example: cart.HasCapturedAge(10, "operator", "key")
+- name: HasCharacteristic
+  signature: cart.HasCharacteristic(key string, values ...string)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasCharacteristic this expression will check the characteristics name and
+    value in the cart.
+  example: cart.HasCharacteristic("key", "values")
+- name: HasCharacteristicHigherThan
+  signature: cart.HasCharacteristicHigherThan(key string, value float64)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: value
+      name: value
+      valueType: float64
+      variadic: false
+  doc: HasCharacteristicHigherThan this expression will check the characteristics
+    name and value in the cart. combines it and checks if it is higher than the
+    specified value.
+  example: cart.HasCharacteristicHigherThan("key", 10.1)
+- name: HasCharacteristicLowerThan
+  signature: cart.HasCharacteristicLowerThan(key string, value float64)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: value
+      name: value
+      valueType: float64
+      variadic: false
+  doc: HasCharacteristicLowerThan this expression will check the characteristics
+    name and value in the cart. combines it and checks if it is lower than the
+    specified value.
+  example: cart.HasCharacteristicLowerThan("key", 10.1)
+- name: HasCheckoutCharacteristics
+  signature: cart.HasCheckoutCharacteristics(key string, values ...string)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasCheckoutCharacteristics this expression will check the checkout
+    characteristics name and value in the cart.
+  example: cart.HasCheckoutCharacteristics("key", "values")
+- name: HasIntegerCharacteristic
+  signature: cart.HasIntegerCharacteristic(key string, operator string, value float64)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: value
+      name: value
+      valueType: float64
+      variadic: false
+  doc: HasIntegerCharacteristic this expression will check the characteristics
+    name and value in the cart. combines it and checks if it is higher than the
+    specified value.
+  example: cart.HasIntegerCharacteristic("key", "operator", 10.1)
+- name: HasIntegerCheckoutCharacteristic
+  signature: cart.HasIntegerCheckoutCharacteristic(key string, operator string,
+    value float64)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: value
+      name: value
+      valueType: float64
+      variadic: false
+  doc: HasIntegerCheckoutCharacteristic this expression will check the checkout
+    characteristics name and value in the cart. combines it and checks if it is
+    higher than the specified value.
+  example: cart.HasIntegerCheckoutCharacteristic("key", "operator", 10.1)
+- name: HasPrice
+  signature: cart.HasPrice(pricingType string, priceType string, operator string,
+    price float64)
+  parameters:
+    - id: pricingType
+      name: pricingType
+      valueType: string
+      variadic: false
+      reference: pricingType
+    - id: priceType
+      name: priceType
+      valueType: string
+      variadic: false
+      reference: priceType
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: price
+      name: price
+      valueType: float64
+      variadic: false
+  doc: HasPrice will check if the cart price is equal to or higher than the
+    specified price based on the matching pricing type and price type.
+  example: cart.HasPrice("taxincluded", "recurring", "operator", 10.1)
+- name: HasPriceHigherThan
+  signature: cart.HasPriceHigherThan(pricingType string, priceType string, price float64)
+  parameters:
+    - id: pricingType
+      name: pricingType
+      valueType: string
+      variadic: false
+      reference: pricingType
+    - id: priceType
+      name: priceType
+      valueType: string
+      variadic: false
+      reference: priceType
+    - id: price
+      name: price
+      valueType: float64
+      variadic: false
+  doc: HasPriceHigherThan will check if the cart price is equal to or higher than
+    the specified price based on the matching pricing type and price type.
+  example: cart.HasPriceHigherThan("taxincluded", "recurring", 10.1)
+- name: HasPriceLowerThan
+  signature: cart.HasPriceLowerThan(pricingType string, priceType string, price float64)
+  parameters:
+    - id: pricingType
+      name: pricingType
+      valueType: string
+      variadic: false
+      reference: pricingType
+    - id: priceType
+      name: priceType
+      valueType: string
+      variadic: false
+      reference: priceType
+    - id: price
+      name: price
+      valueType: float64
+      variadic: false
+  doc: HasPriceLowerThan will check if the cart price is equal to or lower than
+    the specified price based on the matching pricing type and price type.
+  example: cart.HasPriceLowerThan("taxincluded", "recurring", 10.1)
+- name: HasProductOfferingInCategoryInQualificationContainerWithAction
+  signature: cart.HasProductOfferingInCategoryInQualificationContainerWithAction(action
+    string, categoryIDs ...string)
+  parameters:
+    - id: action
+      name: action
+      valueType: string
+      variadic: false
+      reference: action
+    - id: categoryIDs
+      name: categoryIDs
+      valueType: string
+      variadic: true
+      reference: categories
+  doc: HasProductOfferingInCategoryInQualificationContainerWithAction will check
+    if the shoppingcart item qualification container, has any products from one
+    of the specified categories with the specified action.
+  example: cart.HasProductOfferingInCategoryInQualificationContainerWithAction("action",
+    "Mobile")
+- name: HasProductOfferingInQualificationContainerWithAction
+  signature: cart.HasProductOfferingInQualificationContainerWithAction(action
+    string, productIDs ...string)
+  parameters:
+    - id: action
+      name: action
+      valueType: string
+      variadic: false
+      reference: action
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasProductOfferingInQualificationContainerWithAction will return try if one
+    of the specified products was found in the shoppingcart item qualification
+    container with the specified action.
+  example: cart.HasProductOfferingInQualificationContainerWithAction("action", "Iphone")
+- name: HasTotalNumberOfProductOfferings
+  signature: cart.HasTotalNumberOfProductOfferings(operator string, quantity int,
+    productIDs ...string)
+  parameters:
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: quantity
+      name: quantity
+      valueType: int
+      variadic: false
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasTotalNumberOfProductOfferings will check if specified product offering
+    quantity in cart and install based on the specified quantity
+  example: cart.HasTotalNumberOfProductOfferings("operator", 10, "Iphone")
+- name: HasTotalNumberOfProductOfferingsCategory
+  signature: cart.HasTotalNumberOfProductOfferingsCategory(operator string,
+    quantity int, categoryIDs ...string)
+  parameters:
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: quantity
+      name: quantity
+      valueType: int
+      variadic: false
+    - id: categoryIDs
+      name: categoryIDs
+      valueType: string
+      variadic: true
+      reference: categories
+  doc: HasTotalNumberOfProductOfferingsCategory will check if specified product
+    offering category quantity in cart and install base is higher than or equal
+    to the specified quantity
+  example: cart.HasTotalNumberOfProductOfferingsCategory("operator", 10, "Mobile")
+- name: HasTotalNumberOfProductOfferingsCategoryHigherThan
+  signature: cart.HasTotalNumberOfProductOfferingsCategoryHigherThan(quantity int,
+    categoryIDs ...string)
+  parameters:
+    - id: quantity
+      name: quantity
+      valueType: int
+      variadic: false
+    - id: categoryIDs
+      name: categoryIDs
+      valueType: string
+      variadic: true
+      reference: categories
+  doc: HasTotalNumberOfProductOfferingsCategoryHigherThan will check if specified
+    product offering category quantity in cart and install base is higher than
+    or equal to the specified quantity
+  example: cart.HasTotalNumberOfProductOfferingsCategoryHigherThan(10, "Mobile")
+- name: HasTotalNumberOfProductOfferingsCategoryLowerThan
+  signature: cart.HasTotalNumberOfProductOfferingsCategoryLowerThan(quantity int,
+    categoryIDs ...string)
+  parameters:
+    - id: quantity
+      name: quantity
+      valueType: int
+      variadic: false
+    - id: categoryIDs
+      name: categoryIDs
+      valueType: string
+      variadic: true
+      reference: categories
+  doc: HasTotalNumberOfProductOfferingsCategoryLowerThan will check if specified
+    product offering category quantity in cart and install base is lower than
+    the specified quantity
+  example: cart.HasTotalNumberOfProductOfferingsCategoryLowerThan(10, "Mobile")
+- name: HasTotalNumberOfProductOfferingsHigherThan
+  signature: cart.HasTotalNumberOfProductOfferingsHigherThan(quantity int,
+    productIDs ...string)
+  parameters:
+    - id: quantity
+      name: quantity
+      valueType: int
+      variadic: false
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasTotalNumberOfProductOfferingsHigherThan will check if specified product
+    offering quantity in cart and install base is higher than the specified
+    quantity
+  example: cart.HasTotalNumberOfProductOfferingsHigherThan(10, "Iphone")
+- name: HasTotalNumberOfProductOfferingsLowerThan
+  signature: cart.HasTotalNumberOfProductOfferingsLowerThan(quantity int,
+    productIDs ...string)
+  parameters:
+    - id: quantity
+      name: quantity
+      valueType: int
+      variadic: false
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasTotalNumberOfProductOfferingsLowerThan will check if specified product
+    offering quantity in cart and install base is lower than the specified
+    quantity
+  example: cart.HasTotalNumberOfProductOfferingsLowerThan(10, "Iphone")
+- name: OfferContainerHasCharacteristic
+  signature: cart.OfferContainerHasCharacteristic(key string, values ...string)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: OfferContainerHasCharacteristic this expression will check the
+    characteristics Name and value in every offerContainer in the cart.
+  example: cart.OfferContainerHasCharacteristic("key", "values")
+- name: OfferContainerHasCharacteristicHigherThan
+  signature: cart.OfferContainerHasCharacteristicHigherThan(key string, value float64)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: value
+      name: value
+      valueType: float64
+      variadic: false
+  doc: OfferContainerHasCharacteristicHigherThan this expression will check the
+    characteristics Name and value in every offerContainer in the cart. combines
+    it and checks if it is higher than the specified value.
+  example: cart.OfferContainerHasCharacteristicHigherThan("key", 10.1)
+- name: OfferContainerHasCharacteristicLowerThan
+  signature: cart.OfferContainerHasCharacteristicLowerThan(key string, value float64)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: value
+      name: value
+      valueType: float64
+      variadic: false
+  doc: OfferContainerHasCharacteristicLowerThan this expression will check the
+    characteristics Name and value in every offerContainer in the cart. combines
+    it and checks if it is lower than the specified value.
+  example: cart.OfferContainerHasCharacteristicLowerThan("key", 10.1)
+- name: HasName
+  signature: cart.HasName(id string, name string)
+  parameters:
+    - id: id
+      name: identifier
+      valueType: string
+      variadic: false
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+  doc: HasName expression
+  example: cart.HasName(id string, name ...string)
+- name: ContainsNumberOfProductOfferings
+  signature: offercontainer.ContainsNumberOfProductOfferings(operator string, count int)
+  parameters:
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: ContainsNumberOfProductOfferings will check no of product offering is
+    higher than, lower than, equal to, higher than equal to or lower than equal
+    to specified count
+  example: offercontainer.ContainsNumberOfProductOfferings("operator", 10)
+- name: ContainsProductOffering
+  signature: offercontainer.ContainsProductOffering(productIDs ...string)
+  parameters:
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: ContainsProductOffering will check whether or not the current evaluating
+    offerContainer has any of the productOfferingID(s) specified in the
+    parameters. If any of the ID's match it returns true.
+  example: offercontainer.ContainsProductOffering("Iphone")
+- name: HasAppliedProductOfferingPromotion
+  signature: offercontainer.HasAppliedProductOfferingPromotion(cartPromoIDs ...string)
+  parameters:
+    - id: cartPromoIDs
+      name: cartPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartPromotions
+  doc: HasAppliedProductOfferingPromotion will check product offering promotions
+    contains specified promotions
+  example: offercontainer.HasAppliedProductOfferingPromotion("cartPromoIDs")
+- name: HasAppliedPromotion
+  signature: offercontainer.HasAppliedPromotion(promoIDs ...string)
+  parameters:
+    - id: promoIDs
+      name: promoIDs
+      valueType: string
+      variadic: true
+      reference: promotions
+  doc: HasAppliedPromotion will check cartOfferContainer promotions contains
+    specified promotions
+  example: offercontainer.HasAppliedPromotion("promoIDs")
+- name: HasCharacteristic
+  signature: offercontainer.HasCharacteristic(key string, values ...string)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasCharacteristic this expression will check the characteristics Name and
+    value in every offerContainer in the cart.
+  example: offercontainer.HasCharacteristic("key", "values")
+- name: HasCheckoutCharacteristics
+  signature: offercontainer.HasCheckoutCharacteristics(key string, values ...string)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasCheckoutCharacteristics this expression will check the checkout
+    characteristics Name and value in every offerContainer in the cart.
+  example: offercontainer.HasCheckoutCharacteristics("key", "values")
+- name: HasIntegerCharacteristic
+  signature: offercontainer.HasIntegerCharacteristic(key string, operator string,
+    value float64)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: value
+      name: value
+      valueType: float64
+      variadic: false
+  doc: HasIntegerCharacteristic this expression will check the characteristics
+    name and value in the cart. combines it and checks if it is higher than the
+    specified value.
+  example: offercontainer.HasIntegerCharacteristic("key", "operator", 10.1)
+- name: HasIntegerCheckoutCharacteristic
+  signature: offercontainer.HasIntegerCheckoutCharacteristic(key string, operator
+    string, value float64)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: value
+      name: value
+      valueType: float64
+      variadic: false
+  doc: HasIntegerCheckoutCharacteristic this expression will check the checkout
+    characteristics name and value in the cart. combines it and checks if it is
+    higher than the specified value.
+  example: offercontainer.HasIntegerCheckoutCharacteristic("key", "operator", 10.1)
+- name: ContainsProductOfferingInCategory
+  signature: customer.ContainsProductOfferingInCategory(categoryID string)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+  doc: ContainsProductOfferingInCategory is an expression which check if the poq
+    request contain product in category
+  example: customer.ContainsProductOfferingInCategory("Mobile")
+- name: HasAge
+  signature: customer.HasAge(age int, operator string)
+  parameters:
+    - id: age
+      name: age
+      valueType: int
+      variadic: false
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+  doc: HasAge is an expression which check if the customer age with the operator
+  example: customer.HasAge(10, "operator")
+- name: HasAgreementWithCharacteristic
+  signature: customer.HasAgreementWithCharacteristic(name string, values ...string)
+  parameters:
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasAgreementWithCharacteristic is an expression  which checks if the
+    productInventory agreement characteristic has the key with any of the passed
+    values
+  example: customer.HasAgreementWithCharacteristic("name", "values")
+- name: HasBirthday
+  signature: customer.HasBirthday()
+  doc: HasBirthday will check if the current system day and month is equal to the
+    customers' birthday date and month.
+  example: customer.HasBirthday()
+- name: HasCharacteristic
+  signature: customer.HasCharacteristic(name string, values ...string)
+  parameters:
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasCharacteristic is an expression which checks if the customer
+    characteristics has the key with any of the passed values
+  example: customer.HasCharacteristic("name", "values")
+- name: HasCharacteristicHigherThan
+  signature: customer.HasCharacteristicHigherThan(name string, values ...float64)
+  parameters:
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: float64
+      variadic: true
+  doc: HasCharacteristicHigherThan will check if the characteristic value, which
+    is found through the passed key, has at least (so equal or more than) one of
+    the specified values in the expression.
+  example: customer.HasCharacteristicHigherThan("name", 10.1)
+- name: HasCharacteristicLowerThan
+  signature: customer.HasCharacteristicLowerThan(name string, values ...float64)
+  parameters:
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: float64
+      variadic: true
+  doc: HasCharacteristicLowerThan will check if the characteristic value, which is
+    found through the passed key, has at best (so equal or less than) one of the
+    specified values in the expression.
+  example: customer.HasCharacteristicLowerThan("name", 10.1)
+- name: HasCreditScore
+  signature: customer.HasCreditScore(operator string, score float64)
+  parameters:
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: score
+      name: score
+      valueType: float64
+      variadic: false
+  doc: HasCreditScore is an expression which check if the customer has a credit
+    score value high than the expectation set from rules
+  example: customer.HasCreditScore("operator", 10.1)
+- name: HasCreditScoreHigherThan
+  signature: customer.HasCreditScoreHigherThan(score float64)
+  parameters:
+    - id: score
+      name: score
+      valueType: float64
+      variadic: false
+  doc: HasCreditScoreHigherThan is an expression which check if the customer has a
+    credit score value high than the expectation set from rules
+  example: customer.HasCreditScoreHigherThan(10.1)
+- name: HasCreditScoreLowerThan
+  signature: customer.HasCreditScoreLowerThan(score float64)
+  parameters:
+    - id: score
+      name: score
+      valueType: float64
+      variadic: false
+  doc: HasCreditScoreLowerThan is an expression which check if the customer has a
+    credit score value high than the expectation set from rules
+  example: customer.HasCreditScoreLowerThan(10.1)
+- name: HasGender
+  signature: customer.HasGender(gender string)
+  parameters:
+    - id: gender
+      name: gender
+      valueType: string
+      variadic: false
+  doc: HasGender will check if the customer has a specific gender. See
+    documentation for all possible gender names.
+  example: customer.HasGender("gender")
+- name: HasIndividualPartyCharacteristic
+  signature: customer.HasIndividualPartyCharacteristic(name string, values ...string)
+  parameters:
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasIndividualPartyCharacteristic will check if the customers' individual
+    engaged party has a matching characteristic.
+  example: customer.HasIndividualPartyCharacteristic("name", "values")
+- name: HasIntegerCharacteristic
+  signature: customer.HasIntegerCharacteristic(name string, operator string,
+    values ...float64)
+  parameters:
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: values
+      name: values
+      valueType: float64
+      variadic: true
+  doc: HasIntegerCharacteristic is an expression which checks if the customer
+    characteristics has the key with any of the passed values
+  example: customer.HasIntegerCharacteristic("name", "operator", 10.1)
+- name: HasNumberOfProductOfferingsInCategory
+  signature: customer.HasNumberOfProductOfferingsInCategory(categoryID string, count int)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: HasNumberOfProductOfferingsInCategory is an expression which check if the
+    poq request contain categoryID with specified number of count
+  example: customer.HasNumberOfProductOfferingsInCategory("Mobile", 10)
+- name: HasPaymentMethod
+  signature: customer.HasPaymentMethod(ids ...string)
+  parameters:
+    - id: ids
+      name: ids
+      valueType: string
+      variadic: true
+  doc: HasPaymentMethod will check if the customers' individual engaged party has
+    one of the specified payment methods with a matching ID.
+  example: customer.HasPaymentMethod("ids")
+- name: HasPaymentMethodWithID
+  signature: customer.HasPaymentMethodWithID(id ...string)
+  parameters:
+    - id: id
+      name: id
+      valueType: string
+      variadic: true
+  doc: HasPaymentMethodWithID will check if the customers' individual engaged
+    party has one of the specified payment methods with a matching ID.
+  example: customer.HasPaymentMethodWithID("id")
+- name: HasPaymentMethodWithName
+  signature: customer.HasPaymentMethodWithName(name ...string)
+  parameters:
+    - id: name
+      name: name
+      valueType: string
+      variadic: true
+  doc: HasPaymentMethodWithName will check if the customers' individual engaged
+    party has one of the specified payment methods with a matching ID.
+  example: customer.HasPaymentMethodWithName("name")
+- name: HasProductInventoryRelatedPartyWithID
+  signature: customer.HasProductInventoryRelatedPartyWithID(id ...string)
+  parameters:
+    - id: id
+      name: id
+      valueType: string
+      variadic: true
+  doc: HasProductInventoryRelatedPartyWithID will check if the customers' product
+    inventory has a related party with the matching ID.
+  example: customer.HasProductInventoryRelatedPartyWithID("id")
+- name: HasProductInventoryRelatedPartyWithName
+  signature: customer.HasProductInventoryRelatedPartyWithName(name ...string)
+  parameters:
+    - id: name
+      name: name
+      valueType: string
+      variadic: true
+  doc: HasProductInventoryRelatedPartyWithName will check if the customers'
+    product inventory has a related party with the matching name.
+  example: customer.HasProductInventoryRelatedPartyWithName("name")
+- name: HasProductInventoryWithStatus
+  signature: customer.HasProductInventoryWithStatus(statuses ...string)
+  parameters:
+    - id: statuses
+      name: statuses
+      valueType: string
+      variadic: true
+  doc: HasProductInventoryWithStatus is an expression with a variadic status
+    argument which checks if the productInventory has one of the provided
+    statuses.
+  example: customer.HasProductInventoryWithStatus("Active")
+- name: HasProductOfferingActive
+  signature: customer.HasProductOfferingActive(productIDs ...string)
+  parameters:
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasProductOfferingActive is an expression which check if the customer has
+    products in inventory which are active based on start date and termination
+    date
+  example: customer.HasProductOfferingActive("Iphone")
+- name: HasProductOfferingInCategoryWithStatus
+  signature: customer.HasProductOfferingInCategoryWithStatus(categoryID string,
+    status string)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+    - id: status
+      name: status
+      valueType: string
+      variadic: false
+  doc: HasProductOfferingInCategoryWithStatus will check if the customers' product
+    inventory has a product offering in category matching status.
+  example: customer.HasProductOfferingInCategoryWithStatus("Mobile", "status")
+- name: HasProductOfferingInventory
+  signature: customer.HasProductOfferingInventory(productID string)
+  parameters:
+    - id: productID
+      name: productID
+      valueType: string
+      variadic: false
+      reference: productOffers
+  doc: HasProductOfferingInventory is an expression which check if the poq request
+    contain productID
+  example: customer.HasProductOfferingInventory("Iphone")
+- name: HasProductOfferingWithActivePeriod
+  signature: customer.HasProductOfferingWithActivePeriod(count int, unit string,
+    productIDs ...string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasProductOfferingWithActivePeriod is an expression that checks if one of
+    the specified products has an been active since at least the specified time
+    period.
+  example: customer.HasProductOfferingWithActivePeriod(10, "unit", "Iphone")
+- name: HasProductOfferingWithCharacteristic
+  signature: customer.HasProductOfferingWithCharacteristic(key string, values ...string)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasProductOfferingWithCharacteristic will check if the customer has a
+    product in his product inventory with the specified characteristics.
+  example: customer.HasProductOfferingWithCharacteristic("key", "values")
+- name: HasProductOfferingWithIDAndCharacteristic
+  signature: customer.HasProductOfferingWithIDAndCharacteristic(productID string,
+    key string, values ...string)
+  parameters:
+    - id: productID
+      name: productID
+      valueType: string
+      variadic: false
+      reference: productOffers
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasProductOfferingWithIDAndCharacteristic will check if the customer has a
+    product with a specific ID, also having the specific key & value pair
+    characteristic.
+  example: customer.HasProductOfferingWithIDAndCharacteristic("Iphone", "key", "values")
+- name: HasProductOfferingWithStatus
+  signature: customer.HasProductOfferingWithStatus(productID string, status string)
+  parameters:
+    - id: productID
+      name: productID
+      valueType: string
+      variadic: false
+      reference: productOffers
+    - id: status
+      name: status
+      valueType: string
+      variadic: false
+  doc: HasProductOfferingWithStatus will check if the customers' product inventory
+    has a product offering matching status.
+  example: customer.HasProductOfferingWithStatus("Iphone", "status")
+- name: HasProductOfferingWithinTerminationPeriod
+  signature: customer.HasProductOfferingWithinTerminationPeriod(count int, unit
+    string, productIDs ...string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasProductOfferingWithinTerminationPeriod is an expression which check if
+    the customer has products in inventory which has termination period with the
+    specified count
+  example: customer.HasProductOfferingWithinTerminationPeriod(10, "unit", "Iphone")
+- name: HasStatus
+  signature: customer.HasStatus(status ...string)
+  parameters:
+    - id: status
+      name: status
+      valueType: string
+      variadic: true
+  doc: HasStatus is an expression with a variadic status argument which checks if
+    the customer has one of the provided statuses.
+  example: customer.HasStatus("status")
+- name: HasType
+  signature: customer.HasType(customerType ...string)
+  parameters:
+    - id: customerType
+      name: customerType
+      valueType: string
+      variadic: true
+  doc: HasType is an expression with a variadic type argument which checks if the
+    customer type is of at least one of the provided types.
+  example: customer.HasType("customerType")
+- name: IsType
+  signature: customer.IsType(customerType ...string)
+  parameters:
+    - id: customerType
+      name: customerType
+      valueType: string
+      variadic: true
+  doc: IsType is an expression with a variadic type argument which checks if the
+    customer type is of at least one of the provided types.
+  example: customer.IsType("customerType")
+- name: HasProductOfferingAfterTerminationPeriod
+  signature: portfolio.HasProductOfferingAfterTerminationPeriod(count int, unit
+    string, productIDs ...string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasProductOfferingAfterTerminationPeriod is an expression which check if
+    the products in inventory which has after termination period with the
+    specified count
+  example: portfolio.HasProductOfferingAfterTerminationPeriod(10, "unit", "Iphone")
+- name: HasProductOfferingCategoryInventory
+  signature: portfolio.HasProductOfferingCategoryInventory(categoryIDs ...string)
+  parameters:
+    - id: categoryIDs
+      name: categoryIDs
+      valueType: string
+      variadic: true
+  doc: HasProductOfferingCategoryInventory is an expression which check if the poq
+    request contain product in category
+  example: portfolio.HasProductOfferingCategoryInventory("Mobile")
+- name: HasProductOfferingInCategoryAfterTerminationPeriod
+  signature: portfolio.HasProductOfferingInCategoryAfterTerminationPeriod(count
+    int, unit string, categoryID string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+  doc: HasProductOfferingInCategoryAfterTerminationPeriod is an expression which
+    check if the category in inventory which has termination period with the
+    specified count
+  example: portfolio.HasProductOfferingInCategoryAfterTerminationPeriod(10,
+    "unit", "Mobile")
+- name: HasProductOfferingInCategoryWithCharacteristic
+  signature: portfolio.HasProductOfferingInCategoryWithCharacteristic(categoryID
+    string, key string, value string)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: value
+      name: value
+      valueType: string
+      variadic: false
+  doc: HasProductOfferingInCategoryWithCharacteristic is an expression which look
+    inside the productInventory of a specific portfolio weather it contains a
+    product from a category with the specified characteristics.
+  example: portfolio.HasProductOfferingInCategoryWithCharacteristic("Mobile",
+    "key", "value")
+- name: HasProductOfferingInCategoryWithinActivePeriod
+  signature: portfolio.HasProductOfferingInCategoryWithinActivePeriod(count int,
+    unit string, categoryIDs ...string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: categoryIDs
+      name: categoryIDs
+      valueType: string
+      variadic: true
+  doc: HasProductOfferingInCategoryWithinActivePeriod is an expression which check
+    if the customer has products in inventory which has termination period with
+    the specified count
+  example: portfolio.HasProductOfferingInCategoryWithinActivePeriod(10, "unit",
+    "Mobile")
+- name: HasProductOfferingInCategoryWithinTerminationPeriod
+  signature: portfolio.HasProductOfferingInCategoryWithinTerminationPeriod(count
+    int, unit string, categoryID string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+  doc: HasProductOfferingInCategoryWithinTerminationPeriod is an expression which
+    check if the customer has products in inventory which has termination period
+    with the specified count
+  example: portfolio.HasProductOfferingInCategoryWithinTerminationPeriod(10,
+    "unit", "Mobile")
+- name: HasProductOfferingInventory
+  signature: portfolio.HasProductOfferingInventory(productIDs ...string)
+  parameters:
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasProductOfferingInventory is an expression which check if the poq request
+    contain productID
+  example: portfolio.HasProductOfferingInventory("Iphone")
+- name: HasProductOfferingWithActivePeriod
+  signature: portfolio.HasProductOfferingWithActivePeriod(count int, unit string,
+    productIDs ...string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasProductOfferingWithActivePeriod is an expression that checks if one of
+    the specified products has an been active since at least the specified time
+    period.
+  example: portfolio.HasProductOfferingWithActivePeriod(10, "unit", "Iphone")
+- name: HasProductOfferingWithCharacteristic
+  signature: portfolio.HasProductOfferingWithCharacteristic(productID string, key
+    string, value string)
+  parameters:
+    - id: productID
+      name: productID
+      valueType: string
+      variadic: false
+      reference: productOffers
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: value
+      name: value
+      valueType: string
+      variadic: false
+  doc: HasProductOfferingWithCharacteristic is an expression which look inside the
+    productInventory of a specific portfolio weather it contains a product with
+    the specified characteristics.
+  example: portfolio.HasProductOfferingWithCharacteristic("Iphone", "key", "value")
+- name: HasProductOfferingWithinTerminationPeriod
+  signature: portfolio.HasProductOfferingWithinTerminationPeriod(count int, unit
+    string, productIDs ...string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasProductOfferingWithinTerminationPeriod is an expression which check if
+    the customer has products in inventory which has termination period with the
+    specified count
+  example: portfolio.HasProductOfferingWithinTerminationPeriod(10, "unit", "Iphone")
+- name: HasTotalNumberOfProductOfferings
+  signature: portfolio.HasTotalNumberOfProductOfferings(operator string, quantity
+    int, productIDs ...string)
+  parameters:
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: quantity
+      name: quantity
+      valueType: int
+      variadic: false
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasTotalNumberOfProductOfferings Will count the number of productOfferings
+    from the offercontainer and the linked portfolio object in the installed
+    base and verify if it is operator the specified count.
+  example: portfolio.HasTotalNumberOfProductOfferings("operator", 10, "Iphone")
+- name: HasTotalNumberOfProductOfferingsCategory
+  signature: portfolio.HasTotalNumberOfProductOfferingsCategory(operator string,
+    quantity int, categoryIDs ...string)
+  parameters:
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: quantity
+      name: quantity
+      valueType: int
+      variadic: false
+    - id: categoryIDs
+      name: categoryIDs
+      valueType: string
+      variadic: true
+  doc: HasTotalNumberOfProductOfferingsCategory Will count the number of
+    productOfferings in a category from the offercontainer and the linked
+    portfolio object in the installed base and verify if it is operator the
+    specified count.
+  example: portfolio.HasTotalNumberOfProductOfferingsCategory("operator", 10, "Mobile")
+- name: HasAppliedPromotion
+  signature: product.HasAppliedPromotion(promoIDs ...string)
+  parameters:
+    - id: promoIDs
+      name: promoIDs
+      valueType: string
+      variadic: true
+      reference: promotions
+  doc: HasAppliedPromotion will check cartOfferContainer promotions contains
+    specified promotions
+  example: product.HasAppliedPromotion("promoIDs")
+- name: HasCheckoutCharacteristics
+  signature: product.HasCheckoutCharacteristics(key string, values ...string)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasCheckoutCharacteristics this expression will check the checkout
+    characteristics name and value in the cart.
+  example: product.HasCheckoutCharacteristics("key", "values")
+- name: HasIntegerCheckoutCharacteristic
+  signature: product.HasIntegerCheckoutCharacteristic(key string, operator string,
+    value float64)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: value
+      name: value
+      valueType: float64
+      variadic: false
+  doc: HasIntegerCheckoutCharacteristic this expression will check the checkout
+    characteristics name and value in the cart. combines it and checks if it is
+    higher than the specified value.
+  example: product.HasIntegerCheckoutCharacteristic("key", "operator", 10.1)
+- name: ContainsAnyProductOfferingWithCharacteristic
+  signature: productinventory.ContainsAnyProductOfferingWithCharacteristic(key
+    string, values ...string)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: ContainsAnyProductOfferingWithCharacteristic will check if a product in his
+    product inventory with the specified characteristics.
+  example: productinventory.ContainsAnyProductOfferingWithCharacteristic("key",
+    "values")
+- name: ContainsAnyProductWithStatus
+  signature: productinventory.ContainsAnyProductWithStatus(statuses ...string)
+  parameters:
+    - id: statuses
+      name: statuses
+      valueType: string
+      variadic: true
+  doc: ContainsAnyProductWithStatus is an expression with a variadic status
+    argument which checks if the productInventory has one of the provided
+    statuses.
+  example: productinventory.ContainsAnyProductWithStatus("Active")
+- name: ContainsNumberOfProductOfferingsInCategory
+  signature: productinventory.ContainsNumberOfProductOfferingsInCategory(categoryID
+    string, count int)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+  doc: ContainsNumberOfProductOfferingsInCategory is an expression which check if
+    the poq request contain categoryID with specified number of count
+  example: productinventory.ContainsNumberOfProductOfferingsInCategory("Mobile", 10)
+- name: ContainsProductOffering
+  signature: productinventory.ContainsProductOffering(productID string)
+  parameters:
+    - id: productID
+      name: productID
+      valueType: string
+      variadic: false
+      reference: productOffers
+  doc: ContainsProductOffering is an expression which check if the poq request
+    contain productID
+  example: productinventory.ContainsProductOffering("Iphone")
+- name: ContainsProductOfferingActiveSince
+  signature: productinventory.ContainsProductOfferingActiveSince(count int, unit
+    string, productIDs ...string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: ContainsProductOfferingActiveSince is an expression that checks if one of
+    the specified products has an been active since at least the specified time
+    period.
+  example: productinventory.ContainsProductOfferingActiveSince(10, "unit", "Iphone")
+- name: ContainsProductOfferingInCategory
+  signature: productinventory.ContainsProductOfferingInCategory(categoryID string)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+  doc: ContainsProductOfferingInCategory is an expression which check if the poq
+    request contain product in category
+  example: productinventory.ContainsProductOfferingInCategory("Mobile")
+- name: ContainsProductOfferingWithCharacteristic
+  signature: productinventory.ContainsProductOfferingWithCharacteristic(productID
+    string, key string, values ...string)
+  parameters:
+    - id: productID
+      name: productID
+      valueType: string
+      variadic: false
+      reference: productOffers
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: ContainsProductOfferingWithCharacteristic will check if a product with a
+    specific ID, also having the specific key & value pair characteristic.
+  example: productinventory.ContainsProductOfferingWithCharacteristic("Iphone",
+    "key", "values")
+- name: ContainsProductOfferingWithStatus
+  signature: productinventory.ContainsProductOfferingWithStatus(productID string,
+    status string)
+  parameters:
+    - id: productID
+      name: productID
+      valueType: string
+      variadic: false
+      reference: productOffers
+    - id: status
+      name: status
+      valueType: string
+      variadic: false
+  doc: ContainsProductOfferingWithStatus will check if there is a productoffering
+    in the productInventory with the specified status
+  example: productinventory.ContainsProductOfferingWithStatus("Iphone", "status")
+- name: ContainsProductofferTerminatedWithin
+  signature: productinventory.ContainsProductofferTerminatedWithin(count int, unit
+    string, productIDs ...string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: ContainsProductofferTerminatedWithin is an expression which check if has
+    products in inventory which has termination period with the specified count
+  example: productinventory.ContainsProductofferTerminatedWithin(10, "unit", "Iphone")
+- name: HasActiveProductOffering
+  signature: productinventory.HasActiveProductOffering(productIDs ...string)
+  parameters:
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasActiveProductOffering is an expression which check products in inventory
+    which are active based on start date and termination date
+  example: productinventory.HasActiveProductOffering("Iphone")
+- name: HasActiveProductOfferingInCategory
+  signature: productinventory.HasActiveProductOfferingInCategory(categoryID
+    string, status string)
+  parameters:
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+    - id: status
+      name: status
+      valueType: string
+      variadic: false
+  doc: HasActiveProductOfferingInCategory will check if product inventory has a
+    product offering in category matching status.
+  example: productinventory.HasActiveProductOfferingInCategory("Mobile", "status")
+- name: HasAgreementWithCharacteristic
+  signature: productinventory.HasAgreementWithCharacteristic(name string, values
+    ...string)
+  parameters:
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasAgreementWithCharacteristic is an expression  which checks if the
+    productInventory agreement characteristic has the name with any of the
+    passed values
+  example: productinventory.HasAgreementWithCharacteristic("name", "values")
+- name: HasProductOfferingAfterTerminationPeriod
+  signature: productinventory.HasProductOfferingAfterTerminationPeriod(count int,
+    unit string, productIDs ...string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: productIDs
+      name: productIDs
+      valueType: string
+      variadic: true
+      reference: productOffers
+  doc: HasProductOfferingAfterTerminationPeriod is an expression which check if
+    the products in inventory which has after termination period with the
+    specified count
+  example: productinventory.HasProductOfferingAfterTerminationPeriod(10, "unit",
+    "Iphone")
+- name: HasProductOfferingInCategoryActiveSince
+  signature: productinventory.HasProductOfferingInCategoryActiveSince(count int,
+    unit string, categoryID ...string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: true
+      reference: categories
+  doc: HasProductOfferingInCategoryActiveSince is an expression that checks if one
+    of the specified category has been active since at least the specified time
+    period.
+  example: productinventory.HasProductOfferingInCategoryActiveSince(10, "unit",
+    "Mobile")
+- name: HasProductOfferingInCategoryWithinTerminationPeriod
+  signature: productinventory.HasProductOfferingInCategoryWithinTerminationPeriod(count
+    int, unit string, categoryID string)
+  parameters:
+    - id: count
+      name: count
+      valueType: int
+      variadic: false
+    - id: unit
+      name: unit
+      valueType: string
+      variadic: false
+      reference: unit
+    - id: categoryID
+      name: categoryID
+      valueType: string
+      variadic: false
+      reference: categories
+  doc: HasProductOfferingInCategoryWithinTerminationPeriod is an expression which
+    check if the products in inventory which has termination period with the
+    specified count
+  example: productinventory.HasProductOfferingInCategoryWithinTerminationPeriod(10,
+    "unit", "Mobile")
+- name: HasRelatedPartyID
+  signature: productinventory.HasRelatedPartyID(id ...string)
+  parameters:
+    - id: id
+      name: id
+      valueType: string
+      variadic: true
+  doc: HasRelatedPartyID will check if the product inventory has a related party
+    with the matching ID.
+  example: productinventory.HasRelatedPartyID("id")
+- name: HasAdditionalCharacteristic
+  signature: context.HasAdditionalCharacteristic(key string, values ...string)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasAdditionalCharacteristic will check the characteristics of the request
+    and search for a matching characteristic.
+  example: context.HasAdditionalCharacteristic("key", "values")
+- name: HasChannel
+  signature: context.HasChannel(channels ...string)
+  parameters:
+    - id: channels
+      name: channels
+      valueType: string
+      variadic: true
+      reference: channel
+  doc: HasChannel will check if the context is being executed in one of the
+    specified channels.
+  example: context.HasChannel("Telesales")
+- name: HasExecutedRule
+  signature: context.HasExecutedRule(rules ...string)
+  parameters:
+    - id: rules
+      name: rules
+      valueType: string
+      variadic: true
+  doc: HasExecutedRule will return true if the specific rule successfully
+    executed. This means that the targeted rule must have all conditions met and
+    must have been evaluated before the rule that's calling this expression.
+  example: context.HasExecutedRule("rules")
+- name: HasIntegerAdditionalCharacteristic
+  signature: context.HasIntegerAdditionalCharacteristic(name string, operator
+    string, values ...float64)
+  parameters:
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: values
+      name: values
+      valueType: float64
+      variadic: true
+  doc: HasIntegerAdditionalCharacteristic checks if the rule context has an
+    additional characteristic with the specified name and if its value matches
+    any of the provided values according to the given operator.
+  example: context.HasIntegerAdditionalCharacteristic("name", "operator", 10.1)
+- name: HasMarketSegment
+  signature: context.HasMarketSegment(marketSegments ...string)
+  parameters:
+    - id: marketSegments
+      name: marketSegments
+      valueType: string
+      variadic: true
+      reference: marketSegments
+  doc: HasMarketSegment will check if the context is being executed in one of the
+    specified marketSegments.
+  example: context.HasMarketSegment("Business")
+- name: HasPlace
+  signature: context.HasPlace(place ...string)
+  parameters:
+    - id: place
+      name: place
+      valueType: string
+      variadic: true
+      reference: places
+  doc: HasPlace will check if the context is being executed from one of the
+    specified places.
+  example: context.HasPlace("Bengaluru")
+- name: AddressHasCharacteristics
+  signature: serviceability.AddressHasCharacteristics(key string, values ...string)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: AddressHasCharacteristics will check if the serviceability address
+    characteristics key as a string and values as a string variadic parameter
+  example: serviceability.AddressHasCharacteristics("key", "values")
+- name: AddressHasIntegerCharacteristics
+  signature: serviceability.AddressHasIntegerCharacteristics(operator string, key
+    string, values ...int)
+  parameters:
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: int
+      variadic: true
+  doc: AddressHasIntegerCharacteristics will check if the serviceability address
+    integer characteristics operator, key as a string and values as a int
+    variadic parameter
+  example: serviceability.AddressHasIntegerCharacteristics("operator", "key", 10)
+- name: HasAvailability
+  signature: serviceability.HasAvailability(name string, value string)
+  parameters:
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: value
+      name: value
+      valueType: string
+      variadic: false
+  doc: HasAvailability checks if the provided serviceability name (key) and value
+    pair are found on the availability.
+  example: serviceability.HasAvailability("name", "value")
+- name: HasCombinationOfCharacteristicsWithinType
+  signature: serviceability.HasCombinationOfCharacteristicsWithinType(itemType
+    string, nameValue ...string)
+  parameters:
+    - id: itemType
+      name: itemType
+      valueType: string
+      variadic: false
+    - id: nameValue
+      name: nameValue
+      valueType: string
+      variadic: true
+  doc: HasCombinationOfCharacteristicsWithinType will check if the provided
+    serviceability type and variadic parameter 'NameValue' (name and value as a
+    single string) exists If the type consists all of the 'NameValue'
+    combinations it will return true
+  example: serviceability.HasCombinationOfCharacteristicsWithinType("itemType",
+    "nameValue")
+- name: HasItemWithValueHigherThan
+  signature: serviceability.HasItemWithValueHigherThan(itemType string, name
+    string, value float64)
+  parameters:
+    - id: itemType
+      name: itemType
+      valueType: string
+      variadic: false
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: value
+      name: value
+      valueType: float64
+      variadic: false
+  doc: HasItemWithValueHigherThan will check if the provided serviceability type
+    and name, has at least the provided value. If the value is the same as the
+    value specified in the expression, it will also return true. Value is passed
+    as float, so it may contain decimals.
+  example: serviceability.HasItemWithValueHigherThan("itemType", "name", 10.1)
+- name: HasItemWithValueLowerThan
+  signature: serviceability.HasItemWithValueLowerThan(itemType string, name
+    string, value float64)
+  parameters:
+    - id: itemType
+      name: itemType
+      valueType: string
+      variadic: false
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: value
+      name: value
+      valueType: float64
+      variadic: false
+  doc: HasItemWithValueLowerThan will check if the provided serviceability type
+    and name, is lower than the provided value. If the value is the same as the
+    value specified in the expression, it will also return true.  Value is
+    passed as float, so it may contain decimals.
+  example: serviceability.HasItemWithValueLowerThan("itemType", "name", 10.1)
+- name: HasItems
+  signature: serviceability.HasItems(itemType string, name string, values ...string)
+  parameters:
+    - id: itemType
+      name: itemType
+      valueType: string
+      variadic: false
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasItems checks if the serviceability has the provided item type, with the
+    name (key) and one of the variadic passed values.
+  example: serviceability.HasItems("itemType", "name", "values")
+- name: HasCharacteristic
+  signature: user.HasCharacteristic(name string, values ...string)
+  parameters:
+    - id: name
+      name: name
+      valueType: string
+      variadic: false
+    - id: values
+      name: values
+      valueType: string
+      variadic: true
+  doc: HasCharacteristic this expression will check the characteristics key/name
+    and value present in request user object.
+  example: user.HasCharacteristic("name", "values")
+- name: HasEntityID
+  signature: user.HasEntityID(entityIds ...string)
+  parameters:
+    - id: entityIds
+      name: entityIds
+      valueType: string
+      variadic: true
+  doc: HasEntityID will check matching any one of the entityIds present in request
+    user object.
+  example: user.HasEntityID("entityIds")
+- name: HasEntityType
+  signature: user.HasEntityType(entityTypes ...string)
+  parameters:
+    - id: entityTypes
+      name: entityTypes
+      valueType: string
+      variadic: true
+  doc: HasEntityType will check matching any one of the  entityType present in
+    request user object.
+  example: user.HasEntityType("entityTypes")
+  aiPromptExamples: []
+- name: HasIntegerCharacteristic
+  signature: user.HasIntegerCharacteristic(key string, operator string, value float64)
+  parameters:
+    - id: key
+      name: key
+      valueType: string
+      variadic: false
+    - id: operator
+      name: operator
+      valueType: string
+      variadic: false
+      reference: operator
+    - id: value
+      name: value
+      valueType: float64
+      variadic: false
+  doc: HasIntegerCharacteristic this expression will check the characteristics
+    name and value in request user object. combines it and checks if it is
+    higher or lower than or equal to the specified value.
+  example: user.HasIntegerCharacteristic("key", "operator", 10.1)
+  aiPromptExamples: []
+- name: HasRole
+  signature: user.HasRole(roles ...string)
+  parameters:
+    - id: roles
+      name: roles
+      valueType: string
+      variadic: true
+  doc: HasRole will check matching any one of the role present in request user
+    object.
+  example: user.HasRole("roles")
+  aiPromptExamples:
+    - Apply a rule if the user has a specific role.
+- name: HasSubject
+  signature: user.HasSubject(subjects ...string)
+  parameters:
+    - id: subjects
+      name: subjects
+      valueType: string
+      variadic: true
+  doc: HasSubject will check matching any one of the subject present in request
+    user object.
+  example: user.HasSubject("subjects")
+  aiPromptExamples:
+    - Apply a rule if the user has a specific subject.

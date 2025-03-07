@@ -1,0 +1,670 @@
+---
+ruleTypes:
+  CompatibilityRule: CompatibilityRule
+  PromotionRule: PromotionRule
+  OfferContainerRule: OfferContainerRule
+  ShoppingCartRule: ShoppingCartRule
+  RecommendationRule: RecommendationRule
+processContext:
+  bo_lov_processcontext_acq:
+    name: ACQ
+    description:
+      "Acquisition process: selecting offers, promotions, and services
+      for a new customer during their onboarding journey."
+  bo_lov_processcontext_regrade:
+    name: Regrade
+    description:
+      "Regrading process: changing or upgrading the customer's product
+      or service plan."
+  bo_lov_processcontext_retention:
+    name: Retention
+    description:
+      "Retention process: offering promotions or services to retain an
+      existing customer and prevent churn."
+  bo_lov_processcontext_move:
+    name: MOVE
+    description: "Move process: handling customer requests to transfer services
+      to a new address or location."
+  acq:
+    name: ACQ
+    description:
+      "Acquisition process: acquiring new customers by presenting tailored
+      offers and services."
+  lov_0820:
+    name: LOV 0820
+    description:
+      "Value type range: represents specific value ranges used in offer
+      selection."
+  bo_lov_processcontext_retter:
+    name: RETTER
+    description: "Retention termination process: managing offers and actions for
+      customers exiting retention."
+  bo_lov_processcontext_ils:
+    name: ILS
+    description: "In Life Sales process: defining and managing customer services
+      or offers during their lifecycle."
+  bo_lov_processcontext_ilsblu:
+    name: ILSBLU
+    description:
+      "In Life Sales Baseline Upgrade process: managing upgrades to sales
+      baselines for customers during their lifecycle."
+  bo_lov_processcontext_ilsnoblu:
+    name: ILSNOBLU
+    description:
+      "In Life Sales No Baseline Upgrade process: managing non-baseline
+      upgrades for customers during their lifecycle."
+  bo_lov_processcontext_mobilemigrate:
+    name: MobileMigrate
+    description:
+      "Mobile migration process: assisting customers in migrating mobile
+      services to a new plan or provider."
+  bo_lov_processcontext_selfservicechangepaymentmethod:
+    name: SelfServiceChangePaymentMethod
+    description: "Self-service payment method change process: allowing users to
+      update their payment preferences."
+  bo_lov_processcontext_selfservicechangeoffer:
+    name: SelfServiceChangeOffer
+    description:
+      "Self-service offer change process: enabling users to modify their
+      product or service offers independently."
+  bo_lov_processcontext_newoffer:
+    name: NewOffer
+    description:
+      "New offer process: creating and managing new product or service
+      offers for customers."
+  bo_lov_processcontext_modify:
+    name: Modify
+    description:
+      "Modification process: adjusting an existing customer service or
+      product configuration."
+  bo_lov_processcontext_managevas:
+    name: ManageVAS
+    description:
+      "Value-added service management process: managing optional services
+      or add-ons for customers."
+  bo_lov_processcontext_changeoffer:
+    name: ChangeOffer
+    description:
+      "Offer change process: facilitating changes to a customer's product
+      or service offer."
+  bo_lov_processcontext_modifyoffer:
+    name: ModifyOffer
+    description:
+      "Offer modification process: customizing or revising an existing
+      customer offer."
+  bo_lov_processcontext_changeownership:
+    name: ChangeOwner
+    description: "Ownership change process: transferring account ownership to a
+      new customer."
+  bo_lov_processcontext_terminate:
+    name: Terminate
+    description: "Termination process: handling the end of a customer's product
+      or service contract."
+  bo_lov_processcontext_newowner:
+    name: NewOwner
+    description:
+      "New ownership process: onboarding a customer who has taken over
+      an existing account."
+  bo_lov_processcontext_addvas:
+    name: AddVAS
+    description: "Adding value-added services process: enabling customers to add
+      new optional services."
+  ils:
+    name: ILS
+    description: "In Life Sales process: defining and managing customer services
+      or offers during their lifecycle."
+  ilsnoblu:
+    name: ILSNOBLU
+    description:
+      "In Life Sales No Baseline Upgrade process: managing non-baseline
+      upgrades for customers during their lifecycle."
+  bo_lov_processcontext_retblu:
+    name: RETBLU
+    description: "Retention Baseline Upgrade process: managing baseline upgrade
+      offers for retaining customers."
+  bo_lov_processcontext_retnoblu:
+    name: RETNOBLU
+    description:
+      "Retention No Baseline Upgrade process: managing non-baseline upgrades
+      for retaining customers."
+  bo_lov_processcontext_migcoc:
+    name: MIGCOC
+    description:
+      "Migration process: facilitating the migration of customer services
+      or plans."
+  ilsblu:
+    name: ILSBLU
+    description:
+      "In Life Sales Baseline Upgrade process: managing upgrades to sales
+      baselines for customers during their lifecycle."
+  bo_lov_processcontext_ter:
+    name: TER
+    description: "Termination process: managing the ending of services or contracts."
+  bo_lov_processcontext_termination:
+    name: TERMINATION
+    description: End-to-end termination process for customer services.
+  bo_lov_processcontext_ret:
+    name: RET
+    description: "Retention process: actions and offers to retain customers."
+  bo_lov_processcontext_trade:
+    name: TRADE
+    description:
+      "Trade process: managing trade-in or exchange offers for products
+      or services."
+channel:
+  bo_lov_saleschannel_enterprise:
+    name: bo_lov_saleschannel_Enterprise
+    description:
+      "Enterprise sales channel: designed for business-to-business (B2B)
+      sales and enterprise customer management."
+  bo_lov_saleschannel_online:
+    name: Online
+    description:
+      "Online sales channel: includes e-commerce platforms, online portals,
+      and digital shopping."
+  bo_lov_saleschannel_webshop:
+    name: Webshop
+    description: "Webshop sales channel: online store or web-based platform for
+      selling products and services."
+  bo_lov_saleschannel_telesales:
+    name: Telesales
+    description: "Telesales sales channel: customer engagement and product sales
+      via telephone."
+  bo_lov_saleschannel_retail:
+    name: Retail
+    description: "Retail sales channel: physical stores and in-person sales locations."
+  bo_lov_saleschannel_crm:
+    name: CRM
+    description: "CRM channel: leveraging customer relationship management tools
+      for sales and interactions."
+  bo_lov_saleschannel_mobileapp:
+    name: MobileApp
+    description: "Mobile app channel: sales and customer engagement via mobile applications."
+  bo_lov_saleschannel_direct:
+    name: Direct
+    description: "Direct sales channel: direct-to-customer sales with no intermediaries."
+  bo_lov_saleschannel_online_self_service:
+    name: Online Self Service
+    description:
+      "Online self-service channel: enabling customers to manage their
+      accounts and purchases independently online."
+  bo_lov_saleschannel_chat:
+    name: Chat
+    description: "Chat sales channel: engaging customers and facilitating sales
+      through live chat services."
+  webshop-lc_28twn:
+    name: WebShop
+    description: "Webshop channel: online store or platform for digital product
+      sales."
+  bo_lov_saleschannel_enterprise_crm_portal:
+    name: EnterpriseCRMPortal
+    description: "Enterprise CRM Portal channel: a portal dedicated to managing
+      sales and relationships with enterprise clients."
+  lc_customer_care:
+    name: Customer Care
+    description:
+      "Customer care channel: sales and support through dedicated customer
+      care services."
+  bo_lov_saleschannel_eshop:
+    name: Eshop
+    description: "Eshop channel: digital storefront for product sales and promotions."
+  bo_lov_saleschannel_webshop2:
+    name: Webshop2
+    description:
+      "Webshop2 channel: alternative online store or platform for product
+      sales."
+  bo_lov_saleschannel_enterprise_portal:
+    name: EnterprisePortal
+    description:
+      "Enterprise Portal channel: digital platform for managing enterprise
+      sales and services."
+  bo_lov_saleschannel_enterprise_cpq_portal:
+    name: EnterpriseCPQPortal
+    description:
+      "Enterprise CPQ Portal channel: a platform for enterprise Configure,
+      Price, Quote (CPQ) processes."
+  bo_lov_saleschannel_b2b_portal:
+    name: B2BPortal
+    description:
+      "B2B Portal channel: dedicated platform for business-to-business
+      sales and management."
+  bo_lov_esn:
+    name: ESN
+    description: "ESN channel: BT ESN services for specific product sales."
+  bo_lov_saleschannel_slice_portal:
+    name: SlicePortal
+    description:
+      "Slice Portal channel: managing specific sales activities through
+      the Slice platform."
+  bo_lov_sales_channel_call_center:
+    name: Call Center
+    description: "Call Center channel: customer interactions and sales through a
+      centralized call center."
+  bo_lov_saleschannel_directwebsales:
+    name: DirectWebsales
+    description: "Direct web sales channel: online sales directly managed by the
+      business."
+  bo_lov_saleschannel_b2c_crm_portal:
+    name: B2C CRM Portal
+    description:
+      "B2C CRM Portal channel: a customer relationship management portal
+      dedicated to business-to-customer sales."
+marketSegments:
+  bo_lov_marketsegment_consumer:
+    name: Consumer
+    description: "Consumer segment: individuals purchasing products or services
+      for personal use."
+  bo_lov_marketsegment_business:
+    name: Business
+    description:
+      "Business segment: organizations or companies purchasing products
+      or services for commercial use."
+  bo_lov_marketsegment_test:
+    name: Test
+    description: "Test segment: used for experimental or testing purposes."
+  bo_lov_marketsegment_private:
+    name: Private
+    description: "Private segment: individuals or groups purchasing products or
+      services for non-commercial, private use."
+  bo_lov_marketsegment_employee:
+    name: Employee
+    description:
+      "Employee segment: targeted at employees within an organization,
+      often with special offers or benefits."
+  bo_lov_marketsegment_private2:
+    name: bo_lov_marketsegment_private2
+    description:
+      "Private2 segment: a secondary private market segment for specific
+      categorization needs."
+  bo_lov_marketsegment_enterprise:
+    name: Enterprise
+    description:
+      "Enterprise segment: large organizations or corporations purchasing
+      products or services."
+  bo_lov_marketsegment_consumer_soho_sme:
+    name: SOHO-SME
+    description: "SOHO-SME segment: small office/home office and small-to-medium
+      enterprises purchasing products or services."
+  bo_lov_marketsegment_sohobusiness:
+    name: sohobusiness
+    description: "SOHO business segment: small office/home office businesses."
+  bo_lov_marketsegment_rvbusiness:
+    name: rvbusiness
+    description:
+      "RV business segment: recreational vehicle businesses purchasing
+      products or services."
+  bo_lov_marketsegment_soho_sme:
+    name: SOHO-SME
+    description: "SOHO-SME segment: small office/home office and small-to-medium
+      enterprises purchasing products or services."
+  bo_lov_marketsegment_rvprivate:
+    name: rvprivate
+    description:
+      "RV private segment: recreational vehicle owners purchasing products
+      or services for personal use."
+  bo_lov_marketsegment_sohoprivate:
+    name: sohoprivate
+    description:
+      "SOHO private segment: individuals in the small office/home office
+      sector purchasing for personal use."
+  bo_lov_marketsegment_government:
+    name: Government
+    description:
+      "Government segment: public sector organizations purchasing products
+      or services."
+  bo_lov_marketsegment_educational:
+    name: Educational
+    description:
+      "Educational segment: schools, universities, and other educational
+      institutions purchasing products or services."
+places:
+  bo_lov_places_pune:
+    name: Pune
+    description: Pune
+  bo_lov_places_mumbai:
+    name: Mumbai
+    description: Mumbai
+  bo_lov_places_munich:
+    name: Múnich
+    description: Múnich
+  bo_lov_places_chennai:
+    name: Chennai
+    description: Chennai
+  bo_lov_places_bangalore:
+    name: Bangalore
+    description: Bangalore
+  bo_lov_places_india:
+    name: India
+    description: India
+  bo_lov_places_delhi:
+    name: Delhi
+    description: Delhi
+  bo_lov_places_country_netherlands:
+    name: Netherlands
+    description: Netherlands
+  bo_lov_places_hyderabad:
+    name: Hyderabad
+    description: Hyderabad
+  bo_lov_places_moscow:
+    name: Moscow
+    description: Category to hold Places
+  bo_lov_places_country_australia:
+    name: Australia
+    description: bo_lov_places_country_australia
+  bo_lov_places_country_newzealand:
+    name: NewZealand
+    description: bo_lov_places_country_newzealand
+  bo_lov_places_baviera:
+    name: Baviera
+    description: Baviera - Federated States
+  bo_lov_places_altabaviera:
+    name: Altabaviera
+    description: Alta Baviera
+  bo_lov_places_rosenheim:
+    name: Rosenheim
+    description: Rosenheim
+  bo_lov_places_ingolstadt:
+    name: Ingolstadt
+    description: Ingolstadt
+  bo_lov_places_southafrica:
+    name: SouthAfrica
+    description: South Africa
+  bo_lov_places_london:
+    name: London
+    description: London
+  bo_lov_places_australia:
+    name: Australia
+    description: Australia
+  bo_lov_places_uae:
+    name: UAE
+    description: United Arab Emirates, UAE
+  bo_lov_places_newyork:
+    name: Newyork
+    description: New York, USA
+  bo_lov_places_switzerland:
+    name: Switzerland
+    description: switzerland
+  bo_lov_places_westbengal:
+    name: WestBengal
+    description: West Bengal
+  bo_lov_places_maharashtra:
+    name: Maharashtra
+    description: Category to hold Maharashtra places
+  bo_lov_places_maharashtra1:
+    name: Maharashtra
+    description: Category to hold Maharashtra places
+  bo_lov_places_karnataka:
+    name: Karnataka
+    description: Category to hold karnataka places updated
+  bo_lov_places_gujarat:
+    name: Gujarat
+    description: Category to hold Gujarat places
+  bo_lov_places_rajasthan:
+    name: Rajasthan
+    description: Category to hold Rajasthan places
+  khimki:
+    name: Khimki
+    description: Khimki
+  bo_lov_places_state_auckland:
+    name: Auckland
+    description: bo_lov_places_state_auckland
+  bo_lov_places_state_queensland:
+    name: Queensland
+    description: bo_lov_places_state_queensland
+  bo_lov_places_state_wellington:
+    name: Wellington
+    description: bo_lov_places_state_wellington
+  bo_lov_rule_then_product_allowstandalone:
+    name: AllowStandalone
+    description: Product Method
+  bo_lov_places_city_liverpool:
+    name: Liverpool
+    description: bo_lov_places_city_liverpool
+  bo_lov_places_city_sydney:
+    name: Sydney
+    description: bo_lov_places_city_sydney
+  bo_lov_places_state_tasmania:
+    name: Tasmania
+    description: bo_lov_places_state_tasmania
+  bo_lov_places_city_brisbane:
+    name: Brisbane
+    description: bo_lov_places_city_brisbane
+  bo_lov_places_amstenrade:
+    name: Amstenrade
+    description: Amstenrade
+  bo_lov_places_utrecht:
+    name: Utrecht
+    description: Utrecht
+  bo_lov_places_maastricht:
+    name: Maastricht
+    description: Maastricht
+  bo_lov_places_amsterdam:
+    name: Amsterdam
+    description: Amsterdam
+  bo_lov_places_weert:
+    name: Weert
+    description: Weert
+  bo_lov_places_ahmedabad:
+    name: Ahmedabad
+    description: Category to hold Ahmedabad places
+  bo_lov_places_kolhapur:
+    name: Kolhapur
+    description: Category to hold Kolhapur
+  bo_lov_places_udaipur:
+    name: Udaipur
+    description: Category to hold Udaipur places
+  bo_lov_places_nashik:
+    name: Nashik
+    description: Category to hold Nashik places
+  bo_lov_places_mangalore:
+    name: Mangalore
+    description: Category to hold Mangalore places
+  bo_lov_places_aurangabad:
+    name: Aurangabad
+    description: Category to hold Aurangabad places
+  bo_lov_places_jodhpur:
+    name: Jodhpur
+    description: Category to hold Jodhpur
+  bo_lov_places_udaypur:
+    name: Udaypur
+    description: Category to hold Udaypur
+  bo_lov_places_nagpur:
+    name: Nagpur
+    description: Category to hold Nagpur places
+  bo_lov_places_gandhinagar:
+    name: Gandhinagar
+    description: Category to hold Gandhinagar places
+  bo_lov_places_city_gladstone:
+    name: Gladstone
+    description: bo_lov_places_city_gladstone
+  bo_lov_places_jaipur:
+    name: Jaipur
+    description: Category to hold Jaipur places
+  bo_lov_places_mysore:
+    name: Mysore
+    description: Category to hold Mysore places
+  bo_lov_places_surat:
+    name: Surat
+    description: Category to hold Surat places
+  bo_lov_places_city_hobart:
+    name: Hobart
+    description: bo_lov_places_city_hobart
+  bo_lov_places_city_townsville:
+    name: Townsville
+    description: bo_lov_places_city_townsville
+  bo_lov_places_ajmer:
+    name: Ajmer
+    description: Category to hold Ajmer places
+  bo_lov_places_jodhpur_urban:
+    name: Jodhpur Urban
+    description: Category to hold Jodhpur Urban places
+  bo_lov_places_mysore_rural:
+    name: Mysore Rural
+    description: Category to hold Mysore Rural places
+  bo_lov_places_nagpur_urban:
+    name: Nagpur Urban
+    description: Category to hold Nagpur Urban places
+  bo_lov_places_jodhpur_rural:
+    name: Jodhpur Rural
+    description: Category to hold Jodhpur Rural places
+  bo_lov_places_mysore_urban:
+    name: Mysore Urban
+    description: Category to hold Mysore Urban places update
+  bo_lov_places_nagpur_rural:
+    name: Nagpur Rural
+    description: Category to hold Nagpur Rural places
+  bo_lov_places_netherlands:
+    name: Netherlands
+    description: Netherlands
+  bo_lov_places_neom:
+    name: Neom
+    description: Neom City
+  bo_lov_places_saudiarabia:
+    name: Saudi Arabia
+    description: Category to hold India places
+  dusseldorf:
+    name: Dusseldorf
+    description: Dusseldorf, Germany
+  bo_lov_places_groningen:
+    name: Groningen
+    description: Groningen
+  bo_lov_places_state_tabukprovince:
+    name: Tabuk Province
+    description: Tabuk Province
+  bo_lov_places_flevoland:
+    name: Flevoland
+    description: Flevoland
+  bo_lov_places_noord_holland:
+    name: Noord Holland
+    description: Noord Holland
+  bo_lov_places_friesland:
+    name: Friesland
+    description: Friesland
+  bo_lov_places_zuid_holland:
+    name: Zuid Holland
+    description: Zuid Holland
+  bo_lov_places_andrapradesh:
+    name: AndraPradesh
+    description: Category holds Andara Pradesh placess
+  bo_lov_places_gelderland:
+    name: Gelderland
+    description: Gelderland
+  bo_lov_places_zeeland:
+    name: Zeeland
+    description: Zeeland
+  bo_lov_places_telangana:
+    name: AndraPradesh
+    description: Category holds Ananathapuram placess
+  bo_lov_places_limburg:
+    name: Limburg
+    description: Limburg
+  bo_lov_places_noord_brabant:
+    name: Noord Brabant
+    description: Noord Brabant
+  bo_lov_places_andara:
+    name: AndraPradesh
+    description: Category holds Ananathapuram placess
+  bo_lov_places_drenthe:
+    name: Drenthe
+    description: Drenthe
+  bo_lov_places_overijssel:
+    name: Overijssel
+    description: Overijssel
+  bo_lov_places_ananthapuram:
+    name: AndraPradesh
+    description: Category holds Ananathapuram placess
+offerContainerCategories:
+  - id: enterprise_internet-pc_850tr
+    name: Enterprise Internet
+  - id: smart_condition_monitoring_001
+    name: Smart Condition Monitoring
+  - id: fashion_001
+    name: Fashion
+  - id: wholesale_001
+    name: Wholesale
+  - id: enterprise_services_main_001
+    name: Enterprise Services
+  - id: enterprise_voip_001
+    name: Enterprise VoIP
+  - id: push_to_talk_main_001
+    name: Push to Talk
+  - id: slicing_intent_001
+    name: Customise
+  - id: mobile_prepaid_main
+    name: Mobile Prepaid
+  - id: tv_main
+    name: TV
+  - id: mobile_postpaid_main
+    name: Mobile Postpaid
+  - id: 5g_slices_001
+    name: 5G Slices
+  - id: broadband_main
+    name: Broadband
+  - id: wholesale_p2p_connect_001
+    name: P2P Connect
+  - id: fixed_services_neom
+    name: FIXED Services
+  - id: data_centre_services
+    name: Data Centre Services
+  - id: mobile_001
+    name: Visible Mobile
+  - id: broadband_001
+    name: Visible Wireless Broadband
+  - id: bundles_001
+    name: Bundles
+  - id: bluemarble_brand_g_001
+    name: Mobile Enterprise
+  - id: managed_sdwan_service_new
+    name: Managed SDWAN Service
+  - id: brand_a_bundle_offers_001
+    name: Bundle Offers
+  - id: oc_assure
+    name: ESN Assure
+  - id: oc_data
+    name: ESN Data
+  - id: oc_air
+    name: ESN Air
+  - id: oc_voice
+    name: ESN Voice
+  - id: enterprise_internet_service
+    name: Enterprise Internet Service
+  - id: enterprise_mpls_service
+    name: Enterprise MPLS Service
+  - id: mobile_postpaid_trade_in_001
+    name: Trade-In
+  - id: tbv_broadband_001
+    name: TBV Wireless
+  - id: tbv_mobile_001
+    name: TBV Mobile
+  - id: questionnaire_mobile_001
+    name: Questionnaire Mobile
+  - id: questionnaire_tv_001
+    name: Questionnaire TV
+  - id: questionnaire_telefony_001
+    name: Questionnaire Telefony
+  - id: questionnaire_internet_001
+    name: Questionnaire Internet
+  - id: vi_enterprise_services
+    name: VI Enterprise Services
+  - id: ott_main_001
+    name: OTT
+  - id: enterprise_iot_001
+    name: Enterprise IoT
+  - id: enterprise_last_mile_access_001
+    name: Last Mile Access
+  - id: ioh_mobile_001
+    name: Mobile
+  - id: ioh_m2m_001
+    name: M2M
+  - id: ioh_iot_001
+    name: IOT
+  - id: ioh_fixed_phone_001
+    name: Fixed Phone
+  - id: ioh_fixed_internet
+    name: Fixed Internet
+  - id: ioh_fixed_connectivity_001
+    name: Fixed Connectivity
+  - id: campaign_bundle_1-pc_7eyfgjf
+    name: Campaign Bundle 1
+  - id: campaign_bundle_2-pc_r9zy11z
+    name: Campaign Bundle 2

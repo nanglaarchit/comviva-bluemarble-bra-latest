@@ -1,0 +1,11 @@
+- name: GetRecommendation
+  signature: catalog.GetRecommendation(recommendationIDs ...string)
+  parameters:
+    - id: recommendationIDs
+      name: recommendationIDs
+      valueType: string
+      variadic: true
+      reference: recommendations
+  doc: GetRecommendation will accept a variadic parameter of recommendation ids
+    and resolve list of recommendation ids,  target type is recommendation.
+  example: catalog.GetRecommendation("Recommmendations")

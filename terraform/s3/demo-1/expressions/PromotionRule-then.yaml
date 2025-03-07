@@ -1,0 +1,277 @@
+- name: AddDefaultPromo
+  signature: cart.AddDefaultPromo(cartPromoIDs ...string)
+  parameters:
+    - id: cartPromoIDs
+      name: cartPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartPromotions
+  doc: AddDefaultPromo accepts a variadic argument of promo IDs. It will add the
+    promo on the cart.
+  example: cart.AddDefaultPromo("cartPromoIDs")
+- name: AddOptionalPromo
+  signature: cart.AddOptionalPromo(cartPromoIDs ...string)
+  parameters:
+    - id: cartPromoIDs
+      name: cartPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartPromotions
+  doc: AddOptionalPromo accepts a variadic argument of promo IDs. It will add the
+    optional promo on the cart.
+  example: cart.AddOptionalPromo("cartPromoIDs")
+- name: RemoveDefaultPromo
+  signature: cart.RemoveDefaultPromo(cartPromoIDs ...string)
+  parameters:
+    - id: cartPromoIDs
+      name: cartPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartPromotions
+  doc: RemoveDefaultPromo accepts a variadic argument of promo IDs. It will remove
+    the default promo that was applied earlier to the cart.
+  example: cart.RemoveDefaultPromo("cartPromoIDs")
+- name: RemoveOptionalPromo
+  signature: cart.RemoveOptionalPromo(cartPromoIDs ...string)
+  parameters:
+    - id: cartPromoIDs
+      name: cartPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartPromotions
+  doc: RemoveOptionalPromo accepts a variadic argument of promo IDs. It will
+    remove the optional promo that was applied earlier to the cart.
+  example: cart.RemoveOptionalPromo("cartPromoIDs")
+- name: AddDefaultPromo
+  signature: offercontainer.AddDefaultPromo(offerContainerPromoIDs ...string)
+  parameters:
+    - id: offerContainerPromoIDs
+      name: offerContainerPromoIDs
+      valueType: string
+      variadic: true
+      reference: offerContainerPromotions
+  doc: AddDefaultPromo accepts a variadic argument of promo IDs. It will add the
+    default promo on the offer container.
+  example: offercontainer.AddDefaultPromo("offerContainerPromoIDs")
+- name: AddOptionalPromo
+  signature: offercontainer.AddOptionalPromo(offerContainerPromoIDs ...string)
+  parameters:
+    - id: offerContainerPromoIDs
+      name: offerContainerPromoIDs
+      valueType: string
+      variadic: true
+      reference: offerContainerPromotions
+  doc: AddOptionalPromo accepts a variadic argument of promo IDs. It will add the
+    optional promo on the offer container.
+  example: offercontainer.AddOptionalPromo("offerContainerPromoIDs")
+- name: RemoveDefaultPromo
+  signature: offercontainer.RemoveDefaultPromo(offerContainerPromoIDs ...string)
+  parameters:
+    - id: offerContainerPromoIDs
+      name: offerContainerPromoIDs
+      valueType: string
+      variadic: true
+      reference: offerContainerPromotions
+  doc: RemoveDefaultPromo accepts a variadic argument of promo IDs. It will remove
+    the default promo from the offer container.
+  example: offercontainer.RemoveDefaultPromo("offerContainerPromoIDs")
+- name: RemoveOptionalPromo
+  signature: offercontainer.RemoveOptionalPromo(offerContainerPromoIDs ...string)
+  parameters:
+    - id: offerContainerPromoIDs
+      name: offerContainerPromoIDs
+      valueType: string
+      variadic: true
+      reference: offerContainerPromotions
+  doc: RemoveOptionalPromo accepts a variadic argument of promo IDs. It will
+    remove the optional promo from the offer container.
+  example: offercontainer.RemoveOptionalPromo("offerContainerPromoIDs")
+- name: AddDefaultPromo
+  signature: product.AddDefaultPromo(cartItemPromoIDs ...string)
+  parameters:
+    - id: cartItemPromoIDs
+      name: cartItemPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartItemPromotions
+  doc: AddDefaultPromo accepts a variadic argument of promo IDs. It will add the
+    promo on the target products.
+  example: product.AddDefaultPromo("cartItemPromoIDs")
+  aiPromptExamples:
+    - Add the default promotion '1980_campaign_promo_001' to the product.
+    - Apply the promotion '1980_campaign_promo_001' to the product.
+    - Attach the default promotion '1980_campaign_promo_001' to the product.
+    - Include the promotion '1980_campaign_promo_001' as a default for the
+      product.
+- name: AddDefaultPromoOnCheapestProductDutyFreeAlteredAmount
+  signature: product.AddDefaultPromoOnCheapestProductDutyFreeAlteredAmount(cartItemPromoIDs
+    ...string)
+  parameters:
+    - id: cartItemPromoIDs
+      name: cartItemPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartItemPromotions
+  doc: AddDefaultPromoOnCheapestProductDutyFreeAlteredAmount will add a default
+    promotion on the cheapest duty free altered product. Cheapest product will
+    either be selected from the list of targets, or from the entire
+    offercontainer if the target is empty.
+  example: product.AddDefaultPromoOnCheapestProductDutyFreeAlteredAmount("cartItemPromoIDs")
+  aiPromptExamples:
+    - Add the default promotions 'cartItemPromo1' and 'cartItemPromo2' to the
+      cheapest product with duty-free altered amount.
+    - Apply the promotions 'cartItemPromo1' and 'cartItemPromo2' to the cheapest
+      product with adjusted duty-free amount.
+    - Include 'cartItemPromo1' and 'cartItemPromo2' as default promotions for
+      the cheapest product with a duty-free altered amount.
+    - Set 'cartItemPromo1' and 'cartItemPromo2' as the promotions for the
+      cheapest product under a duty-free altered amount scenario.
+- name: AddDefaultPromoOnCheapestProductDutyFreeAmount
+  signature: product.AddDefaultPromoOnCheapestProductDutyFreeAmount(cartItemPromoIDs
+    ...string)
+  parameters:
+    - id: cartItemPromoIDs
+      name: cartItemPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartItemPromotions
+  doc: AddDefaultPromoOnCheapestProductDutyFreeAmount will add a default promotion
+    on the cheapest duty free product. Cheapest product will either be selected
+    from the list of targets, or from the entire offercontainer if the target is
+    empty.
+  example: product.AddDefaultPromoOnCheapestProductDutyFreeAmount("cartItemPromoIDs")
+  aiPromptExamples:
+    - Add the default promotion 'cartItemPromoID1' to the cheapest product with
+      a duty-free amount.
+    - Apply the promotion 'cartItemPromoID1' to the cheapest product with a
+      duty-free amount.
+    - Include 'cartItemPromoID1' as the default promotion for the cheapest
+      product with a duty-free amount.
+    - Set 'cartItemPromoID1' as the promotion for the cheapest product under a
+      duty-free amount scenario.
+- name: AddDefaultPromoOnCheapestProductTaxIncluded
+  signature: product.AddDefaultPromoOnCheapestProductTaxIncluded(cartItemPromoIDs
+    ...string)
+  parameters:
+    - id: cartItemPromoIDs
+      name: cartItemPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartItemPromotions
+  doc: AddDefaultPromoOnCheapestProductTaxIncluded will add a default promotion on
+    the cheapest tax included product. Cheapest product will either be selected
+    from the list of targets, or from the entire offercontainer if the target is
+    empty.
+  example: product.AddDefaultPromoOnCheapestProductTaxIncluded("cartItemPromoIDs")
+  aiPromptExamples:
+    - Add the default promotion 'cartItemPromoID1' to the cheapest product with
+      tax included.
+    - Apply the promotion 'cartItemPromoID1' to the cheapest product with tax
+      included.
+    - Include 'cartItemPromoID1' as the default promotion for the cheapest
+      product with tax included.
+    - Set 'cartItemPromoID1' as the promotion for the cheapest product under a
+      tax-included scenario.
+- name: AddDefaultPromoOnCheapestProductTaxIncludedAlteredAmount
+  signature: product.AddDefaultPromoOnCheapestProductTaxIncludedAlteredAmount(cartItemPromoIDs
+    ...string)
+  parameters:
+    - id: cartItemPromoIDs
+      name: cartItemPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartItemPromotions
+  doc: AddDefaultPromoOnCheapestProductTaxIncludedAlteredAmount will add a default
+    promotion on the cheapest tax included altered product. Cheapest product
+    will either be selected from the list of targets, or from the entire
+    offercontainer if the target is empty.
+  example: product.AddDefaultPromoOnCheapestProductTaxIncludedAlteredAmount("cartItemPromoIDs")
+- name: AddOptionalPromo
+  signature: product.AddOptionalPromo(cartItemPromoIDs ...string)
+  parameters:
+    - id: cartItemPromoIDs
+      name: cartItemPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartItemPromotions
+  doc: AddOptionalPromo accepts a variadic argument of promo IDs. It will add the
+    optional promo on the target products.
+  example: product.AddOptionalPromo("cartItemPromoIDs")
+- name: AddOptionalPromoOnCheapestProductDutyFreeAlteredAmount
+  signature: product.AddOptionalPromoOnCheapestProductDutyFreeAlteredAmount(cartItemPromoIDs
+    ...string)
+  parameters:
+    - id: cartItemPromoIDs
+      name: cartItemPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartItemPromotions
+  doc: AddOptionalPromoOnCheapestProductDutyFreeAlteredAmount will add an optional
+    promotion on the cheapest duty free altered product. Cheapest product will
+    either be selected from the list of targets, or from the entire
+    offercontainer if the target is empty.
+  example: product.AddOptionalPromoOnCheapestProductDutyFreeAlteredAmount("cartItemPromoIDs")
+- name: AddOptionalPromoOnCheapestProductDutyFreeAmount
+  signature: product.AddOptionalPromoOnCheapestProductDutyFreeAmount(cartItemPromoIDs
+    ...string)
+  parameters:
+    - id: cartItemPromoIDs
+      name: cartItemPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartItemPromotions
+  doc: AddOptionalPromoOnCheapestProductDutyFreeAmount will add an optional
+    promotion on the cheapest duty free product. Cheapest product will either be
+    selected from the list of targets, or from the entire offercontainer if the
+    target is empty.
+  example: product.AddOptionalPromoOnCheapestProductDutyFreeAmount("cartItemPromoIDs")
+- name: AddOptionalPromoOnCheapestProductTaxIncluded
+  signature: product.AddOptionalPromoOnCheapestProductTaxIncluded(cartItemPromoIDs
+    ...string)
+  parameters:
+    - id: cartItemPromoIDs
+      name: cartItemPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartItemPromotions
+  doc: AddOptionalPromoOnCheapestProductTaxIncluded will add an optional promotion
+    on the cheapest tax included product. Cheapest product will either be
+    selected from the list of targets, or from the entire offercontainer if the
+    target is empty.
+  example: product.AddOptionalPromoOnCheapestProductTaxIncluded("cartItemPromoIDs")
+- name: AddOptionalPromoOnCheapestProductTaxIncludedAlteredAmount
+  signature: product.AddOptionalPromoOnCheapestProductTaxIncludedAlteredAmount(cartItemPromoIDs
+    ...string)
+  parameters:
+    - id: cartItemPromoIDs
+      name: cartItemPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartItemPromotions
+  doc: AddOptionalPromoOnCheapestProductTaxIncludedAlteredAmount will add an
+    optional promotion on the cheapest tax included altered product. Cheapest
+    product will either be selected from the list of targets, or from the entire
+    offercontainer if the target is empty.
+  example: product.AddOptionalPromoOnCheapestProductTaxIncludedAlteredAmount("cartItemPromoIDs")
+- name: RemoveDefaultPromo
+  signature: product.RemoveDefaultPromo(cartItemPromoIDs ...string)
+  parameters:
+    - id: cartItemPromoIDs
+      name: cartItemPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartItemPromotions
+  doc: RemoveDefaultPromo accepts a variadic argument of promo IDs. It will remove
+    the promo from the target products.
+  example: product.RemoveDefaultPromo("cartItemPromoIDs")
+- name: RemoveOptionalPromo
+  signature: product.RemoveOptionalPromo(cartItemPromoIDs ...string)
+  parameters:
+    - id: cartItemPromoIDs
+      name: cartItemPromoIDs
+      valueType: string
+      variadic: true
+      reference: cartItemPromotions
+  doc: RemoveOptionalPromo accepts a variadic argument of promo IDs. It will
+    remove the optional promo from the target products.
+  example: product.RemoveOptionalPromo("cartItemPromoIDs")
