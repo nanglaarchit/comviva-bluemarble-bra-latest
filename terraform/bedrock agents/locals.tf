@@ -24,10 +24,10 @@ locals {
     state                      = "ENABLED"
     agent_version              = "DRAFT"
     skip_resource_in_use_check = true
-    action_group_executor      = { lambda = {
+    action_group_executor = { lambda = {
       name           = data.aws_lambda_function.existing.function_name
       add_permission = true
-      } }
+    } }
 
     function_schema = [
       {
@@ -103,10 +103,10 @@ locals {
     state                      = "ENABLED"
     agent_version              = "DRAFT"
     skip_resource_in_use_check = true
-    action_group_executor      = { lambda = {
+    action_group_executor = { lambda = {
       name           = data.aws_lambda_function.existing.function_name
       add_permission = true
-      } }
+    } }
 
     function_schema = [
       {

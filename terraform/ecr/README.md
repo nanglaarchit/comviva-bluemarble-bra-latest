@@ -13,20 +13,21 @@ This Terraform project provisions an AWS Elastic Container Registry (ECR) reposi
 
 ## Files Overview
 
-- `main.tf`: Defines the Terraform configuration, including provider, backend, and resources.
-- `variables.tf`: Declares input variables for customization.
-- `tfvars/dev.tfvars`: Defines environment-specific variables for the development environment.
-- `backend/config.dev.hcl`: Contains the backend configuration for storing the Terraform state in an S3 bucket.
+├── main.tf # Defines Terraform providers, modules, and resource creation
+├── variables.tf # Defines input variables
+├── tfvars/dev.tfvars # Contains variable values for the development environment
+├── backend/config.dev.hcl # Backend configuration for Terraform state management
+└── README.md # This documentation file
 
 ## Backend Configuration
 
 The backend configuration is stored in `backend/config.dev.hcl` and includes:
 
 ```hcl
-region         = "us-east-1"
+region         = "us-west-2"
 key            = "comviva-ecr/terraform.tfstate"
-bucket         = "comviva-backend-state"
-dynamodb_table = "comviva-state-lock"
+bucket         = "comviva-backend-state-latest"
+dynamodb_table = "comviva-state-lock-latest"
 encrypt        = true
 ```
 
@@ -34,7 +35,7 @@ encrypt        = true
 
 | Variable    | Description                        | Default   |
 | ----------- | ---------------------------------- | --------- |
-| aws_region  | AWS Region for deployment          | us-east-1 |
+| aws_region  | AWS Region for deployment          | us-west-2 |
 | namespace   | Project namespace prefix           | None      |
 | environment | Deployment environment (dev, prod) | None      |
 
@@ -56,13 +57,6 @@ encrypt        = true
    ```sh
    terraform destroy -var-file=tfvars/dev.tfvars -auto-approve
    ```
-
-## Tags
-
-The ECR repository is tagged with:
-
-- `Project`: `comviva-bluemarble`
-- `Env`: Based on the provided environment variable
 
 ## Notes
 

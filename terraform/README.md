@@ -52,7 +52,7 @@ After successfully pushing the Docker image to ECR, store the image URI in AWS S
   terraform plan -var-file=tfvars/dev.tfvars
   terraform apply -var-file=tfvars/dev.tfvars -auto-approve
   ```
-  
+
 ### 6. Lambda: Deploy AWS Lambda Function
 - Go to the `lambda` directory.
 - Initialize Terraform with the backend configuration:
@@ -81,6 +81,3 @@ After successfully pushing the Docker image to ECR, store the image URI in AWS S
 - Ensure your AWS credentials are configured correctly before running Terraform commands.
 - Modify variable values in `tfvars/dev.tfvars` as needed for different environments.
 - Use DynamoDB state locking to prevent conflicts in multi-user environments.
-
-
-

@@ -1,7 +1,7 @@
-variable "region" {
+variable "aws_region" {
+  description = "AWS Region"
   type        = string
   default     = "us-west-2"
-  description = "AWS region"
 }
 
 variable "function_name" {
@@ -20,11 +20,6 @@ variable "environment" {
   type        = string
 }
 
-variable "aws_region" {
-  description = "AWS Region"
-  type        = string
-  default     = "us-west-2"
-}
 
 variable "supervisor_name" {
   description = "The name of the supervisor."
@@ -274,14 +269,14 @@ variable "collaboration_instruction_bulk_rule_operations_agent" {
   description = "Collaboration Instruction for the Bulk Rule Agent"
   default     = <<EOT
 
-The BulkRuleOperationsAgent is responsible for performing bulk operations on business rules.  
-When given natural language instructions, this agent generates the required payload  
-needed to perform the bulk operations.  
+The BulkRuleOperationsAgent is responsible for performing bulk operations on business rules.
+When given natural language instructions, this agent generates the required payload
+needed to perform the bulk operations.
 
-The agent expects input instructions to specify the intention of the user.  
-Whether copying multiple rules from one entity to another or to modify multiple rules  
-based on some conditions, the agent will always return a consistently structured  
-JSON object containing the payload.  
+The agent expects input instructions to specify the intention of the user.
+Whether copying multiple rules from one entity to another or to modify multiple rules
+based on some conditions, the agent will always return a consistently structured
+JSON object containing the payload.
 
 EOT
 }

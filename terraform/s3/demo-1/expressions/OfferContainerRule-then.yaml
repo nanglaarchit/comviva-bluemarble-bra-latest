@@ -1,3 +1,4 @@
+---
 - name: AllowEqual
   signature: offercontainer.AllowEqual(count int)
   parameters:

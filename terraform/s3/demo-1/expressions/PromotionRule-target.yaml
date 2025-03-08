@@ -1,3 +1,4 @@
+---
 - name: GetProductOffering
   signature: catalog.GetProductOffering(productIDs ...string)
   parameters:

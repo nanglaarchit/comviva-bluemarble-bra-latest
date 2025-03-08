@@ -1,3 +1,4 @@
+---
 - name: AllowCombinations
   signature: category.AllowCombinations()
   doc: AllowCombinations takes all target categories and allows the combination of

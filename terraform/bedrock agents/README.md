@@ -17,8 +17,8 @@ Ensure you have the following installed and configured:
 This configuration consists of the following key components:
 
 - **Supervisor Agent**
-- **Single Rule Generation Agent**: 
-- **Bulk Rule Operations Agent**: 
+- **Single Rule Generation Agent**:
+- **Bulk Rule Operations Agent**:
 
 ## Files Overview
 

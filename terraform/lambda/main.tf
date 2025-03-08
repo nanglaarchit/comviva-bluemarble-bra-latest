@@ -18,7 +18,7 @@ data "aws_caller_identity" "comviva-bluemarble-bra" {}
 data "aws_partition" "comviva-bluemarble-bra" {}
 data "aws_region" "comviva-bluemarble-bra" {}
 locals {
-  prefix = "${var.namespace}-${var.environment}"
+  prefix     = "${var.namespace}-${var.environment}"
   account_id = data.aws_caller_identity.comviva-bluemarble-bra.account_id
   partition  = data.aws_partition.comviva-bluemarble-bra.partition
   region     = data.aws_region.comviva-bluemarble-bra.name

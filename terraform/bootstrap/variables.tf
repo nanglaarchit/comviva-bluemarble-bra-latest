@@ -1,7 +1,7 @@
 ################################################################
 ## shared
 ################################################################
-variable "region" {
+variable "aws_region" {
   description = "Region the resources will live in."
   type        = string
   default     = "us-west-2"

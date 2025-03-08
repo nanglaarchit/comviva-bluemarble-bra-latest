@@ -1,3 +1,4 @@
+---
 - name: GetOfferContainer
   signature: catalog.GetOfferContainer(categoryIDs string, processContext ...string)
   parameters:

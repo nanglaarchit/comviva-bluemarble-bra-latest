@@ -1,3 +1,4 @@
+---
 - name: GetRecommendation
   signature: catalog.GetRecommendation(recommendationIDs ...string)
   parameters:

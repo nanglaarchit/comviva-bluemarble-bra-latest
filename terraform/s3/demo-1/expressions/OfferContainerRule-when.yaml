@@ -1,3 +1,4 @@
+---
 - name: HasName
   signature: catalog.HasName(id string, name string)
   parameters:

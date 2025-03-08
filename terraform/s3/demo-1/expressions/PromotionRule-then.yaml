@@ -1,3 +1,4 @@
+---
 - name: AddDefaultPromo
   signature: cart.AddDefaultPromo(cartPromoIDs ...string)
   parameters:

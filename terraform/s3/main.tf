@@ -34,10 +34,11 @@ module "tags" {
 
 # S3 Bucket Module with Prefixed Name
 module "s3" {
-  source = "sourcefuse/arc-s3/aws"
-  name   = "${local.prefix}-${var.name}"  # Prefixing the bucket name
-  acl    = var.acl
-  tags   = module.tags.tags
+  source  = "sourcefuse/arc-s3/aws"
+  version = "0.0.4"
+  name    = "${local.prefix}-${var.name}" # Prefixing the bucket name
+  acl     = var.acl
+  tags    = module.tags.tags
 }
 
 # Upload Expressions Folder to S3

@@ -62,7 +62,7 @@ module "bedrock" {
     relay_conversation_history  = "TO_COLLABORATOR"
     prepare_agent               = true
     idle_session_ttl_in_seconds = 600
-    action_groups              = local.action_groups
+    action_groups               = local.action_groups
   }
   tags = module.tags.tags
 }

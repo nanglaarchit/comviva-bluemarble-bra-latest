@@ -1,3 +1,4 @@
+---
 - name: AddMandatoryProductOffering
   signature: product.AddMandatoryProductOffering()
   doc: AddMandatoryProductOffering will take the product offerings generated from
