@@ -26,10 +26,6 @@ data "aws_s3_bucket" "bucket_arn" {
 }
 
 
-data "aws_partition" "VRA" {}
-data "aws_region" "VRA" {}
-
-
 # IAM Role for Lambda
 resource "aws_iam_role" "lambda_role" {
   name = "${local.prefix}-lambda-role"
