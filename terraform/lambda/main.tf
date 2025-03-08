@@ -9,6 +9,11 @@ terraform {
   }
   backend "s3" {}
 }
+
+provider "aws" {
+  region = var.aws_region
+}
+
 data "aws_caller_identity" "comviva-bluemarble-bra" {}
 data "aws_partition" "comviva-bluemarble-bra" {}
 data "aws_region" "comviva-bluemarble-bra" {}
