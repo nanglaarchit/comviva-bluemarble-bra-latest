@@ -67,14 +67,6 @@ module "bedrock" {
   tags = module.tags.tags
 }
 
-# resource "aws_bedrockagent_agent_alias" "single_rule_generation_agent_alias" {
-#   agent_alias_name         = "AliasforSingleRuleGenerationAgent"
-#   agent_id     = module.bedrock.agent_collaborator["${local.prefix}-${var.agent_name1}"].id
-#   description  = "Alias for SingleRuleGenerationAgent"
-
-#   depends_on = [module.bedrock]
-# }
-
 module "collaborator_agent_1" {
   source   = "github.com/sourcefuse/terraform-aws-arc-bedrock?ref=feature/bedrock-agent"
   for_each = { for idx, collaborator in local.collaborators : collaborator.name => collaborator }
