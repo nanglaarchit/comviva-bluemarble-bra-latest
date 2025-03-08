@@ -10,6 +10,10 @@ terraform {
   backend "s3" {}
 }
 
+provider "aws" {
+  region = var.aws_region
+}
+
 locals {
   prefix = "${var.namespace}-${var.environment}"
 }
