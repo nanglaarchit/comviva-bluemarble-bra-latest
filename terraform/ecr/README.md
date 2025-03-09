@@ -13,11 +13,11 @@ This Terraform project provisions an AWS Elastic Container Registry (ECR) reposi
 
 ## Files Overview
 
-├── main.tf # Defines Terraform providers, modules, and resource creation
-├── variables.tf # Defines input variables
-├── tfvars/dev.tfvars # Contains variable values for the development environment
-├── backend/config.dev.hcl # Backend configuration for Terraform state management
-└── README.md # This documentation file
+- `main.tf`: Defines the Terraform configuration, including provider, backend, modules, and resources.
+- `variables.tf`: Declares input variables for customization.
+- `tfvars/dev.tfvars`: Defines environment-specific variables for the development environment.
+- `backend/config.dev.hcl`: Contains the backend configuration for storing the Terraform state in an S3 bucket.
+- `README.md`: This documentation file.
 
 ## Backend Configuration
 
