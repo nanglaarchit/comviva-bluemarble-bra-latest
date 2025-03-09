@@ -66,5 +66,5 @@ Ensure that `comviva-backend-state-latest` exists as an S3 bucket and `comviva-s
 
 - Ensure that the AWS credentials are correctly configured before running Terraform commands.
 - Modify the backend configuration as needed to match your S3 bucket details.
-- Using a DynamoDB table (`comviva-state-lock`) is recommended for state locking to prevent conflicts in multi-user environments.
+- Using a DynamoDB table (`comviva-state-lock-latest`) is recommended for state locking to prevent conflicts in multi-user environments.
 - The `demo-1/` directory should contain the necessary files before running Terraform to avoid errors.
