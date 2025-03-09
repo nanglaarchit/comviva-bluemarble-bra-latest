@@ -1,6 +1,6 @@
-# AWS DevOps Infrastructure Setup
+# AWS Infrastructure Setup
 
-This repository contains Terraform configurations for setting up a complete AWS DevOps infrastructure. Follow the steps in the order mentioned below to ensure a smooth deployment.
+This repository contains Terraform configurations for setting up a complete AWS infrastructure. Follow the steps below in sequence for a smooth deployment.
 
 ## Steps to Follow
 
