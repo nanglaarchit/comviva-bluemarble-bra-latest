@@ -41,7 +41,6 @@ module "s3" {
   tags    = module.tags.tags
 }
 
-# Upload Expressions Folder to S3
 resource "aws_s3_object" "expressions_folder" {
   for_each     = fileset("${path.module}/demo-1", "**")
   bucket       = local.bucket_name
