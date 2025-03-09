@@ -9,7 +9,7 @@ This Terraform configuration sets up AWS Bedrock Agents, including a Supervisor 
 Ensure you have the following installed and configured:
 
 - Terraform (>=1.3, <2.0.0)
--
+- AWS CLI configured with appropriate credentials
 - An S3 bucket and DynamoDB table for remote state storage
 
 ## Module Configuration
